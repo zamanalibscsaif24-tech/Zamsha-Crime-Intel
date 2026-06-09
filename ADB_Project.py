@@ -61,8 +61,9 @@ MONGO_DB                = "crime_project"
 MONGO_COLLECTION_REPORTS  = "crime_reports"
 MONGO_COLLECTION_EVIDENCE = "case_evidence"
 
-# SQLite path – writable on Streamlit Cloud
-SQLITE_PATH = str(Path(__file__).parent / "crime_db.sqlite")
+# SQLite path – /tmp is always writable on Streamlit Cloud and any device
+import tempfile as _tempfile
+SQLITE_PATH = str(Path(_tempfile.gettempdir()) / "crime_db.sqlite")
 
 CITY_COORDS = {
     "Karachi":    [24.8607, 67.0011], "Lahore":      [31.5204, 74.3587],
@@ -73,49 +74,87 @@ CITY_COORDS = {
     "Sialkot":    [32.4925, 74.5310],
 }
 
-st.set_page_config(page_title=APP_TITLE, layout="wide", page_icon="🛡️")
+st.set_page_config(page_title=APP_TITLE, layout="centered", page_icon="🛡️")
 
 # Zamsha Premium Dark Mode CSS
 st.markdown("""
 <style>
+    /* ── Base ── */
     body { background-color: #0f172a; color: #f8fafc; }
     .stApp { background-color: #0f172a; color: #f8fafc; }
+
+    /* ── Metric cards: stack on mobile ── */
     .metric-card {
         background: rgba(30, 41, 59, 0.7);
         backdrop-filter: blur(10px);
-        padding: 1.5rem;
+        padding: 1.2rem;
         border-radius: 12px;
         border: 1px solid rgba(255,255,255,0.05);
         border-top: 4px solid #38bdf8;
         margin-bottom: 1rem;
+        width: 100%;
+        box-sizing: border-box;
     }
-    .metric-val   { font-size: 2.5rem; font-weight: bold; color: #f8fafc; }
-    .metric-label { font-size: 0.85rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .metric-val   { font-size: 2rem; font-weight: bold; color: #f8fafc; word-break: break-word; }
+    .metric-label { font-size: 0.8rem; color: #94a3b8; font-weight: 700;
+                    text-transform: uppercase; letter-spacing: 1px; }
+
+    /* ── Buttons ── */
     div.stButton > button {
         background: linear-gradient(90deg, #0ea5e9, #2563eb);
         color: white; border: none; border-radius: 8px; font-weight: bold;
         box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: 0.3s;
+        width: 100%; min-height: 44px;          /* touch-friendly */
     }
-    div.stButton > button:hover { background: linear-gradient(90deg, #38bdf8, #3b82f6); box-shadow: 0 6px 12px rgba(0,0,0,0.5); }
-    h1 { color: #f8fafc; font-family: 'Inter', sans-serif; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; margin-bottom: 2rem; }
+    div.stButton > button:hover {
+        background: linear-gradient(90deg, #38bdf8, #3b82f6);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    }
+
+    /* ── Inputs: bigger touch targets ── */
+    input, textarea, select {
+        min-height: 44px !important;
+        font-size: 16px !important;             /* prevents iOS zoom */
+    }
+
+    /* ── Typography ── */
+    h1 { color: #f8fafc; font-family: 'Inter', sans-serif;
+         border-bottom: 1px solid #334155; padding-bottom: 0.5rem;
+         margin-bottom: 1.5rem; font-size: clamp(1.4rem, 5vw, 2rem); }
     h2, h3 { color: #e2e8f0; font-family: 'Inter', sans-serif; }
+
+    /* ── Footer: smaller on mobile so it doesn't eat screen ── */
     .zamsha-footer {
         position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;
-        background: rgba(15, 23, 42, 0.95); padding: 10px; border-top: 1px solid #334155;
-        color: #94a3b8; font-family: monospace; z-index: 1000; backdrop-filter: blur(5px);
+        background: rgba(15, 23, 42, 0.95); padding: 6px 4px;
+        border-top: 1px solid #334155;
+        color: #94a3b8; font-family: monospace;
+        font-size: clamp(0.6rem, 2.5vw, 0.82rem);
+        z-index: 1000; backdrop-filter: blur(5px);
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
+
+    /* ── Sidebar branding ── */
     .zamsha-sidebar {
-        margin-top: 30px; margin-bottom: 30px; padding: 15px; border-radius: 10px;
+        margin-top: 20px; margin-bottom: 20px; padding: 12px; border-radius: 10px;
         background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid #334155;
-        text-align: center; color: #38bdf8; font-weight: bold; font-family: 'Inter', sans-serif;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        text-align: center; color: #38bdf8; font-weight: bold;
+        font-family: 'Inter', sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
+
+    /* ── DB badge ── */
     .db-badge {
         display: inline-block; padding: 3px 10px; border-radius: 20px;
         font-size: 0.75rem; font-weight: bold; margin-left: 8px;
     }
     .db-mysql  { background: #166534; color: #bbf7d0; }
     .db-sqlite { background: #1e3a5f; color: #bfdbfe; }
+
+    /* ── Columns: switch to single-column on very small screens ── */
+    @media (max-width: 480px) {
+        [data-testid="column"] { width: 100% !important; flex: 1 1 100% !important; }
+        .metric-val { font-size: 1.6rem; }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -351,6 +390,75 @@ class EnterpriseEngine:
         if not self.db_query("SELECT * FROM users LIMIT 1"):
             self.register_user("System Admin",  "admin@gmail.com", "admin123", "Admin")
             self.register_user("Analyst User",  "user@gmail.com",  "user123",  "User")
+        # ── Auto-seed demo crime data so dashboard is never empty ──
+        if self.db_query("SELECT COUNT(*) as c FROM crime_fact")[0]['c'] == 0:
+            self._seed_demo_data()
+
+    def _seed_demo_data(self):
+        """Insert realistic demo data so dashboard works without a CSV upload."""
+        import random as _rnd
+        cities      = list(CITY_COORDS.keys())
+        crime_types = ["Theft", "Robbery", "Assault", "Fraud", "Kidnapping",
+                       "Cybercrime", "Drug Trafficking", "Murder", "Burglary", "Vandalism"]
+        weapons     = ["None", "Knife", "Gun", "Blunt Object", "Unknown"]
+        outcomes    = ["Arrested", "Escaped", "Under Investigation", "Acquitted"]
+        locations   = ["Street", "Home", "Market", "Office", "School"]
+        times       = ["Morning", "Afternoon", "Evening", "Night"]
+
+        ph = "?" if self.backend == "sqlite" else "%s"
+        for city in cities:
+            self.db_execute(
+                f"INSERT OR IGNORE INTO city_dim(city_name) VALUES ({ph})" if self.backend == "sqlite"
+                else f"INSERT IGNORE INTO city_dim(city_name) VALUES ({ph})", (city,))
+        for ct in crime_types:
+            self.db_execute(
+                f"INSERT OR IGNORE INTO crime_type_dim(crime_type_name) VALUES ({ph})" if self.backend == "sqlite"
+                else f"INSERT IGNORE INTO crime_type_dim(crime_type_name) VALUES ({ph})", (ct,))
+
+        for yr in range(2019, 2025):
+            for mo in range(1, 13):
+                dt_str = f"{yr}-{mo:02d}-15"
+                mname = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][mo-1]
+                self.db_execute(
+                    "INSERT OR IGNORE INTO date_dim(full_date,year,month,month_name,day) VALUES (?,?,?,?,?)"
+                    if self.backend == "sqlite" else
+                    "INSERT IGNORE INTO date_dim(full_date,year,month,month_name,day) VALUES (%s,%s,%s,%s,%s)",
+                    (dt_str, yr, mo, mname, 15))
+
+        city_map  = {r["city_name"]: r["city_id"]       for r in self.db_query("SELECT * FROM city_dim")}
+        crime_map = {r["crime_type_name"]: r["crime_type_id"] for r in self.db_query("SELECT * FROM crime_type_dim")}
+        date_map  = {r["full_date"]: r["date_id"]        for r in self.db_query("SELECT * FROM date_dim")}
+
+        ins = ("INSERT OR REPLACE INTO crime_fact VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+               if self.backend == "sqlite" else
+               "INSERT INTO crime_fact VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) "
+               "ON DUPLICATE KEY UPDATE city_id=VALUES(city_id)")
+
+        batch, idx = [], 0
+        _rnd.seed(42)
+        for yr in range(2019, 2025):
+            for mo in range(1, 13):
+                dt_key = f"{yr}-{mo:02d}-15"
+                for _ in range(_rnd.randint(4, 12)):
+                    idx += 1
+                    batch.append((
+                        f"SEED-{idx:06d}",
+                        city_map[_rnd.choice(cities)],
+                        crime_map[_rnd.choice(crime_types)],
+                        date_map.get(dt_key),
+                        _rnd.choice(weapons),
+                        _rnd.randint(15, 65),
+                        _rnd.choice(["Male", "Female"]),
+                        _rnd.randint(16, 55),
+                        _rnd.choice(["Male", "Female"]),
+                        _rnd.choice(locations),
+                        _rnd.choice(times),
+                        _rnd.randint(0, 1),
+                        _rnd.choice(outcomes),
+                        round(_rnd.uniform(1.0, 10.0), 1),
+                        _rnd.randint(1, 5),
+                    ))
+        self.db_executemany(ins, batch)
 
     def register_user(self, name, email, password, role):
         try:
@@ -610,7 +718,7 @@ class EnterpriseEngine:
 # UI COMPONENTS
 # ==========================================================
 def login_screen():
-    st.markdown("<h1 style='text-align: center; margin-top: 50px;'>🏢 Crime Intelligence Enterprise Suite</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; margin-top: 30px;'>🏢 Crime Intelligence Enterprise Suite</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #94a3b8;'>Advanced Access Gateway - Powered by Zamsha Developers</p>", unsafe_allow_html=True)
 
     engine = st.session_state.engine
@@ -618,49 +726,52 @@ def login_screen():
     badge_label = "MySQL"   if engine.backend == "mysql" else "SQLite (Cloud Mode)"
     st.markdown(f"<p style='text-align:center;color:#64748b;font-size:0.85rem;'>Database backend: <span class='db-badge {badge_class}'>{badge_label}</span></p>", unsafe_allow_html=True)
 
-    col1, col2, col3 = st.columns([1, 1.5, 1])
-    with col2:
-        tabs = st.tabs(["🔒 Secure Login", "📝 User Registration"])
-        with tabs[0]:
-            with st.form("login"):
-                email = st.text_input("Email / Gmail", placeholder="admin@gmail.com")
-                pwd   = st.text_input("Password", type="password", placeholder="admin123")
-                if st.form_submit_button("Authenticate", use_container_width=True):
-                    user = st.session_state.engine.login(email, pwd)
-                    if user:
-                        st.session_state.user = user
-                        st.session_state.logged_in = True
-                        st.rerun()
-                    else:
-                        st.error("Invalid credentials.")
-        with tabs[1]:
-            with st.form("register"):
-                n_name  = st.text_input("Full Name")
-                n_email = st.text_input("Gmail Address")
-                n_pwd   = st.text_input("Password", type="password")
-                n_role  = st.selectbox("Role", ["User", "Admin"])
-                if st.form_submit_button("Register", use_container_width=True):
-                    s, m = st.session_state.engine.register_user(n_name, n_email, n_pwd, n_role)
-                    if s: st.success(m)
-                    else: st.error(m)
+    # No column wrapper — works on all screen sizes
+    tabs = st.tabs(["🔒 Secure Login", "📝 User Registration"])
+    with tabs[0]:
+        with st.form("login_form"):
+            email = st.text_input("Email / Gmail", placeholder="admin@gmail.com")
+            pwd   = st.text_input("Password", type="password", placeholder="admin123")
+            submitted = st.form_submit_button("🔐 Authenticate", use_container_width=True)
+        # Handle outside the form to avoid mobile "submit on Enter" triggering mid-field
+        if submitted:
+            user = st.session_state.engine.login(email, pwd)
+            if user:
+                st.session_state.user = user
+                st.session_state.logged_in = True
+                st.rerun()
+            else:
+                st.error("❌ Invalid credentials. Try admin@gmail.com / admin123")
+    with tabs[1]:
+        with st.form("register_form"):
+            n_name  = st.text_input("Full Name",      placeholder="Your full name")
+            n_email = st.text_input("Gmail Address",  placeholder="yourname@gmail.com")
+            n_pwd   = st.text_input("Password",       type="password", placeholder="Choose a password")
+            n_role  = st.selectbox("Role", ["User", "Admin"])
+            reg_submitted = st.form_submit_button("✅ Register", use_container_width=True)
+        if reg_submitted:
+            if not n_name or not n_email or not n_pwd:
+                st.error("Please fill in all fields before registering.")
+            else:
+                s, m = st.session_state.engine.register_user(n_name, n_email, n_pwd, n_role)
+                if s: st.success(m + " You can now log in.")
+                else: st.error(m)
 
 # ─── ADMIN UI ──────────────────────────────────────────────
 def admin_health(engine):
     st.title("1. System Health & Metrics")
-    c1, c2, c3 = st.columns(3)
-    # DB backend badge
     badge = ("🟢 MySQL" if engine.backend == "mysql" else "🔵 SQLite (Cloud)")
-    c1.markdown(f"<div class='metric-card'><div class='metric-label'>Database Backend</div><div class='metric-val' style='font-size:1.4rem'>{badge}</div></div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='metric-card'><div class='metric-label'>Database Backend</div><div class='metric-val' style='font-size:1.4rem'>{badge}</div></div>", unsafe_allow_html=True)
     try:
         engine.connect_mongo()
-        c2.markdown("<div class='metric-card'><div class='metric-label'>Mongo Evidence DB</div><div class='metric-val' style='color:#059669'>ONLINE</div></div>", unsafe_allow_html=True)
+        st.markdown("<div class='metric-card'><div class='metric-label'>Mongo Evidence DB</div><div class='metric-val' style='color:#059669'>ONLINE</div></div>", unsafe_allow_html=True)
     except:
-        c2.markdown("<div class='metric-card'><div class='metric-label'>Mongo Evidence DB</div><div class='metric-val' style='color:#dc2626'>OFFLINE</div></div>", unsafe_allow_html=True)
+        st.markdown("<div class='metric-card'><div class='metric-label'>Mongo Evidence DB</div><div class='metric-val' style='color:#dc2626'>OFFLINE</div></div>", unsafe_allow_html=True)
     try:
         kpis = engine.get_dashboard_kpis()
-        c3.markdown(f"<div class='metric-card'><div class='metric-label'>Total Data Rows</div><div class='metric-val'>{kpis['Total Incidents']}</div></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='metric-card'><div class='metric-label'>Total Data Rows</div><div class='metric-val'>{kpis['Total Incidents']}</div></div>", unsafe_allow_html=True)
     except:
-        c3.markdown("<div class='metric-card'><div class='metric-label'>Total Data Rows</div><div class='metric-val'>N/A</div></div>", unsafe_allow_html=True)
+        st.markdown("<div class='metric-card'><div class='metric-label'>Total Data Rows</div><div class='metric-val'>N/A</div></div>", unsafe_allow_html=True)
 
 def admin_audit(engine):
     st.title("2. Security Audit Logs")
@@ -738,54 +849,48 @@ def user_dashboard(engine):
     st.title("1. Zamsha Professional Dashboard")
     try:
         kpis = engine.get_dashboard_kpis()
-        c1, c2, c3 = st.columns(3)
-        c1.markdown(f"<div class='metric-card'><div class='metric-label'>Total Incidents</div><div class='metric-val'>{kpis['Total Incidents']}</div></div>", unsafe_allow_html=True)
-        c2.markdown(f"<div class='metric-card'><div class='metric-label'>Registered Cities</div><div class='metric-val'>{kpis['Total Cities']}</div></div>", unsafe_allow_html=True)
-        c3.markdown(f"<div class='metric-card'><div class='metric-label'>Crime Categories</div><div class='metric-val'>{kpis['Crime Types']}</div></div>", unsafe_allow_html=True)
+        # Stack metrics vertically — works on mobile and desktop
+        st.markdown(f"<div class='metric-card'><div class='metric-label'>Total Incidents</div><div class='metric-val'>{kpis['Total Incidents']}</div></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='metric-card'><div class='metric-label'>Registered Cities</div><div class='metric-val'>{kpis['Total Cities']}</div></div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='metric-card'><div class='metric-label'>Crime Categories</div><div class='metric-val'>{kpis['Crime Types']}</div></div>", unsafe_allow_html=True)
 
         df_city  = pd.DataFrame(engine.db_query("SELECT * FROM city_crime_summary LIMIT 10"))
         df_trend = pd.DataFrame(engine.db_query("SELECT d.year, SUM(f.crime_count) as total FROM crime_fact f JOIN date_dim d ON f.date_id = d.date_id GROUP BY d.year ORDER BY d.year"))
 
-        col_chart1, col_chart2 = st.columns(2)
-        with col_chart1:
-            if not df_city.empty:
-                donut = alt.Chart(df_city).mark_arc(innerRadius=60).encode(
-                    theta=alt.Theta(field="total_crimes", type="quantitative"),
-                    color=alt.Color(field="city_name", type="nominal", legend=alt.Legend(title="City")),
-                    tooltip=['city_name', 'total_crimes']
-                ).properties(title="Distribution by City", height=300)
-                st.altair_chart(donut, use_container_width=True)
-        with col_chart2:
-            if not df_trend.empty:
-                area = alt.Chart(df_trend).mark_area(opacity=0.6, color="#0ea5e9").encode(
-                    x=alt.X('year:O', title="Year"),
-                    y=alt.Y('total:Q', title="Total Crimes"),
-                    tooltip=['year', 'total']
-                ).properties(title="Time-Series Trend", height=300)
-                st.altair_chart(area, use_container_width=True)
-    except:
-        st.warning("Data not available. Please run ETL setup.")
+        if not df_city.empty:
+            donut = alt.Chart(df_city).mark_arc(innerRadius=60).encode(
+                theta=alt.Theta(field="total_crimes", type="quantitative"),
+                color=alt.Color(field="city_name", type="nominal", legend=alt.Legend(title="City")),
+                tooltip=['city_name', 'total_crimes']
+            ).properties(title="Distribution by City", height=280)
+            st.altair_chart(donut, use_container_width=True)
+
+        if not df_trend.empty:
+            area = alt.Chart(df_trend).mark_area(opacity=0.6, color="#0ea5e9").encode(
+                x=alt.X('year:O', title="Year"),
+                y=alt.Y('total:Q', title="Total Crimes"),
+                tooltip=['year', 'total']
+            ).properties(title="Time-Series Trend", height=280)
+            st.altair_chart(area, use_container_width=True)
+    except Exception as e:
+        st.warning(f"Data not available. Please run ETL setup. ({e})")
 
 def user_hotspots(engine):
     st.title("2. 3D Geospatial Hotspots (PyDeck)")
     try:
         df = pd.DataFrame(engine.db_query("SELECT * FROM city_crime_summary"))
         if not df.empty:
-            c1, c2 = st.columns([1, 3])
-            with c1:
-                st.markdown("### Map Filters")
-                min_crimes = st.slider("Minimum Crime Count", 0, int(df['total_crimes'].max()), 0)
-                filtered_df = df[df['total_crimes'] >= min_crimes]
-                st.metric("Cities Displayed", len(filtered_df))
-            with c2:
-                if not filtered_df.empty:
-                    map_data = []
-                    for _, r in filtered_df.iterrows():
-                        lat, lon = CITY_COORDS.get(r['city_name'], [30.0, 70.0])
-                        map_data.append({"lat": lat, "lon": lon, "size": float(r['total_crimes']) * 15, "color": "#ef4444"})
-                    st.map(pd.DataFrame(map_data), size="size", color="color", zoom=5, use_container_width=True)
-                else:
-                    st.info("No cities meet the filter criteria.")
+            min_crimes = st.slider("Minimum Crime Count", 0, int(df['total_crimes'].max()), 0)
+            filtered_df = df[df['total_crimes'] >= min_crimes]
+            st.metric("Cities Displayed", len(filtered_df))
+            if not filtered_df.empty:
+                map_data = []
+                for _, r in filtered_df.iterrows():
+                    lat, lon = CITY_COORDS.get(r['city_name'], [30.0, 70.0])
+                    map_data.append({"lat": lat, "lon": lon, "size": float(r['total_crimes']) * 15, "color": "#ef4444"})
+                st.map(pd.DataFrame(map_data), size="size", color="color", zoom=5, use_container_width=True)
+            else:
+                st.info("No cities meet the filter criteria.")
     except:
         st.warning("Data not available.")
 
