@@ -1,0 +1,1001 @@
+Case_ID,Year,Month,Month_Name,Day,Date,Quarter,Season,Day_of_Week,City,Crime_Type,Weapon_Used,Victim_Age,Victim_Gender,Suspect_Age,Suspect_Gender,Location_Type,Time_of_Day,Reported_to_Police_Hours,Outcome,Crime_Severity,High_Severity,Crime_Count_This_Year,Days_Since_Previous_Crime
+FIR-0001-19,2012,1,January,4,2012-01-04,Q1,Winter,Wednesday,Faisalabad,Robbery,Knife,62,Male,,Male,Highway,Evening,2,Under Investigation,7.2,1,1,0.0
+FIR-0002-19,2012,1,January,5,2012-01-05,Q1,Winter,Thursday,Rawalpindi,Street Crime,Knife,64,Male,44.0,Male,Highway,Afternoon,2,Charges Filed,6.0,0,2,0.0
+FIR-0003-14,2012,1,January,6,2012-01-06,Q1,Winter,Friday,Karachi,Cyber Crime,Firearm,44,Male,,Female,Rural Area,Evening,0,Reported,6.0,0,3,0.0
+FIR-0004-18,2012,1,January,10,2012-01-10,Q1,Winter,Tuesday,Islamabad,Robbery,Firearm,41,Female,36.0,Male,Highway,Afternoon,2,Reported,8.9,1,4,0.0
+FIR-0005-14,2012,1,January,10,2012-01-10,Q1,Winter,Tuesday,Karachi,Robbery,Firearm,66,Female,46.0,Unknown,Rural Area,Morning,1,Arrest Made,8.5,1,5,4.0
+FIR-0006-17,2012,1,January,17,2012-01-17,Q1,Winter,Tuesday,Lahore,Assault,Knife,47,Female,50.0,Male,Rural Area,Evening,0,Reported,7.2,1,6,0.0
+FIR-0007-17,2012,2,February,4,2012-02-04,Q1,Winter,Saturday,Karachi,Theft,Knife,15,Female,36.0,Male,Public Space,Evening,3,Reported,4.8,0,7,25.0
+FIR-0008-14,2012,2,February,25,2012-02-25,Q1,Winter,Saturday,Lahore,Theft,None,58,Female,,Male,Residential,Morning,0,Under Investigation,2.7,0,8,39.0
+FIR-0009-18,2012,3,March,5,2012-03-05,Q1,Spring,Monday,Karachi,Street Crime,None,67,Male,,Male,Rural Area,Morning,0,Closed/Unresolved,5.2,0,9,30.0
+FIR-0010-14,2012,3,March,7,2012-03-07,Q1,Spring,Wednesday,Multan,Assault,Knife,48,Female,25.0,Male,Commercial,Night,1,Reported,9.1,1,10,0.0
+FIR-0011-19,2012,3,March,18,2012-03-18,Q1,Spring,Sunday,Karachi,Theft,Firearm,18,Female,45.0,Male,Highway,Night,0,Arrest Made,6.2,0,11,13.0
+FIR-0012-21,2012,4,April,8,2012-04-08,Q2,Spring,Sunday,Karachi,Street Crime,None,31,Male,,Male,Commercial,Afternoon,0,Reported,4.9,0,12,21.0
+FIR-0013-15,2012,4,April,24,2012-04-24,Q2,Spring,Tuesday,Karachi,Street Crime,None,18,Female,,Male,Highway,Evening,3,Reported,5.5,0,13,16.0
+FIR-0014-26,2012,4,April,26,2012-04-26,Q2,Spring,Thursday,Karachi,Street Crime,None,57,Female,,Female,Public Space,Evening,0,Reported,5.8,0,14,2.0
+FIR-0015-26,2012,4,April,27,2012-04-27,Q2,Spring,Friday,Lahore,Street Crime,None,68,Male,,Male,Rural Area,Evening,7,Arrest Made,5.3,0,15,62.0
+FIR-0016-24,2012,4,April,29,2012-04-29,Q2,Spring,Sunday,Karachi,Street Crime,Knife,40,Male,50.0,Male,Residential,Night,1,Reported,6.3,0,16,3.0
+FIR-0017-12,2012,5,May,5,2012-05-05,Q2,Spring,Saturday,Lahore,Robbery,Firearm,18,Male,47.0,Male,Rural Area,Morning,0,Arrest Made,8.7,1,17,8.0
+FIR-0018-15,2012,5,May,7,2012-05-07,Q2,Spring,Monday,Karachi,Street Crime,None,15,Female,,Male,Highway,Night,0,Reported,7.1,1,18,8.0
+FIR-0019-25,2012,5,May,10,2012-05-10,Q2,Spring,Thursday,Lahore,Street Crime,Knife,21,Female,43.0,Male,Residential,Evening,1,Reported,6.2,0,19,5.0
+FIR-0020-18,2012,5,May,13,2012-05-13,Q2,Spring,Sunday,Karachi,Street Crime,Knife,44,Male,19.0,Female,Rural Area,Evening,2,Reported,5.9,0,20,6.0
+FIR-0021-22,2012,5,May,17,2012-05-17,Q2,Spring,Thursday,Peshawar,Assault,None,64,Female,,Unknown,Residential,Evening,0,Closed/Unresolved,7.1,1,21,0.0
+FIR-0022-15,2012,5,May,23,2012-05-23,Q2,Spring,Wednesday,Karachi,Theft,Knife,23,Male,25.0,Male,Highway,Night,0,Under Investigation,6.0,0,22,10.0
+FIR-0023-24,2012,5,May,26,2012-05-26,Q2,Spring,Saturday,Rawalpindi,Assault,Unknown,49,Male,34.0,Female,Public Space,Morning,3,Closed/Unresolved,5.9,0,23,142.0
+FIR-0024-17,2012,6,June,3,2012-06-03,Q2,Summer,Sunday,Gujranwala,Assault,Knife,22,Female,46.0,Male,Public Space,Morning,0,Arrest Made,7.4,1,24,0.0
+FIR-0025-20,2012,6,June,9,2012-06-09,Q2,Summer,Saturday,Karachi,Robbery,Knife,38,Female,31.0,Male,Rural Area,Afternoon,3,Reported,9.5,1,25,17.0
+FIR-0026-12,2012,6,June,10,2012-06-10,Q2,Summer,Sunday,Karachi,Street Crime,None,33,Male,,Male,Commercial,Night,2,Arrest Made,6.0,0,26,1.0
+FIR-0027-24,2012,7,July,8,2012-07-08,Q3,Summer,Sunday,Islamabad,Robbery,Firearm,50,Male,29.0,Male,Highway,Evening,1,Reported,9.3,1,27,180.0
+FIR-0028-16,2012,7,July,9,2012-07-09,Q3,Summer,Monday,Rawalpindi,Theft,None,64,Male,,Male,Rural Area,Evening,0,Under Investigation,4.0,0,28,44.0
+FIR-0029-22,2012,7,July,16,2012-07-16,Q3,Summer,Monday,Rawalpindi,Robbery,Firearm,66,Male,24.0,Male,Rural Area,Morning,0,Reported,9.3,1,29,7.0
+FIR-0030-18,2012,7,July,19,2012-07-19,Q3,Summer,Thursday,Karachi,Theft,Knife,57,Male,,Male,Public Space,Night,3,Reported,5.1,0,30,39.0
+FIR-0031-12,2012,7,July,21,2012-07-21,Q3,Summer,Saturday,Multan,Robbery,Firearm,41,Male,38.0,Male,Residential,Night,0,Arrest Made,10.0,1,31,136.0
+FIR-0032-25,2012,7,July,25,2012-07-25,Q3,Summer,Wednesday,Multan,Assault,None,46,Male,,Male,Highway,Evening,0,Arrest Made,6.7,0,32,4.0
+FIR-0033-15,2012,8,August,11,2012-08-11,Q3,Summer,Saturday,Rawalpindi,Robbery,Blunt Object,28,Male,19.0,Unknown,Residential,Afternoon,1,Charges Filed,6.5,0,33,26.0
+FIR-0034-17,2012,8,August,12,2012-08-12,Q3,Summer,Sunday,Peshawar,Assault,None,32,Male,,Male,Highway,Morning,0,Arrest Made,6.5,0,34,87.0
+FIR-0035-13,2012,8,August,13,2012-08-13,Q3,Summer,Monday,Karachi,Street Crime,None,42,Male,,Male,Commercial,Evening,1,Under Investigation,5.4,0,35,25.0
+FIR-0036-21,2012,8,August,20,2012-08-20,Q3,Summer,Monday,Lahore,Assault,Knife,43,Female,,Male,Public Space,Evening,3,Reported,6.7,0,36,102.0
+FIR-0037-16,2012,8,August,23,2012-08-23,Q3,Summer,Thursday,Karachi,Street Crime,Knife,30,Female,23.0,Male,Commercial,Morning,1,Charges Filed,6.6,0,37,10.0
+FIR-0038-22,2012,8,August,23,2012-08-23,Q3,Summer,Thursday,Islamabad,Theft,Knife,49,Male,36.0,Male,Rural Area,Evening,5,Arrest Made,3.9,0,38,46.0
+FIR-0039-21,2012,8,August,29,2012-08-29,Q3,Summer,Wednesday,Islamabad,Murder,None,61,Male,,Male,Public Space,Afternoon,3,Under Investigation,10.0,1,39,6.0
+FIR-0040-12,2012,8,August,30,2012-08-30,Q3,Summer,Thursday,Peshawar,Theft,Knife,45,Male,29.0,Male,Rural Area,Night,0,Reported,6.1,0,40,18.0
+FIR-0041-17,2012,9,September,6,2012-09-06,Q3,Autumn,Thursday,Rawalpindi,Street Crime,Knife,18,Male,28.0,Male,Commercial,Evening,1,Under Investigation,5.4,0,41,26.0
+FIR-0042-17,2012,9,September,10,2012-09-10,Q3,Autumn,Monday,Karachi,Vehicle Theft,None,51,Male,,Male,Highway,Morning,1,Reported,4.5,0,42,18.0
+FIR-0043-24,2012,9,September,12,2012-09-12,Q3,Autumn,Wednesday,Karachi,Theft,Knife,31,Male,44.0,Male,Rural Area,Evening,1,Arrest Made,4.5,0,43,2.0
+FIR-0044-26,2012,9,September,17,2012-09-17,Q3,Autumn,Monday,Lahore,Robbery,Blunt Object,53,Male,,Male,Residential,Afternoon,0,Closed/Unresolved,7.1,1,44,28.0
+FIR-0045-26,2012,9,September,19,2012-09-19,Q3,Autumn,Wednesday,Faisalabad,Drug Trafficking,Firearm,62,Female,29.0,Male,Highway,Afternoon,6,Charges Filed,9.0,1,45,259.0
+FIR-0046-15,2012,10,October,7,2012-10-07,Q4,Autumn,Sunday,Islamabad,Assault,Firearm,60,Male,,Female,Highway,Night,1,Arrest Made,8.5,1,46,39.0
+FIR-0047-24,2012,10,October,28,2012-10-28,Q4,Autumn,Sunday,Rawalpindi,Murder,Firearm,40,Male,33.0,Male,Commercial,Morning,1,Under Investigation,10.0,1,47,52.0
+FIR-0048-19,2012,10,October,29,2012-10-29,Q4,Autumn,Monday,Lahore,Robbery,Blunt Object,62,Female,52.0,Female,Commercial,Afternoon,2,Reported,7.9,1,48,42.0
+FIR-0049-15,2012,11,November,16,2012-11-16,Q4,Autumn,Friday,Rawalpindi,Murder,Knife,53,Male,28.0,Male,Public Space,Morning,1,Under Investigation,10.0,1,49,19.0
+FIR-0050-19,2012,12,December,1,2012-12-01,Q4,Winter,Saturday,Lahore,Robbery,Knife,55,Male,46.0,Unknown,Public Space,Morning,3,Under Investigation,8.3,1,50,33.0
+FIR-0051-26,2012,12,December,3,2012-12-03,Q4,Winter,Monday,Lahore,Drug Trafficking,Knife,18,Male,32.0,Male,Residential,Afternoon,1,Arrest Made,8.1,1,51,2.0
+FIR-0052-24,2012,12,December,23,2012-12-23,Q4,Winter,Sunday,Faisalabad,Vehicle Theft,Knife,44,Male,33.0,Male,Highway,Morning,0,Closed/Unresolved,5.5,0,52,95.0
+FIR-0053-19,2012,12,December,30,2012-12-30,Q4,Winter,Sunday,Quetta,Drug Trafficking,Blunt Object,44,Female,49.0,Unknown,Residential,Evening,0,Under Investigation,6.3,0,53,0.0
+FIR-0054-16,2013,1,January,10,2013-01-10,Q1,Winter,Thursday,Lahore,Assault,None,36,Male,,Male,Residential,Morning,4,Reported,6.0,0,1,38.0
+FIR-0055-24,2013,1,January,14,2013-01-14,Q1,Winter,Monday,Karachi,Theft,Firearm,25,Male,19.0,Male,Commercial,Evening,1,Under Investigation,5.2,0,2,124.0
+FIR-0056-26,2013,1,January,19,2013-01-19,Q1,Winter,Saturday,Karachi,Drug Trafficking,Firearm,16,Male,43.0,Male,Residential,Morning,6,Reported,9.6,1,3,5.0
+FIR-0057-15,2013,1,January,23,2013-01-23,Q1,Winter,Wednesday,Karachi,Assault,None,58,Male,,Male,Residential,Morning,0,Under Investigation,7.0,0,4,4.0
+FIR-0058-23,2013,1,January,26,2013-01-26,Q1,Winter,Saturday,Rawalpindi,Theft,Knife,26,Female,18.0,Unknown,Rural Area,Afternoon,0,Under Investigation,4.0,0,5,71.0
+FIR-0059-24,2013,1,January,30,2013-01-30,Q1,Winter,Wednesday,Lahore,Assault,Blunt Object,44,Female,,Male,Public Space,Night,0,Reported,6.8,0,6,20.0
+FIR-0060-13,2013,2,February,8,2013-02-08,Q1,Winter,Friday,Islamabad,Robbery,Knife,50,Male,35.0,Male,Public Space,Evening,1,Under Investigation,7.3,1,7,124.0
+FIR-0061-22,2013,2,February,16,2013-02-16,Q1,Winter,Saturday,Lahore,Murder,Knife,32,Male,40.0,Male,Highway,Night,0,Arrest Made,10.0,1,8,17.0
+FIR-0062-26,2013,2,February,21,2013-02-21,Q1,Winter,Thursday,Peshawar,Terrorism,Firearm,40,Male,,Male,Public Space,Morning,0,Arrest Made,10.0,1,9,175.0
+FIR-0063-14,2013,3,March,31,2013-03-31,Q1,Spring,Sunday,Lahore,Murder,Firearm,67,Female,,Male,Highway,Night,2,Reported,10.0,1,10,43.0
+FIR-0064-14,2013,4,April,11,2013-04-11,Q2,Spring,Thursday,Karachi,Theft,Blunt Object,21,Male,23.0,Male,Rural Area,Morning,1,Reported,2.5,0,11,78.0
+FIR-0065-15,2013,4,April,12,2013-04-12,Q2,Spring,Friday,Lahore,Street Crime,None,15,Male,,Male,Public Space,Afternoon,0,Under Investigation,6.1,0,12,12.0
+FIR-0066-15,2013,4,April,15,2013-04-15,Q2,Spring,Monday,Lahore,Street Crime,None,40,Male,,Male,Rural Area,Evening,1,Reported,5.2,0,13,3.0
+FIR-0067-21,2013,4,April,19,2013-04-19,Q2,Spring,Friday,Peshawar,Assault,None,37,Male,,Unknown,Public Space,Afternoon,2,Arrest Made,6.4,0,14,57.0
+FIR-0068-22,2013,5,May,3,2013-05-03,Q2,Spring,Friday,Karachi,Robbery,Knife,40,Male,29.0,Male,Public Space,Night,0,Under Investigation,10.0,1,15,22.0
+FIR-0069-22,2013,5,May,7,2013-05-07,Q2,Spring,Tuesday,Gujranwala,Robbery,None,59,Male,,Male,Rural Area,Morning,0,Reported,7.1,1,16,338.0
+FIR-0070-16,2013,5,May,14,2013-05-14,Q2,Spring,Tuesday,Lahore,Drug Trafficking,Knife,20,Male,22.0,Male,Residential,Night,0,Arrest Made,9.7,1,17,29.0
+FIR-0071-15,2013,5,May,17,2013-05-17,Q2,Spring,Friday,Peshawar,Robbery,Knife,20,Male,28.0,Male,Residential,Evening,2,Arrest Made,9.1,1,18,28.0
+FIR-0072-22,2013,5,May,19,2013-05-19,Q2,Spring,Sunday,Rawalpindi,Murder,None,58,Male,,Male,Residential,Evening,3,Under Investigation,9.4,1,19,113.0
+FIR-0073-25,2013,5,May,25,2013-05-25,Q2,Spring,Saturday,Faisalabad,Murder,Knife,22,Female,,Unknown,Residential,Morning,0,Arrest Made,10.0,1,20,153.0
+FIR-0074-21,2013,5,May,25,2013-05-25,Q2,Spring,Saturday,Faisalabad,Assault,Blunt Object,38,Male,50.0,Male,Public Space,Afternoon,0,Arrest Made,6.9,0,21,0.0
+FIR-0075-19,2013,5,May,27,2013-05-27,Q2,Spring,Monday,Rawalpindi,Street Crime,None,36,Male,,Female,Commercial,Night,4,Reported,5.5,0,22,8.0
+FIR-0076-17,2013,6,June,7,2013-06-07,Q2,Summer,Friday,Karachi,Street Crime,Knife,33,Female,48.0,Male,Rural Area,Afternoon,14,Under Investigation,6.0,0,23,35.0
+FIR-0077-17,2013,6,June,8,2013-06-08,Q2,Summer,Saturday,Lahore,Theft,None,51,Male,,Male,Commercial,Evening,2,Reported,2.6,0,24,25.0
+FIR-0078-19,2013,6,June,9,2013-06-09,Q2,Summer,Sunday,Islamabad,Theft,None,32,Male,,Male,Commercial,Night,9,Charges Filed,4.4,0,25,121.0
+FIR-0079-18,2013,6,June,21,2013-06-21,Q2,Summer,Friday,Karachi,Theft,None,45,Female,,Male,Highway,Afternoon,2,Under Investigation,3.6,0,26,14.0
+FIR-0080-26,2013,6,June,23,2013-06-23,Q2,Summer,Sunday,Lahore,Theft,None,51,Male,,Male,Residential,Evening,2,Closed/Unresolved,2.0,0,27,15.0
+FIR-0081-21,2013,7,July,13,2013-07-13,Q3,Summer,Saturday,Rawalpindi,Murder,Blunt Object,44,Female,38.0,Female,Public Space,Evening,0,Arrest Made,10.0,1,28,47.0
+FIR-0082-25,2013,7,July,16,2013-07-16,Q3,Summer,Tuesday,Islamabad,Drug Trafficking,Blunt Object,56,Male,37.0,Male,Residential,Afternoon,1,Reported,6.9,0,29,37.0
+FIR-0083-22,2013,7,July,17,2013-07-17,Q3,Summer,Wednesday,Karachi,Street Crime,None,47,Male,,Unknown,Residential,Morning,0,Closed/Unresolved,5.4,0,30,26.0
+FIR-0084-23,2013,7,July,23,2013-07-23,Q3,Summer,Tuesday,Rawalpindi,Assault,Knife,24,Male,43.0,Male,Commercial,Evening,3,Reported,6.6,0,31,10.0
+FIR-0085-21,2013,7,July,28,2013-07-28,Q3,Summer,Sunday,Karachi,Street Crime,Knife,51,Male,20.0,Male,Highway,Afternoon,5,Reported,6.7,0,32,11.0
+FIR-0086-24,2013,8,August,3,2013-08-03,Q3,Summer,Saturday,Karachi,Assault,Unknown,26,Female,22.0,Male,Residential,Evening,1,Reported,7.0,0,33,6.0
+FIR-0087-19,2013,8,August,18,2013-08-18,Q3,Summer,Sunday,Lahore,Kidnapping,Knife,68,Female,29.0,Male,Rural Area,Morning,0,Charges Filed,8.7,1,34,56.0
+FIR-0088-25,2013,8,August,23,2013-08-23,Q3,Summer,Friday,Lahore,Street Crime,Knife,44,Female,52.0,Unknown,Rural Area,Night,0,Under Investigation,6.2,0,35,5.0
+FIR-0089-13,2013,8,August,23,2013-08-23,Q3,Summer,Friday,Lahore,Robbery,Knife,41,Female,22.0,Male,Residential,Morning,0,Arrest Made,7.8,1,36,0.0
+FIR-0090-20,2013,8,August,29,2013-08-29,Q3,Summer,Thursday,Peshawar,Theft,Blunt Object,53,Female,30.0,Male,Commercial,Evening,0,Under Investigation,3.9,0,37,104.0
+FIR-0091-12,2013,8,August,31,2013-08-31,Q3,Summer,Saturday,Karachi,Robbery,None,23,Male,,Male,Commercial,Evening,1,Arrest Made,7.3,1,38,28.0
+FIR-0092-26,2013,9,September,8,2013-09-08,Q3,Autumn,Sunday,Faisalabad,Vehicle Theft,Firearm,68,Male,,Male,Public Space,Morning,5,Under Investigation,5.3,0,39,106.0
+FIR-0093-19,2013,9,September,15,2013-09-15,Q3,Autumn,Sunday,Quetta,Terrorism,Firearm,35,Male,37.0,Male,Highway,Afternoon,0,Arrest Made,10.0,1,40,259.0
+FIR-0094-23,2013,9,September,27,2013-09-27,Q3,Autumn,Friday,Rawalpindi,Theft,None,26,Male,,Male,Commercial,Night,0,Under Investigation,4.7,0,41,66.0
+FIR-0095-22,2013,9,September,30,2013-09-30,Q3,Autumn,Monday,Lahore,Street Crime,None,69,Female,,Male,Public Space,Night,1,Reported,6.0,0,42,38.0
+FIR-0096-23,2013,10,October,7,2013-10-07,Q4,Autumn,Monday,Lahore,Assault,Firearm,43,Male,,Male,Rural Area,Afternoon,0,Reported,7.2,1,43,7.0
+FIR-0097-23,2013,10,October,8,2013-10-08,Q4,Autumn,Tuesday,Lahore,Theft,Blunt Object,47,Male,33.0,Male,Rural Area,Evening,4,Arrest Made,2.8,0,44,1.0
+FIR-0098-15,2013,10,October,21,2013-10-21,Q4,Autumn,Monday,Lahore,Robbery,None,57,Male,,Male,Rural Area,Afternoon,0,Arrest Made,7.1,1,45,13.0
+FIR-0099-15,2013,10,October,25,2013-10-25,Q4,Autumn,Friday,Karachi,Assault,Firearm,67,Male,42.0,Male,Residential,Morning,0,Under Investigation,8.1,1,46,55.0
+FIR-0100-16,2013,10,October,28,2013-10-28,Q4,Autumn,Monday,Lahore,Robbery,None,29,Male,,Male,Highway,Evening,0,Arrest Made,7.3,1,47,7.0
+FIR-0101-19,2013,10,October,29,2013-10-29,Q4,Autumn,Tuesday,Karachi,Theft,None,16,Male,,Male,Public Space,Night,0,Reported,4.0,0,48,4.0
+FIR-0102-16,2013,11,November,2,2013-11-02,Q4,Autumn,Saturday,Karachi,Street Crime,None,66,Male,,Male,Highway,Afternoon,1,Arrest Made,5.5,0,49,4.0
+FIR-0103-19,2013,11,November,4,2013-11-04,Q4,Autumn,Monday,Islamabad,Assault,Unknown,53,Male,,Male,Residential,Night,0,Arrest Made,6.9,0,50,111.0
+FIR-0104-26,2013,11,November,6,2013-11-06,Q4,Autumn,Wednesday,Karachi,Street Crime,Knife,67,Female,,Male,Public Space,Morning,1,Reported,6.8,0,51,4.0
+FIR-0105-21,2013,11,November,29,2013-11-29,Q4,Autumn,Friday,Rawalpindi,Theft,None,58,Male,,Male,Public Space,Evening,1,Arrest Made,3.0,0,52,63.0
+FIR-0106-12,2013,11,November,29,2013-11-29,Q4,Autumn,Friday,Karachi,Robbery,None,68,Male,,Male,Commercial,Evening,0,Reported,7.4,1,53,23.0
+FIR-0107-23,2013,11,November,30,2013-11-30,Q4,Autumn,Saturday,Rawalpindi,Street Crime,Knife,32,Male,,Male,Highway,Evening,0,Arrest Made,5.6,0,54,1.0
+FIR-0108-26,2013,12,December,10,2013-12-10,Q4,Winter,Tuesday,Karachi,Street Crime,None,17,Male,,Female,Highway,Evening,1,Reported,5.5,0,55,11.0
+FIR-0110-20,2013,12,December,14,2013-12-14,Q4,Winter,Saturday,Peshawar,Theft,Firearm,57,Male,35.0,Male,Rural Area,Evening,5,Under Investigation,5.1,0,56,107.0
+FIR-0109-21,2013,12,December,14,2013-12-14,Q4,Winter,Saturday,Lahore,Drug Trafficking,Knife,21,Male,41.0,Male,Commercial,Afternoon,2,Closed/Unresolved,7.9,1,57,47.0
+FIR-0111-17,2013,12,December,17,2013-12-17,Q4,Winter,Tuesday,Karachi,Assault,Knife,32,Male,43.0,Male,Residential,Evening,0,Reported,7.6,1,58,7.0
+FIR-0112-14,2013,12,December,18,2013-12-18,Q4,Winter,Wednesday,Islamabad,Theft,None,58,Male,,Male,Highway,Afternoon,0,Under Investigation,3.2,0,59,44.0
+FIR-0113-24,2013,12,December,24,2013-12-24,Q4,Winter,Tuesday,Islamabad,Robbery,None,52,Male,,Male,Commercial,Night,0,Under Investigation,7.8,1,60,6.0
+FIR-0114-25,2013,12,December,29,2013-12-29,Q4,Winter,Sunday,Lahore,Theft,Blunt Object,51,Male,35.0,Male,Public Space,Afternoon,1,Arrest Made,3.5,0,61,15.0
+FIR-0115-19,2013,12,December,29,2013-12-29,Q4,Winter,Sunday,Karachi,Robbery,None,47,Female,,Male,Commercial,Evening,1,Under Investigation,7.6,1,62,12.0
+FIR-0116-20,2014,1,January,2,2014-01-02,Q1,Winter,Thursday,Lahore,Street Crime,Knife,58,Male,50.0,Male,Rural Area,Morning,3,Reported,5.4,0,1,4.0
+FIR-0117-17,2014,1,January,10,2014-01-10,Q1,Winter,Friday,Karachi,Street Crime,Knife,45,Female,34.0,Male,Residential,Afternoon,2,Under Investigation,7.2,1,2,12.0
+FIR-0118-22,2014,1,January,23,2014-01-23,Q1,Winter,Thursday,Lahore,Theft,Firearm,25,Male,34.0,Male,Rural Area,Afternoon,0,Arrest Made,5.4,0,3,21.0
+FIR-0119-18,2014,1,January,30,2014-01-30,Q1,Winter,Thursday,Lahore,Murder,Knife,18,Male,46.0,Male,Public Space,Evening,1,Reported,10.0,1,4,7.0
+FIR-0120-12,2014,2,February,5,2014-02-05,Q1,Winter,Wednesday,Lahore,Theft,None,32,Female,,Male,Public Space,Evening,4,Arrest Made,3.2,0,5,6.0
+FIR-0121-25,2014,2,February,8,2014-02-08,Q1,Winter,Saturday,Rawalpindi,Drug Trafficking,Knife,18,Female,30.0,Male,Public Space,Afternoon,0,Charges Filed,6.8,0,6,70.0
+FIR-0122-16,2014,2,February,9,2014-02-09,Q1,Winter,Sunday,Karachi,Vehicle Theft,Blunt Object,63,Male,50.0,Male,Public Space,Morning,1,Under Investigation,5.0,0,7,30.0
+FIR-0123-16,2014,2,February,14,2014-02-14,Q1,Winter,Friday,Lahore,Robbery,Firearm,48,Male,35.0,Female,Commercial,Afternoon,6,Arrest Made,9.0,1,8,9.0
+FIR-0124-21,2014,2,February,14,2014-02-14,Q1,Winter,Friday,Karachi,Street Crime,None,43,Male,,Male,Public Space,Evening,2,Reported,5.7,0,9,5.0
+FIR-0125-25,2014,2,February,23,2014-02-23,Q1,Winter,Sunday,Multan,Robbery,None,38,Male,,Male,Public Space,Evening,2,Arrest Made,7.3,1,10,578.0
+FIR-0126-15,2014,3,March,8,2014-03-08,Q1,Spring,Saturday,Karachi,Theft,None,36,Male,,Male,Commercial,Afternoon,0,Reported,4.5,0,11,22.0
+FIR-0127-17,2014,3,March,15,2014-03-15,Q1,Spring,Saturday,Lahore,Robbery,Unknown,16,Male,54.0,Female,Public Space,Morning,1,Reported,6.7,0,12,29.0
+FIR-0128-18,2014,3,March,26,2014-03-26,Q1,Spring,Wednesday,Peshawar,Terrorism,Firearm,58,Male,42.0,Male,Rural Area,Night,0,Arrest Made,10.0,1,13,102.0
+FIR-0129-20,2014,4,April,3,2014-04-03,Q2,Spring,Thursday,Karachi,Street Crime,Knife,20,Male,,Male,Rural Area,Morning,1,Closed/Unresolved,6.1,0,14,26.0
+FIR-0130-12,2014,4,April,5,2014-04-05,Q2,Spring,Saturday,Lahore,Theft,None,56,Female,,Male,Highway,Morning,0,Under Investigation,2.5,0,15,21.0
+FIR-0131-26,2014,4,April,10,2014-04-10,Q2,Spring,Thursday,Islamabad,Assault,None,39,Female,,Male,Rural Area,Morning,3,Reported,5.5,0,16,107.0
+FIR-0132-17,2014,4,April,26,2014-04-26,Q2,Spring,Saturday,Lahore,Street Crime,Knife,69,Female,47.0,Unknown,Residential,Evening,3,Arrest Made,5.1,0,17,21.0
+FIR-0133-18,2014,5,May,1,2014-05-01,Q2,Spring,Thursday,Faisalabad,Assault,Firearm,35,Male,33.0,Male,Residential,Evening,1,Closed/Unresolved,8.2,1,18,235.0
+FIR-0134-14,2014,5,May,3,2014-05-03,Q2,Spring,Saturday,Karachi,Street Crime,None,69,Female,,Male,Residential,Evening,0,Under Investigation,6.5,0,19,30.0
+FIR-0135-19,2014,5,May,4,2014-05-04,Q2,Spring,Sunday,Karachi,Street Crime,None,30,Female,,Unknown,Commercial,Afternoon,0,Under Investigation,6.5,0,20,1.0
+FIR-0136-26,2014,5,May,10,2014-05-10,Q2,Spring,Saturday,Islamabad,Theft,Knife,45,Male,38.0,Male,Rural Area,Evening,3,Charges Filed,3.6,0,21,30.0
+FIR-0137-16,2014,5,May,13,2014-05-13,Q2,Spring,Tuesday,Islamabad,Theft,Knife,28,Male,53.0,Male,Residential,Afternoon,1,Under Investigation,3.9,0,22,3.0
+FIR-0138-26,2014,5,May,20,2014-05-20,Q2,Spring,Tuesday,Karachi,Vehicle Theft,Unknown,53,Female,49.0,Male,Highway,Night,2,Reported,6.1,0,23,16.0
+FIR-0139-20,2014,5,May,22,2014-05-22,Q2,Spring,Thursday,Hyderabad,Theft,None,42,Male,,Male,Commercial,Evening,0,Reported,3.2,0,24,0.0
+FIR-0141-20,2014,5,May,26,2014-05-26,Q2,Spring,Monday,Lahore,Street Crime,None,42,Male,,Male,Rural Area,Afternoon,2,Arrest Made,4.9,0,25,30.0
+FIR-0140-16,2014,5,May,26,2014-05-26,Q2,Spring,Monday,Karachi,Vehicle Theft,None,46,Male,,Male,Highway,Evening,1,Charges Filed,4.6,0,26,6.0
+FIR-0142-21,2014,5,May,28,2014-05-28,Q2,Spring,Wednesday,Karachi,Theft,Firearm,65,Male,20.0,Male,Public Space,Morning,1,Reported,6.1,0,27,2.0
+FIR-0143-15,2014,6,June,13,2014-06-13,Q2,Summer,Friday,Rawalpindi,Theft,Firearm,69,Female,50.0,Male,Highway,Evening,1,Arrest Made,4.5,0,28,125.0
+FIR-0144-20,2014,6,June,14,2014-06-14,Q2,Summer,Saturday,Karachi,Theft,Knife,63,Male,54.0,Female,Public Space,Evening,3,Under Investigation,4.7,0,29,17.0
+FIR-0145-16,2014,6,June,18,2014-06-18,Q2,Summer,Wednesday,Karachi,Vehicle Theft,Firearm,23,Male,51.0,Male,Commercial,Morning,0,Charges Filed,6.7,0,30,4.0
+FIR-0146-21,2014,6,June,20,2014-06-20,Q2,Summer,Friday,Karachi,Robbery,Firearm,59,Male,43.0,Female,Highway,Night,0,Reported,10.0,1,31,2.0
+FIR-0147-20,2014,7,July,7,2014-07-07,Q3,Summer,Monday,Karachi,Robbery,None,36,Male,,Male,Highway,Night,1,Arrest Made,8.9,1,32,17.0
+FIR-0148-14,2014,7,July,8,2014-07-08,Q3,Summer,Tuesday,Islamabad,Robbery,None,46,Male,,Male,Commercial,Evening,0,Closed/Unresolved,7.0,0,33,56.0
+FIR-0149-26,2014,7,July,13,2014-07-13,Q3,Summer,Sunday,Rawalpindi,Theft,Knife,19,Male,48.0,Unknown,Commercial,Night,2,Arrest Made,4.7,0,34,30.0
+FIR-0150-15,2014,7,July,17,2014-07-17,Q3,Summer,Thursday,Lahore,Street Crime,None,37,Female,,Male,Residential,Afternoon,2,Reported,5.0,0,35,52.0
+FIR-0151-20,2014,8,August,11,2014-08-11,Q3,Summer,Monday,Lahore,Theft,Knife,19,Male,53.0,Male,Rural Area,Morning,4,Closed/Unresolved,3.2,0,36,25.0
+FIR-0152-21,2014,8,August,12,2014-08-12,Q3,Summer,Tuesday,Rawalpindi,Assault,Firearm,56,Male,,Male,Highway,Morning,2,Arrest Made,8.3,1,37,30.0
+FIR-0153-22,2014,8,August,14,2014-08-14,Q3,Summer,Thursday,Karachi,Robbery,None,67,Female,,Male,Highway,Evening,0,Arrest Made,7.9,1,38,38.0
+FIR-0154-17,2014,8,August,17,2014-08-17,Q3,Summer,Sunday,Lahore,Robbery,Knife,46,Male,49.0,Male,Commercial,Morning,0,Under Investigation,7.7,1,39,6.0
+FIR-0155-13,2014,8,August,29,2014-08-29,Q3,Summer,Friday,Lahore,Street Crime,None,24,Female,,Unknown,Commercial,Night,3,Reported,5.6,0,40,12.0
+FIR-0156-18,2014,9,September,2,2014-09-02,Q3,Autumn,Tuesday,Islamabad,Robbery,Knife,53,Female,,Male,Rural Area,Morning,0,Closed/Unresolved,7.7,1,41,56.0
+FIR-0157-13,2014,9,September,7,2014-09-07,Q3,Autumn,Sunday,Karachi,Cyber Crime,Firearm,36,Female,26.0,Male,Commercial,Afternoon,2,Arrest Made,5.5,0,42,24.0
+FIR-0158-22,2014,9,September,18,2014-09-18,Q3,Autumn,Thursday,Karachi,Street Crime,None,21,Male,,Male,Public Space,Night,3,Arrest Made,6.6,0,43,11.0
+FIR-0159-13,2014,9,September,19,2014-09-19,Q3,Autumn,Friday,Lahore,Theft,None,43,Male,,Male,Public Space,Afternoon,0,Reported,3.8,0,44,21.0
+FIR-0160-22,2014,9,September,22,2014-09-22,Q3,Autumn,Monday,Lahore,Street Crime,None,61,Male,,Male,Public Space,Afternoon,0,Arrest Made,5.7,0,45,3.0
+FIR-0161-12,2014,10,October,9,2014-10-09,Q4,Autumn,Thursday,Karachi,Theft,Firearm,17,Male,,Male,Public Space,Evening,1,Under Investigation,5.9,0,46,21.0
+FIR-0162-22,2014,10,October,12,2014-10-12,Q4,Autumn,Sunday,Karachi,Theft,Blunt Object,33,Female,,Male,Rural Area,Afternoon,3,Under Investigation,3.6,0,47,3.0
+FIR-0163-22,2014,10,October,12,2014-10-12,Q4,Autumn,Sunday,Karachi,Vehicle Theft,Blunt Object,24,Female,48.0,Male,Highway,Afternoon,0,Closed/Unresolved,4.0,0,48,0.0
+FIR-0164-23,2014,10,October,13,2014-10-13,Q4,Autumn,Monday,Multan,Drug Trafficking,None,42,Female,,Female,Public Space,Afternoon,5,Arrest Made,7.8,1,49,232.0
+FIR-0165-22,2014,10,October,13,2014-10-13,Q4,Autumn,Monday,Faisalabad,Theft,Knife,43,Female,36.0,Male,Commercial,Evening,1,Under Investigation,3.9,0,50,165.0
+FIR-0166-14,2014,10,October,18,2014-10-18,Q4,Autumn,Saturday,Karachi,Street Crime,Knife,29,Female,48.0,Male,Public Space,Night,9,Arrest Made,7.6,1,51,6.0
+FIR-0167-17,2014,10,October,25,2014-10-25,Q4,Autumn,Saturday,Karachi,Street Crime,None,49,Male,,Male,Rural Area,Night,0,Under Investigation,6.8,0,52,7.0
+FIR-0168-19,2014,11,November,11,2014-11-11,Q4,Autumn,Tuesday,Faisalabad,Theft,Blunt Object,20,Male,43.0,Male,Commercial,Afternoon,0,Under Investigation,3.0,0,53,29.0
+FIR-0169-20,2014,11,November,25,2014-11-25,Q4,Autumn,Tuesday,Karachi,Theft,Knife,26,Female,37.0,Male,Public Space,Afternoon,3,Arrest Made,5.1,0,54,31.0
+FIR-0170-18,2014,11,November,26,2014-11-26,Q4,Autumn,Wednesday,Karachi,Assault,Knife,61,Male,,Unknown,Highway,Evening,4,Reported,7.7,1,55,1.0
+FIR-0172-17,2014,11,November,28,2014-11-28,Q4,Autumn,Friday,Karachi,Assault,None,27,Male,,Unknown,Commercial,Afternoon,2,Arrest Made,6.7,0,56,2.0
+FIR-0171-15,2014,11,November,28,2014-11-28,Q4,Autumn,Friday,Gujranwala,Robbery,Knife,52,Male,40.0,Male,Commercial,Night,1,Reported,9.5,1,57,570.0
+FIR-0173-16,2014,11,November,29,2014-11-29,Q4,Autumn,Saturday,Rawalpindi,Kidnapping,Knife,43,Female,19.0,Male,Highway,Afternoon,4,Charges Filed,9.0,1,58,109.0
+FIR-0174-19,2014,12,December,1,2014-12-01,Q4,Winter,Monday,Gujranwala,Theft,None,33,Male,,Unknown,Commercial,Evening,0,Reported,3.0,0,59,3.0
+FIR-0175-12,2014,12,December,2,2014-12-02,Q4,Winter,Tuesday,Karachi,Street Crime,None,17,Female,,Male,Public Space,Night,1,Reported,6.5,0,60,4.0
+FIR-0176-12,2014,12,December,5,2014-12-05,Q4,Winter,Friday,Karachi,Murder,None,22,Female,,Unknown,Commercial,Afternoon,3,Reported,9.9,1,61,3.0
+FIR-0177-24,2014,12,December,12,2014-12-12,Q4,Winter,Friday,Karachi,Theft,None,22,Male,,Male,Public Space,Afternoon,1,Under Investigation,3.0,0,62,7.0
+FIR-0178-26,2014,12,December,13,2014-12-13,Q4,Winter,Saturday,Peshawar,Assault,Knife,69,Male,28.0,Male,Highway,Afternoon,0,Arrest Made,7.9,1,63,262.0
+FIR-0179-22,2014,12,December,17,2014-12-17,Q4,Winter,Wednesday,Karachi,Street Crime,None,34,Male,,Unknown,Residential,Morning,3,Reported,4.9,0,64,5.0
+FIR-0180-17,2014,12,December,17,2014-12-17,Q4,Winter,Wednesday,Faisalabad,Theft,Firearm,61,Female,31.0,Male,Highway,Evening,0,Arrest Made,4.8,0,65,36.0
+FIR-0181-21,2014,12,December,18,2014-12-18,Q4,Winter,Thursday,Lahore,Street Crime,None,18,Female,,Male,Public Space,Evening,0,Under Investigation,4.5,0,66,87.0
+FIR-0182-23,2015,1,January,23,2015-01-23,Q1,Winter,Friday,Peshawar,Theft,Blunt Object,65,Female,,Male,Rural Area,Evening,6,Arrest Made,3.3,0,1,41.0
+FIR-0183-13,2015,1,January,27,2015-01-27,Q1,Winter,Tuesday,Multan,Theft,Firearm,35,Male,32.0,Unknown,Highway,Morning,1,Under Investigation,4.9,0,2,106.0
+FIR-0184-16,2015,2,February,13,2015-02-13,Q1,Winter,Friday,Rawalpindi,Assault,Blunt Object,17,Male,,Male,Rural Area,Morning,3,Reported,5.8,0,3,76.0
+FIR-0185-12,2015,2,February,15,2015-02-15,Q1,Winter,Sunday,Multan,Theft,Unknown,59,Male,49.0,Male,Rural Area,Afternoon,3,Arrest Made,2.3,0,4,19.0
+FIR-0186-18,2015,2,February,19,2015-02-19,Q1,Winter,Thursday,Peshawar,Drug Trafficking,Firearm,22,Female,30.0,Male,Public Space,Afternoon,0,Reported,9.4,1,5,27.0
+FIR-0187-12,2015,2,February,21,2015-02-21,Q1,Winter,Saturday,Rawalpindi,Drug Trafficking,Blunt Object,37,Male,45.0,Male,Public Space,Night,0,Reported,7.5,1,6,8.0
+FIR-0188-15,2015,2,February,22,2015-02-22,Q1,Winter,Sunday,Islamabad,Robbery,None,30,Male,,Female,Residential,Afternoon,0,Arrest Made,6.7,0,7,173.0
+FIR-0189-20,2015,2,February,24,2015-02-24,Q1,Winter,Tuesday,Lahore,Robbery,None,27,Male,,Male,Commercial,Morning,0,Reported,7.4,1,8,68.0
+FIR-0190-12,2015,2,February,28,2015-02-28,Q1,Winter,Saturday,Peshawar,Terrorism,Firearm,17,Male,,Male,Highway,Afternoon,2,Under Investigation,10.0,1,9,9.0
+FIR-0191-15,2015,3,March,1,2015-03-01,Q1,Spring,Sunday,Karachi,Street Crime,None,62,Male,,Unknown,Public Space,Evening,1,Reported,4.8,0,10,74.0
+FIR-0192-17,2015,3,March,2,2015-03-02,Q1,Spring,Monday,Lahore,Drug Trafficking,Firearm,23,Male,,Male,Highway,Evening,1,Reported,9.8,1,11,6.0
+FIR-0193-17,2015,3,March,6,2015-03-06,Q1,Spring,Friday,Peshawar,Theft,Blunt Object,28,Male,34.0,Male,Rural Area,Night,0,Closed/Unresolved,4.2,0,12,6.0
+FIR-0194-23,2015,3,March,12,2015-03-12,Q1,Spring,Thursday,Hyderabad,Assault,Knife,27,Male,51.0,Male,Commercial,Morning,0,Arrest Made,6.7,0,13,294.0
+FIR-0195-26,2015,3,March,13,2015-03-13,Q1,Spring,Friday,Faisalabad,Drug Trafficking,None,67,Female,,Male,Residential,Evening,1,Under Investigation,6.6,0,14,86.0
+FIR-0196-24,2015,3,March,15,2015-03-15,Q1,Spring,Sunday,Karachi,Assault,Firearm,21,Female,53.0,Male,Highway,Afternoon,1,Under Investigation,8.5,1,15,14.0
+FIR-0197-19,2015,3,March,30,2015-03-30,Q1,Spring,Monday,Karachi,Theft,Blunt Object,29,Male,19.0,Male,Commercial,Afternoon,0,Arrest Made,4.5,0,16,15.0
+FIR-0198-12,2015,3,March,30,2015-03-30,Q1,Spring,Monday,Karachi,Street Crime,None,21,Female,,Male,Residential,Night,2,Under Investigation,5.7,0,17,0.0
+FIR-0199-18,2015,4,April,6,2015-04-06,Q2,Spring,Monday,Lahore,Street Crime,Knife,52,Male,49.0,Male,Highway,Afternoon,0,Arrest Made,5.0,0,18,35.0
+FIR-0200-12,2015,4,April,29,2015-04-29,Q2,Spring,Wednesday,Faisalabad,Robbery,Knife,48,Male,,Male,Commercial,Evening,0,Reported,8.1,1,19,47.0
+FIR-0201-24,2015,5,May,2,2015-05-02,Q2,Spring,Saturday,Lahore,Street Crime,Knife,55,Female,47.0,Male,Public Space,Afternoon,2,Reported,6.3,0,20,26.0
+FIR-0202-25,2015,5,May,3,2015-05-03,Q2,Spring,Sunday,Lahore,Theft,Blunt Object,36,Female,23.0,Male,Highway,Evening,0,Arrest Made,3.0,0,21,1.0
+FIR-0203-18,2015,5,May,28,2015-05-28,Q2,Spring,Thursday,Quetta,Drug Trafficking,None,38,Female,,Male,Commercial,Night,1,Reported,8.8,1,22,620.0
+FIR-0204-14,2015,5,May,28,2015-05-28,Q2,Spring,Thursday,Lahore,Street Crime,None,63,Male,,Male,Residential,Night,0,Reported,5.4,0,23,25.0
+FIR-0205-22,2015,5,May,28,2015-05-28,Q2,Spring,Thursday,Lahore,Theft,Unknown,51,Male,41.0,Male,Commercial,Night,0,Reported,3.5,0,24,0.0
+FIR-0206-19,2015,6,June,2,2015-06-02,Q2,Summer,Tuesday,Peshawar,Kidnapping,None,58,Female,,Male,Public Space,Evening,0,Reported,8.6,1,25,88.0
+FIR-0207-14,2015,6,June,4,2015-06-04,Q2,Summer,Thursday,Karachi,Street Crime,Knife,15,Male,41.0,Male,Highway,Afternoon,5,Reported,7.4,1,26,66.0
+FIR-0208-25,2015,6,June,6,2015-06-06,Q2,Summer,Saturday,Karachi,Theft,None,24,Male,,Male,Highway,Evening,1,Reported,3.8,0,27,2.0
+FIR-0209-25,2015,6,June,6,2015-06-06,Q2,Summer,Saturday,Rawalpindi,Vehicle Theft,Blunt Object,57,Female,45.0,Male,Highway,Evening,11,Reported,4.3,0,28,105.0
+FIR-0210-24,2015,6,June,10,2015-06-10,Q2,Summer,Wednesday,Lahore,Vehicle Theft,Firearm,30,Female,24.0,Male,Public Space,Morning,1,Reported,5.5,0,29,13.0
+FIR-0211-12,2015,6,June,21,2015-06-21,Q2,Summer,Sunday,Lahore,Street Crime,Knife,60,Female,51.0,Male,Residential,Evening,1,Arrest Made,6.2,0,30,11.0
+FIR-0212-24,2015,6,June,29,2015-06-29,Q2,Summer,Monday,Rawalpindi,Theft,Firearm,22,Male,52.0,Female,Highway,Night,0,Reported,5.4,0,31,23.0
+FIR-0213-24,2015,6,June,30,2015-06-30,Q2,Summer,Tuesday,Islamabad,Drug Trafficking,Blunt Object,63,Female,45.0,Female,Residential,Evening,0,Closed/Unresolved,7.9,1,32,128.0
+FIR-0214-25,2015,7,July,6,2015-07-06,Q3,Summer,Monday,Karachi,Street Crime,Knife,39,Male,31.0,Male,Commercial,Afternoon,0,Under Investigation,6.0,0,33,30.0
+FIR-0215-19,2015,7,July,15,2015-07-15,Q3,Summer,Wednesday,Islamabad,Robbery,Firearm,64,Male,41.0,Male,Residential,Night,0,Arrest Made,9.6,1,34,15.0
+FIR-0216-14,2015,7,July,20,2015-07-20,Q3,Summer,Monday,Rawalpindi,Street Crime,Knife,26,Male,25.0,Male,Residential,Afternoon,1,Under Investigation,5.3,0,35,21.0
+FIR-0217-13,2015,7,July,24,2015-07-24,Q3,Summer,Friday,Karachi,Street Crime,None,39,Male,,Male,Highway,Afternoon,0,Arrest Made,5.5,0,36,18.0
+FIR-0218-12,2015,7,July,30,2015-07-30,Q3,Summer,Thursday,Lahore,Street Crime,Knife,31,Male,51.0,Male,Rural Area,Evening,0,Reported,6.0,0,37,39.0
+FIR-0219-25,2015,8,August,5,2015-08-05,Q3,Summer,Wednesday,Karachi,Robbery,Firearm,40,Female,43.0,Male,Rural Area,Afternoon,0,Closed/Unresolved,10.0,1,38,12.0
+FIR-0220-14,2015,8,August,7,2015-08-07,Q3,Summer,Friday,Karachi,Street Crime,Knife,60,Male,51.0,Male,Public Space,Evening,1,Reported,6.9,0,39,2.0
+FIR-0221-26,2015,8,August,11,2015-08-11,Q3,Summer,Tuesday,Karachi,Vehicle Theft,Blunt Object,62,Male,45.0,Male,Public Space,Afternoon,2,Closed/Unresolved,4.1,0,40,4.0
+FIR-0222-13,2015,8,August,17,2015-08-17,Q3,Summer,Monday,Rawalpindi,Robbery,Knife,28,Male,45.0,Male,Rural Area,Afternoon,3,Arrest Made,8.4,1,41,28.0
+FIR-0223-13,2015,8,August,22,2015-08-22,Q3,Summer,Saturday,Faisalabad,Drug Trafficking,Unknown,55,Male,,Male,Commercial,Afternoon,0,Reported,6.4,0,42,115.0
+FIR-0224-17,2015,8,August,24,2015-08-24,Q3,Summer,Monday,Lahore,Assault,Blunt Object,50,Male,21.0,Male,Highway,Night,0,Arrest Made,6.6,0,43,25.0
+FIR-0225-23,2015,9,September,4,2015-09-04,Q3,Autumn,Friday,Karachi,Street Crime,Knife,37,Female,,Male,Highway,Evening,0,Arrest Made,6.6,0,44,24.0
+FIR-0226-12,2015,9,September,10,2015-09-10,Q3,Autumn,Thursday,Gujranwala,Robbery,None,57,Female,,Male,Commercial,Afternoon,4,Reported,6.4,0,45,283.0
+FIR-0227-13,2015,9,September,15,2015-09-15,Q3,Autumn,Tuesday,Karachi,Street Crime,None,20,Male,,Male,Commercial,Morning,0,Arrest Made,6.0,0,46,11.0
+FIR-0228-25,2015,9,September,20,2015-09-20,Q3,Autumn,Sunday,Karachi,Street Crime,Knife,61,Female,,Male,Rural Area,Afternoon,2,Under Investigation,7.6,1,47,5.0
+FIR-0229-17,2015,9,September,20,2015-09-20,Q3,Autumn,Sunday,Peshawar,Terrorism,Firearm,19,Male,37.0,Male,Public Space,Evening,1,Arrest Made,10.0,1,48,110.0
+FIR-0230-14,2015,9,September,25,2015-09-25,Q3,Autumn,Friday,Karachi,Street Crime,None,57,Male,,Male,Commercial,Morning,0,Reported,5.2,0,49,5.0
+FIR-0231-26,2015,9,September,25,2015-09-25,Q3,Autumn,Friday,Lahore,Street Crime,Knife,39,Female,40.0,Male,Public Space,Evening,0,Reported,5.9,0,50,32.0
+FIR-0232-15,2015,9,September,27,2015-09-27,Q3,Autumn,Sunday,Islamabad,Theft,Blunt Object,32,Male,24.0,Female,Residential,Evening,0,Closed/Unresolved,2.7,0,51,74.0
+FIR-0233-12,2015,9,September,27,2015-09-27,Q3,Autumn,Sunday,Karachi,Theft,Blunt Object,27,Female,,Female,Highway,Night,4,Arrest Made,4.6,0,52,2.0
+FIR-0235-24,2015,10,October,1,2015-10-01,Q4,Autumn,Thursday,Lahore,Robbery,None,28,Female,,Male,Highway,Evening,1,Charges Filed,7.2,1,53,6.0
+FIR-0234-19,2015,10,October,1,2015-10-01,Q4,Autumn,Thursday,Lahore,Murder,None,57,Male,,Male,Rural Area,Evening,1,Arrest Made,9.3,1,54,0.0
+FIR-0236-18,2015,10,October,16,2015-10-16,Q4,Autumn,Friday,Islamabad,Theft,Firearm,42,Male,42.0,Male,Rural Area,Afternoon,1,Reported,6.0,0,55,19.0
+FIR-0237-18,2015,10,October,20,2015-10-20,Q4,Autumn,Tuesday,Faisalabad,Robbery,Knife,32,Male,42.0,Female,Residential,Evening,2,Arrest Made,7.0,0,56,59.0
+FIR-0238-14,2015,10,October,28,2015-10-28,Q4,Autumn,Wednesday,Faisalabad,Robbery,Knife,42,Male,32.0,Male,Highway,Evening,1,Under Investigation,7.4,1,57,8.0
+FIR-0239-21,2015,11,November,10,2015-11-10,Q4,Autumn,Tuesday,Islamabad,Theft,Knife,65,Female,27.0,Unknown,Residential,Afternoon,0,Under Investigation,3.8,0,58,25.0
+FIR-0240-21,2015,12,December,16,2015-12-16,Q4,Winter,Wednesday,Peshawar,Vehicle Theft,Blunt Object,41,Male,36.0,Male,Rural Area,Night,0,Reported,5.8,0,59,87.0
+FIR-0241-14,2015,12,December,31,2015-12-31,Q4,Winter,Thursday,Lahore,Theft,None,46,Female,,Male,Commercial,Morning,0,Reported,3.4,0,60,91.0
+FIR-0242-25,2015,12,December,31,2015-12-31,Q4,Winter,Thursday,Quetta,Drug Trafficking,Knife,61,Male,31.0,Unknown,Highway,Morning,2,Under Investigation,8.9,1,61,217.0
+FIR-0243-13,2016,1,January,10,2016-01-10,Q1,Winter,Sunday,Karachi,Drug Trafficking,Blunt Object,23,Male,27.0,Male,Residential,Afternoon,0,Reported,6.7,0,1,105.0
+FIR-0244-23,2016,1,January,18,2016-01-18,Q1,Winter,Monday,Gujranwala,Vehicle Theft,None,54,Male,,Male,Highway,Night,1,Closed/Unresolved,4.7,0,2,130.0
+FIR-0245-12,2016,1,January,24,2016-01-24,Q1,Winter,Sunday,Rawalpindi,Theft,Knife,46,Male,35.0,Male,Highway,Evening,0,Reported,3.5,0,3,160.0
+FIR-0246-18,2016,2,February,2,2016-02-02,Q1,Winter,Tuesday,Lahore,Assault,Firearm,34,Female,19.0,Male,Highway,Night,5,Reported,9.0,1,4,33.0
+FIR-0247-18,2016,2,February,4,2016-02-04,Q1,Winter,Thursday,Karachi,Street Crime,None,42,Male,,Male,Public Space,Afternoon,0,Reported,5.5,0,5,25.0
+FIR-0248-23,2016,2,February,4,2016-02-04,Q1,Winter,Thursday,Lahore,Murder,Firearm,47,Female,46.0,Male,Residential,Evening,0,Under Investigation,10.0,1,6,2.0
+FIR-0249-13,2016,2,February,9,2016-02-09,Q1,Winter,Tuesday,Karachi,Murder,None,18,Male,,Male,Residential,Afternoon,5,Closed/Unresolved,10.0,1,7,5.0
+FIR-0250-18,2016,2,February,25,2016-02-25,Q1,Winter,Thursday,Karachi,Assault,Firearm,60,Male,19.0,Male,Highway,Night,1,Under Investigation,9.8,1,8,16.0
+FIR-0251-24,2016,3,March,7,2016-03-07,Q1,Spring,Monday,Rawalpindi,Robbery,Knife,48,Female,27.0,Unknown,Commercial,Morning,6,Closed/Unresolved,7.7,1,9,43.0
+FIR-0252-19,2016,3,March,8,2016-03-08,Q1,Spring,Tuesday,Islamabad,Drug Trafficking,Knife,62,Male,25.0,Male,Highway,Afternoon,0,Reported,7.9,1,10,119.0
+FIR-0253-12,2016,3,March,9,2016-03-09,Q1,Spring,Wednesday,Lahore,Street Crime,None,17,Male,,Male,Public Space,Afternoon,0,Reported,5.8,0,11,34.0
+FIR-0254-20,2016,3,March,11,2016-03-11,Q1,Spring,Friday,Peshawar,Terrorism,Firearm,40,Female,36.0,Male,Rural Area,Night,2,Under Investigation,10.0,1,12,86.0
+FIR-0255-18,2016,3,March,11,2016-03-11,Q1,Spring,Friday,Islamabad,Cyber Crime,Firearm,27,Female,18.0,Male,Public Space,Evening,4,Closed/Unresolved,3.9,0,13,3.0
+FIR-0256-14,2016,3,March,20,2016-03-20,Q1,Spring,Sunday,Islamabad,Theft,Firearm,20,Male,50.0,Male,Commercial,Evening,0,Under Investigation,5.1,0,14,9.0
+FIR-0257-19,2016,3,March,22,2016-03-22,Q1,Spring,Tuesday,Karachi,Street Crime,Knife,30,Male,49.0,Unknown,Highway,Evening,5,Under Investigation,8.0,1,15,26.0
+FIR-0258-18,2016,4,April,17,2016-04-17,Q2,Spring,Sunday,Faisalabad,Theft,Firearm,38,Male,25.0,Male,Residential,Night,1,Arrest Made,6.2,0,16,172.0
+FIR-0259-22,2016,4,April,19,2016-04-19,Q2,Spring,Tuesday,Lahore,Theft,Blunt Object,62,Male,51.0,Male,Highway,Night,3,Reported,4.0,0,17,41.0
+FIR-0260-26,2016,4,April,19,2016-04-19,Q2,Spring,Tuesday,Gujranwala,Theft,Firearm,53,Female,40.0,Male,Commercial,Evening,1,Closed/Unresolved,5.7,0,18,92.0
+FIR-0261-24,2016,4,April,20,2016-04-20,Q2,Spring,Wednesday,Peshawar,Robbery,Firearm,44,Female,24.0,Male,Residential,Afternoon,0,Reported,9.6,1,19,40.0
+FIR-0262-19,2016,4,April,22,2016-04-22,Q2,Spring,Friday,Islamabad,Murder,None,59,Male,,Female,Public Space,Afternoon,4,Arrest Made,10.0,1,20,33.0
+FIR-0263-17,2016,4,April,23,2016-04-23,Q2,Spring,Saturday,Karachi,Theft,Knife,27,Male,20.0,Male,Rural Area,Night,5,Under Investigation,5.4,0,21,32.0
+FIR-0264-20,2016,4,April,30,2016-04-30,Q2,Spring,Saturday,Peshawar,Theft,Knife,19,Male,41.0,Male,Rural Area,Evening,1,Reported,4.6,0,22,10.0
+FIR-0265-26,2016,5,May,4,2016-05-04,Q2,Spring,Wednesday,Peshawar,Vehicle Theft,Knife,39,Male,39.0,Male,Highway,Afternoon,0,Under Investigation,5.7,0,23,4.0
+FIR-0266-16,2016,5,May,16,2016-05-16,Q2,Spring,Monday,Karachi,Assault,Unknown,34,Male,25.0,Male,Public Space,Evening,0,Reported,6.9,0,24,23.0
+FIR-0267-14,2016,5,May,22,2016-05-22,Q2,Spring,Sunday,Quetta,Terrorism,Firearm,68,Male,,Male,Commercial,Night,1,Under Investigation,10.0,1,25,143.0
+FIR-0268-14,2016,5,May,23,2016-05-23,Q2,Spring,Monday,Peshawar,Assault,None,32,Male,,Male,Rural Area,Afternoon,0,Under Investigation,6.3,0,26,19.0
+FIR-0269-12,2016,5,May,24,2016-05-24,Q2,Spring,Tuesday,Karachi,Kidnapping,None,61,Male,,Male,Public Space,Evening,1,Arrest Made,7.5,1,27,8.0
+FIR-0270-23,2016,6,June,7,2016-06-07,Q2,Summer,Tuesday,Multan,Theft,Firearm,32,Male,,Male,Highway,Night,0,Arrest Made,5.8,0,28,478.0
+FIR-0271-26,2016,6,June,13,2016-06-13,Q2,Summer,Monday,Lahore,Robbery,Unknown,16,Male,32.0,Male,Residential,Evening,2,Reported,7.5,1,29,55.0
+FIR-0272-19,2016,6,June,19,2016-06-19,Q2,Summer,Sunday,Karachi,Drug Trafficking,Firearm,24,Male,34.0,Unknown,Highway,Afternoon,0,Arrest Made,9.7,1,30,26.0
+FIR-0273-13,2016,6,June,21,2016-06-21,Q2,Summer,Tuesday,Peshawar,Robbery,Firearm,69,Male,33.0,Unknown,Highway,Night,1,Arrest Made,10.0,1,31,29.0
+FIR-0274-14,2016,6,June,23,2016-06-23,Q2,Summer,Thursday,Lahore,Kidnapping,None,59,Male,,Male,Public Space,Night,1,Arrest Made,8.0,1,32,10.0
+FIR-0275-19,2016,6,June,24,2016-06-24,Q2,Summer,Friday,Islamabad,Theft,None,64,Male,,Male,Rural Area,Night,1,Reported,3.9,0,33,63.0
+FIR-0276-25,2016,7,July,4,2016-07-04,Q3,Summer,Monday,Karachi,Robbery,Blunt Object,61,Male,38.0,Male,Public Space,Evening,1,Reported,8.0,1,34,15.0
+FIR-0277-19,2016,7,July,6,2016-07-06,Q3,Summer,Wednesday,Karachi,Street Crime,None,26,Female,,Male,Residential,Afternoon,0,Reported,5.3,0,35,2.0
+FIR-0278-25,2016,7,July,21,2016-07-21,Q3,Summer,Thursday,Rawalpindi,Murder,Knife,61,Female,30.0,Male,Public Space,Night,2,Under Investigation,10.0,1,36,136.0
+FIR-0279-22,2016,7,July,22,2016-07-22,Q3,Summer,Friday,Lahore,Street Crime,None,27,Female,,Male,Commercial,Afternoon,3,Reported,4.7,0,37,29.0
+FIR-0280-15,2016,7,July,26,2016-07-26,Q3,Summer,Tuesday,Islamabad,Kidnapping,Knife,64,Male,20.0,Female,Highway,Night,2,Closed/Unresolved,10.0,1,38,32.0
+FIR-0281-15,2016,7,July,31,2016-07-31,Q3,Summer,Sunday,Peshawar,Theft,Knife,61,Female,27.0,Unknown,Rural Area,Night,5,Under Investigation,6.1,0,39,40.0
+FIR-0282-16,2016,8,August,5,2016-08-05,Q3,Summer,Friday,Rawalpindi,Theft,Firearm,69,Female,,Male,Residential,Evening,2,Under Investigation,4.9,0,40,15.0
+FIR-0283-17,2016,8,August,6,2016-08-06,Q3,Summer,Saturday,Karachi,Assault,Firearm,25,Male,,Male,Highway,Night,2,Under Investigation,10.0,1,41,31.0
+FIR-0284-16,2016,8,August,7,2016-08-07,Q3,Summer,Sunday,Lahore,Kidnapping,None,33,Male,,Male,Public Space,Night,0,Reported,9.5,1,42,16.0
+FIR-0285-25,2016,8,August,9,2016-08-09,Q3,Summer,Tuesday,Quetta,Theft,Knife,49,Female,43.0,Male,Commercial,Afternoon,1,Under Investigation,3.9,0,43,79.0
+FIR-0286-26,2016,8,August,9,2016-08-09,Q3,Summer,Tuesday,Faisalabad,Assault,Unknown,53,Male,,Male,Public Space,Evening,1,Arrest Made,6.6,0,44,114.0
+FIR-0287-18,2016,8,August,12,2016-08-12,Q3,Summer,Friday,Islamabad,Theft,Knife,67,Male,,Male,Highway,Morning,0,Closed/Unresolved,4.1,0,45,17.0
+FIR-0288-13,2016,8,August,13,2016-08-13,Q3,Summer,Saturday,Lahore,Street Crime,None,40,Female,,Female,Residential,Evening,1,Closed/Unresolved,4.4,0,46,6.0
+FIR-0289-18,2016,8,August,14,2016-08-14,Q3,Summer,Sunday,Lahore,Theft,Firearm,60,Female,29.0,Male,Rural Area,Afternoon,0,Reported,5.9,0,47,1.0
+FIR-0290-21,2016,8,August,14,2016-08-14,Q3,Summer,Sunday,Faisalabad,Drug Trafficking,Knife,28,Male,30.0,Male,Highway,Evening,2,Arrest Made,7.9,1,48,5.0
+FIR-0291-18,2016,8,August,20,2016-08-20,Q3,Summer,Saturday,Peshawar,Murder,Firearm,68,Male,40.0,Male,Residential,Night,1,Arrest Made,10.0,1,49,20.0
+FIR-0292-12,2016,8,August,20,2016-08-20,Q3,Summer,Saturday,Rawalpindi,Theft,Knife,59,Male,33.0,Male,Highway,Night,1,Under Investigation,4.6,0,50,15.0
+FIR-0293-18,2016,8,August,23,2016-08-23,Q3,Summer,Tuesday,Peshawar,Assault,Knife,58,Female,46.0,Male,Commercial,Afternoon,8,Reported,7.0,0,51,3.0
+FIR-0294-16,2016,9,September,3,2016-09-03,Q3,Autumn,Saturday,Faisalabad,Robbery,Unknown,38,Male,50.0,Female,Public Space,Evening,0,Reported,6.7,0,52,20.0
+FIR-0295-14,2016,9,September,11,2016-09-11,Q3,Autumn,Sunday,Karachi,Robbery,Blunt Object,55,Male,29.0,Male,Rural Area,Evening,0,Arrest Made,7.3,1,53,36.0
+FIR-0296-24,2016,9,September,15,2016-09-15,Q3,Autumn,Thursday,Lahore,Theft,Firearm,15,Female,,Male,Residential,Night,0,Arrest Made,5.9,0,54,32.0
+FIR-0297-14,2016,9,September,18,2016-09-18,Q3,Autumn,Sunday,Karachi,Robbery,Firearm,65,Male,,Male,Rural Area,Evening,4,Charges Filed,9.4,1,55,7.0
+FIR-0298-15,2016,9,September,29,2016-09-29,Q3,Autumn,Thursday,Karachi,Theft,Firearm,57,Female,43.0,Male,Rural Area,Evening,1,Under Investigation,5.5,0,56,11.0
+FIR-0299-24,2016,9,September,29,2016-09-29,Q3,Autumn,Thursday,Karachi,Street Crime,None,69,Male,,Female,Rural Area,Night,1,Arrest Made,6.8,0,57,0.0
+FIR-0300-23,2016,9,September,30,2016-09-30,Q3,Autumn,Friday,Lahore,Assault,None,36,Male,,Male,Residential,Afternoon,0,Reported,5.6,0,58,15.0
+FIR-0301-13,2016,10,October,19,2016-10-19,Q4,Autumn,Wednesday,Karachi,Street Crime,None,37,Male,,Female,Residential,Night,1,Reported,7.1,1,59,20.0
+FIR-0302-13,2016,10,October,23,2016-10-23,Q4,Autumn,Sunday,Karachi,Theft,Firearm,68,Male,48.0,Male,Rural Area,Night,0,Arrest Made,5.9,0,60,4.0
+FIR-0303-12,2016,10,October,23,2016-10-23,Q4,Autumn,Sunday,Lahore,Theft,Knife,33,Male,45.0,Male,Public Space,Night,2,Under Investigation,5.3,0,61,23.0
+FIR-0304-26,2016,10,October,27,2016-10-27,Q4,Autumn,Thursday,Karachi,Theft,Knife,32,Male,32.0,Male,Highway,Afternoon,3,Arrest Made,5.3,0,62,4.0
+FIR-0305-16,2016,11,November,29,2016-11-29,Q4,Autumn,Tuesday,Karachi,Robbery,Blunt Object,26,Female,32.0,Male,Rural Area,Evening,2,Arrest Made,7.4,1,63,33.0
+FIR-0306-15,2016,12,December,7,2016-12-07,Q4,Winter,Wednesday,Rawalpindi,Drug Trafficking,Blunt Object,69,Female,,Male,Commercial,Night,2,Closed/Unresolved,8.1,1,64,109.0
+FIR-0307-22,2016,12,December,11,2016-12-11,Q4,Winter,Sunday,Karachi,Theft,Blunt Object,42,Female,54.0,Male,Rural Area,Afternoon,1,Closed/Unresolved,3.0,0,65,12.0
+FIR-0308-21,2016,12,December,15,2016-12-15,Q4,Winter,Thursday,Rawalpindi,Drug Trafficking,Blunt Object,42,Male,25.0,Male,Residential,Evening,2,Reported,6.7,0,66,8.0
+FIR-0309-26,2016,12,December,15,2016-12-15,Q4,Winter,Thursday,Karachi,Assault,Firearm,47,Male,31.0,Male,Highway,Morning,1,Reported,9.3,1,67,4.0
+FIR-0310-13,2016,12,December,21,2016-12-21,Q4,Winter,Wednesday,Lahore,Street Crime,None,33,Male,,Male,Commercial,Morning,2,Reported,5.4,0,68,59.0
+FIR-0311-14,2016,12,December,24,2016-12-24,Q4,Winter,Saturday,Karachi,Assault,Firearm,42,Female,48.0,Male,Highway,Evening,0,Under Investigation,8.7,1,69,9.0
+FIR-0312-18,2016,12,December,28,2016-12-28,Q4,Winter,Wednesday,Karachi,Street Crime,None,66,Male,,Male,Highway,Evening,0,Charges Filed,4.5,0,70,4.0
+FIR-0313-18,2016,12,December,29,2016-12-29,Q4,Winter,Thursday,Rawalpindi,Murder,Knife,63,Female,42.0,Male,Commercial,Afternoon,1,Reported,10.0,1,71,14.0
+FIR-0314-23,2017,1,January,1,2017-01-01,Q1,Winter,Sunday,Karachi,Street Crime,Knife,51,Male,24.0,Male,Rural Area,Evening,1,Reported,7.4,1,1,4.0
+FIR-0315-15,2017,1,January,2,2017-01-02,Q1,Winter,Monday,Lahore,Street Crime,Knife,40,Female,20.0,Male,Rural Area,Evening,0,Closed/Unresolved,6.2,0,2,12.0
+FIR-0316-16,2017,1,January,12,2017-01-12,Q1,Winter,Thursday,Faisalabad,Theft,None,49,Female,,Male,Rural Area,Evening,2,Under Investigation,3.3,0,3,131.0
+FIR-0317-16,2017,1,January,15,2017-01-15,Q1,Winter,Sunday,Karachi,Robbery,None,48,Female,,Male,Public Space,Evening,0,Charges Filed,7.6,1,4,14.0
+FIR-0318-17,2017,1,January,17,2017-01-17,Q1,Winter,Tuesday,Lahore,Robbery,Knife,49,Male,,Male,Rural Area,Evening,0,Arrest Made,7.7,1,5,15.0
+FIR-0319-25,2017,1,January,22,2017-01-22,Q1,Winter,Sunday,Karachi,Street Crime,None,54,Male,,Male,Commercial,Evening,2,Arrest Made,5.7,0,6,7.0
+FIR-0320-20,2017,1,January,26,2017-01-26,Q1,Winter,Thursday,Rawalpindi,Theft,Knife,30,Male,34.0,Unknown,Public Space,Morning,1,Reported,3.2,0,7,28.0
+FIR-0321-13,2017,1,January,27,2017-01-27,Q1,Winter,Friday,Lahore,Vehicle Theft,None,52,Male,,Male,Rural Area,Evening,2,Reported,3.2,0,8,10.0
+FIR-0322-16,2017,1,January,30,2017-01-30,Q1,Winter,Monday,Quetta,Drug Trafficking,Knife,27,Male,40.0,Male,Public Space,Evening,1,Arrest Made,8.1,1,9,174.0
+FIR-0323-23,2017,2,February,6,2017-02-06,Q1,Winter,Monday,Faisalabad,Robbery,Unknown,37,Male,46.0,Male,Commercial,Evening,6,Arrest Made,7.1,1,10,25.0
+FIR-0324-14,2017,3,March,2,2017-03-02,Q1,Spring,Thursday,Karachi,Theft,None,68,Male,,Male,Rural Area,Afternoon,1,Reported,2.7,0,11,39.0
+FIR-0325-15,2017,3,March,10,2017-03-10,Q1,Spring,Friday,Rawalpindi,Assault,None,36,Male,,Female,Residential,Evening,0,Closed/Unresolved,6.1,0,12,43.0
+FIR-0326-21,2017,3,March,14,2017-03-14,Q1,Spring,Tuesday,Islamabad,Assault,Firearm,30,Male,25.0,Male,Commercial,Morning,0,Reported,7.5,1,13,214.0
+FIR-0328-23,2017,3,March,21,2017-03-21,Q1,Spring,Tuesday,Lahore,Robbery,None,62,Female,,Female,Highway,Morning,5,Reported,7.6,1,14,53.0
+FIR-0327-17,2017,3,March,21,2017-03-21,Q1,Spring,Tuesday,Lahore,Drug Trafficking,Firearm,42,Male,46.0,Unknown,Highway,Night,0,Under Investigation,9.6,1,15,0.0
+FIR-0329-19,2017,3,March,23,2017-03-23,Q1,Spring,Thursday,Lahore,Robbery,Firearm,49,Male,29.0,Male,Commercial,Night,0,Under Investigation,10.0,1,16,2.0
+FIR-0330-12,2017,4,April,1,2017-04-01,Q2,Spring,Saturday,Rawalpindi,Theft,None,59,Male,,Male,Highway,Evening,0,Reported,2.5,0,17,22.0
+FIR-0331-21,2017,4,April,14,2017-04-14,Q2,Spring,Friday,Lahore,Theft,Knife,60,Male,29.0,Male,Commercial,Evening,0,Under Investigation,4.1,0,18,22.0
+FIR-0332-25,2017,4,April,15,2017-04-15,Q2,Spring,Saturday,Peshawar,Drug Trafficking,Knife,22,Female,35.0,Male,Residential,Afternoon,3,Reported,7.8,1,19,235.0
+FIR-0333-19,2017,4,April,15,2017-04-15,Q2,Spring,Saturday,Rawalpindi,Drug Trafficking,None,58,Male,,Male,Commercial,Morning,0,Arrest Made,7.2,1,20,14.0
+FIR-0334-22,2017,4,April,28,2017-04-28,Q2,Spring,Friday,Karachi,Street Crime,None,69,Male,,Male,Rural Area,Afternoon,9,Under Investigation,6.1,0,21,57.0
+FIR-0335-25,2017,5,May,9,2017-05-09,Q2,Spring,Tuesday,Rawalpindi,Assault,Blunt Object,69,Male,22.0,Male,Rural Area,Morning,0,Reported,6.3,0,22,24.0
+FIR-0336-18,2017,5,May,12,2017-05-12,Q2,Spring,Friday,Rawalpindi,Street Crime,None,36,Male,,Male,Public Space,Evening,0,Reported,6.1,0,23,3.0
+FIR-0337-12,2017,5,May,13,2017-05-13,Q2,Spring,Saturday,Lahore,Street Crime,None,35,Male,,Male,Highway,Afternoon,0,Closed/Unresolved,4.0,0,24,29.0
+FIR-0338-13,2017,5,May,22,2017-05-22,Q2,Spring,Monday,Rawalpindi,Robbery,None,40,Female,,Female,Highway,Night,3,Closed/Unresolved,8.1,1,25,10.0
+FIR-0339-14,2017,5,May,23,2017-05-23,Q2,Spring,Tuesday,Karachi,Vehicle Theft,Firearm,54,Female,29.0,Male,Commercial,Afternoon,4,Reported,5.8,0,26,25.0
+FIR-0340-12,2017,5,May,23,2017-05-23,Q2,Spring,Tuesday,Lahore,Theft,None,35,Male,,Female,Highway,Night,0,Reported,3.9,0,27,10.0
+FIR-0341-25,2017,5,May,29,2017-05-29,Q2,Spring,Monday,Karachi,Vehicle Theft,None,39,Male,,Male,Rural Area,Evening,0,Reported,4.5,0,28,6.0
+FIR-0342-20,2017,5,May,30,2017-05-30,Q2,Spring,Tuesday,Karachi,Assault,Knife,55,Male,26.0,Male,Residential,Morning,2,Reported,8.6,1,29,1.0
+FIR-0344-13,2017,6,June,4,2017-06-04,Q2,Summer,Sunday,Karachi,Street Crime,None,20,Male,,Male,Highway,Afternoon,0,Arrest Made,5.5,0,30,5.0
+FIR-0343-19,2017,6,June,4,2017-06-04,Q2,Summer,Sunday,Lahore,Theft,None,15,Male,,Male,Commercial,Evening,0,Charges Filed,3.0,0,31,12.0
+FIR-0345-24,2017,6,June,5,2017-06-05,Q2,Summer,Monday,Hyderabad,Assault,Knife,37,Male,,Male,Rural Area,Afternoon,0,Arrest Made,7.5,1,32,816.0
+FIR-0346-20,2017,6,June,7,2017-06-07,Q2,Summer,Wednesday,Karachi,Street Crime,None,65,Female,,Male,Public Space,Evening,0,Charges Filed,5.5,0,33,3.0
+FIR-0347-18,2017,6,June,9,2017-06-09,Q2,Summer,Friday,Lahore,Assault,Firearm,37,Female,51.0,Female,Highway,Evening,0,Arrest Made,8.9,1,34,5.0
+FIR-0348-20,2017,6,June,17,2017-06-17,Q2,Summer,Saturday,Islamabad,Vehicle Theft,Firearm,57,Male,50.0,Male,Residential,Night,0,Under Investigation,7.3,1,35,95.0
+FIR-0349-17,2017,6,June,19,2017-06-19,Q2,Summer,Monday,Karachi,Robbery,Knife,57,Male,,Male,Residential,Evening,0,Reported,8.9,1,36,12.0
+FIR-0350-17,2017,6,June,20,2017-06-20,Q2,Summer,Tuesday,Gujranwala,Robbery,Knife,37,Male,51.0,Female,Highway,Night,3,Arrest Made,8.1,1,37,427.0
+FIR-0351-22,2017,6,June,21,2017-06-21,Q2,Summer,Wednesday,Rawalpindi,Vehicle Theft,Blunt Object,46,Male,,Male,Highway,Night,0,Arrest Made,6.0,0,38,30.0
+FIR-0352-25,2017,6,June,23,2017-06-23,Q2,Summer,Friday,Faisalabad,Murder,None,44,Male,,Male,Rural Area,Night,2,Reported,10.0,1,39,137.0
+FIR-0353-15,2017,7,July,10,2017-07-10,Q3,Summer,Monday,Karachi,Theft,Blunt Object,27,Male,,Male,Highway,Evening,0,Reported,3.5,0,40,21.0
+FIR-0354-21,2017,7,July,19,2017-07-19,Q3,Summer,Wednesday,Lahore,Theft,Blunt Object,57,Female,24.0,Female,Public Space,Morning,2,Reported,2.7,0,41,40.0
+FIR-0355-21,2017,7,July,20,2017-07-20,Q3,Summer,Thursday,Karachi,Street Crime,None,32,Female,,Male,Rural Area,Afternoon,0,Reported,5.0,0,42,10.0
+FIR-0356-24,2017,7,July,31,2017-07-31,Q3,Summer,Monday,Peshawar,Vehicle Theft,Knife,37,Male,37.0,Male,Commercial,Evening,2,Arrest Made,4.9,0,43,107.0
+FIR-0357-24,2017,7,July,31,2017-07-31,Q3,Summer,Monday,Karachi,Assault,Firearm,29,Female,47.0,Male,Public Space,Evening,0,Arrest Made,8.6,1,44,11.0
+FIR-0358-13,2017,8,August,1,2017-08-01,Q3,Summer,Tuesday,Lahore,Murder,Firearm,47,Male,27.0,Female,Rural Area,Morning,4,Arrest Made,10.0,1,45,13.0
+FIR-0359-18,2017,8,August,3,2017-08-03,Q3,Summer,Thursday,Hyderabad,Theft,Blunt Object,35,Male,35.0,Male,Rural Area,Evening,0,Reported,2.9,0,46,59.0
+FIR-0360-16,2017,8,August,9,2017-08-09,Q3,Summer,Wednesday,Lahore,Robbery,Firearm,53,Male,44.0,Unknown,Residential,Morning,0,Under Investigation,9.5,1,47,8.0
+FIR-0361-22,2017,8,August,10,2017-08-10,Q3,Summer,Thursday,Lahore,Assault,Firearm,37,Male,,Male,Rural Area,Evening,5,Reported,8.3,1,48,1.0
+FIR-0362-17,2017,8,August,10,2017-08-10,Q3,Summer,Thursday,Karachi,Theft,Firearm,41,Male,53.0,Male,Public Space,Morning,1,Arrest Made,5.7,0,49,10.0
+FIR-0363-13,2017,8,August,11,2017-08-11,Q3,Summer,Friday,Gujranwala,Robbery,None,59,Male,,Male,Highway,Evening,0,Under Investigation,6.6,0,50,52.0
+FIR-0364-16,2017,8,August,17,2017-08-17,Q3,Summer,Thursday,Karachi,Theft,None,58,Female,,Male,Public Space,Night,5,Reported,3.7,0,51,7.0
+FIR-0365-21,2017,8,August,18,2017-08-18,Q3,Summer,Friday,Faisalabad,Murder,Blunt Object,32,Male,51.0,Female,Commercial,Morning,0,Under Investigation,10.0,1,52,56.0
+FIR-0366-15,2017,8,August,22,2017-08-22,Q3,Summer,Tuesday,Faisalabad,Vehicle Theft,None,38,Male,,Male,Rural Area,Evening,0,Under Investigation,3.8,0,53,4.0
+FIR-0367-20,2017,8,August,23,2017-08-23,Q3,Summer,Wednesday,Karachi,Robbery,None,65,Male,,Male,Rural Area,Night,11,Reported,8.5,1,54,6.0
+FIR-0368-17,2017,8,August,24,2017-08-24,Q3,Summer,Thursday,Lahore,Street Crime,None,61,Female,,Male,Rural Area,Afternoon,0,Reported,4.9,0,55,14.0
+FIR-0369-13,2017,8,August,27,2017-08-27,Q3,Summer,Sunday,Karachi,Murder,Firearm,54,Male,20.0,Male,Rural Area,Afternoon,3,Charges Filed,10.0,1,56,4.0
+FIR-0370-12,2017,9,September,1,2017-09-01,Q3,Autumn,Friday,Karachi,Theft,None,65,Female,,Male,Residential,Afternoon,0,Reported,4.4,0,57,5.0
+FIR-0371-16,2017,9,September,6,2017-09-06,Q3,Autumn,Wednesday,Peshawar,Theft,None,56,Female,,Male,Residential,Evening,2,Under Investigation,4.2,0,58,37.0
+FIR-0372-20,2017,9,September,12,2017-09-12,Q3,Autumn,Tuesday,Lahore,Street Crime,None,21,Male,,Male,Highway,Evening,1,Arrest Made,3.8,0,59,19.0
+FIR-0373-17,2017,9,September,13,2017-09-13,Q3,Autumn,Wednesday,Rawalpindi,Robbery,None,64,Female,,Male,Rural Area,Morning,7,Reported,6.8,0,60,84.0
+FIR-0374-21,2017,10,October,6,2017-10-06,Q4,Autumn,Friday,Lahore,Assault,Knife,62,Male,,Male,Commercial,Evening,1,Reported,6.3,0,61,24.0
+FIR-0375-23,2017,10,October,23,2017-10-23,Q4,Autumn,Monday,Karachi,Street Crime,Knife,34,Male,18.0,Male,Highway,Afternoon,0,Arrest Made,7.0,0,62,52.0
+FIR-0376-18,2017,10,October,26,2017-10-26,Q4,Autumn,Thursday,Karachi,Theft,None,41,Female,,Male,Rural Area,Night,1,Arrest Made,4.5,0,63,3.0
+FIR-0377-16,2017,10,October,29,2017-10-29,Q4,Autumn,Sunday,Karachi,Murder,Knife,20,Male,,Male,Residential,Afternoon,0,Under Investigation,10.0,1,64,3.0
+FIR-0378-21,2017,11,November,6,2017-11-06,Q4,Autumn,Monday,Karachi,Drug Trafficking,None,41,Male,,Male,Commercial,Night,3,Closed/Unresolved,8.3,1,65,8.0
+FIR-0379-17,2017,11,November,11,2017-11-11,Q4,Autumn,Saturday,Lahore,Theft,Knife,23,Male,,Unknown,Highway,Evening,3,Under Investigation,3.5,0,66,36.0
+FIR-0380-16,2017,11,November,13,2017-11-13,Q4,Autumn,Monday,Lahore,Assault,Blunt Object,67,Male,46.0,Male,Commercial,Evening,1,Reported,5.6,0,67,2.0
+FIR-0381-22,2017,11,November,20,2017-11-20,Q4,Autumn,Monday,Lahore,Theft,None,59,Female,,Female,Rural Area,Evening,3,Closed/Unresolved,2.2,0,68,7.0
+FIR-0382-20,2017,11,November,22,2017-11-22,Q4,Autumn,Wednesday,Karachi,Street Crime,Knife,45,Male,41.0,Female,Public Space,Evening,0,Under Investigation,5.9,0,69,16.0
+FIR-0383-26,2017,11,November,26,2017-11-26,Q4,Autumn,Sunday,Lahore,Robbery,Blunt Object,35,Female,,Male,Commercial,Afternoon,1,Closed/Unresolved,6.3,0,70,6.0
+FIR-0384-17,2017,11,November,26,2017-11-26,Q4,Autumn,Sunday,Peshawar,Drug Trafficking,Firearm,40,Male,,Male,Commercial,Night,1,Arrest Made,10.0,1,71,81.0
+FIR-0385-22,2017,11,November,28,2017-11-28,Q4,Autumn,Tuesday,Karachi,Robbery,Blunt Object,54,Female,53.0,Female,Residential,Evening,1,Under Investigation,7.0,0,72,6.0
+FIR-0386-19,2017,11,November,30,2017-11-30,Q4,Autumn,Thursday,Multan,Assault,Knife,62,Male,30.0,Male,Rural Area,Evening,0,Arrest Made,7.2,1,73,541.0
+FIR-0387-13,2017,12,December,5,2017-12-05,Q4,Winter,Tuesday,Quetta,Drug Trafficking,None,59,Male,,Male,Commercial,Evening,2,Reported,7.7,1,74,309.0
+FIR-0388-23,2017,12,December,20,2017-12-20,Q4,Winter,Wednesday,Karachi,Murder,Firearm,27,Female,,Male,Rural Area,Night,0,Charges Filed,10.0,1,75,22.0
+FIR-0389-24,2017,12,December,30,2017-12-30,Q4,Winter,Saturday,Peshawar,Terrorism,Firearm,63,Male,29.0,Male,Residential,Evening,2,Reported,10.0,1,76,34.0
+FIR-0390-20,2018,1,January,1,2018-01-01,Q1,Winter,Monday,Islamabad,Drug Trafficking,Firearm,37,Male,,Male,Rural Area,Afternoon,0,Reported,9.0,1,1,198.0
+FIR-0391-16,2018,1,January,2,2018-01-02,Q1,Winter,Tuesday,Islamabad,Theft,None,34,Male,,Male,Residential,Evening,3,Closed/Unresolved,2.6,0,2,1.0
+FIR-0392-18,2018,1,January,9,2018-01-09,Q1,Winter,Tuesday,Lahore,Robbery,None,51,Female,,Male,Residential,Evening,0,Reported,8.1,1,3,44.0
+FIR-0393-21,2018,1,January,14,2018-01-14,Q1,Winter,Sunday,Lahore,Vehicle Theft,Unknown,68,Male,32.0,Male,Highway,Night,1,Closed/Unresolved,5.5,0,4,5.0
+FIR-0394-24,2018,1,January,23,2018-01-23,Q1,Winter,Tuesday,Lahore,Theft,None,67,Female,,Male,Rural Area,Night,0,Under Investigation,4.1,0,5,9.0
+FIR-0395-12,2018,1,January,28,2018-01-28,Q1,Winter,Sunday,Islamabad,Drug Trafficking,None,42,Male,,Male,Public Space,Evening,2,Reported,7.0,0,6,26.0
+FIR-0396-21,2018,2,February,15,2018-02-15,Q1,Winter,Thursday,Rawalpindi,Vehicle Theft,Firearm,31,Male,33.0,Male,Highway,Afternoon,0,Arrest Made,6.1,0,7,155.0
+FIR-0397-16,2018,3,March,5,2018-03-05,Q1,Spring,Monday,Rawalpindi,Theft,Knife,42,Female,54.0,Unknown,Residential,Night,2,Under Investigation,4.9,0,8,18.0
+FIR-0398-23,2018,3,March,11,2018-03-11,Q1,Spring,Sunday,Islamabad,Kidnapping,Knife,55,Female,36.0,Male,Public Space,Evening,0,Arrest Made,9.1,1,9,42.0
+FIR-0399-25,2018,3,March,15,2018-03-15,Q1,Spring,Thursday,Karachi,Street Crime,None,16,Female,,Male,Commercial,Night,2,Closed/Unresolved,6.7,0,10,85.0
+FIR-0400-21,2018,3,March,28,2018-03-28,Q1,Spring,Wednesday,Karachi,Street Crime,None,39,Female,,Male,Commercial,Afternoon,0,Closed/Unresolved,5.1,0,11,13.0
+FIR-0401-25,2018,4,April,5,2018-04-05,Q2,Spring,Thursday,Karachi,Theft,Firearm,64,Male,28.0,Male,Highway,Morning,0,Reported,4.7,0,12,8.0
+FIR-0402-13,2018,4,April,13,2018-04-13,Q2,Spring,Friday,Peshawar,Theft,None,55,Male,,Male,Public Space,Morning,1,Reported,2.5,0,13,104.0
+FIR-0403-23,2018,4,April,15,2018-04-15,Q2,Spring,Sunday,Lahore,Murder,Blunt Object,20,Male,,Unknown,Rural Area,Evening,0,Closed/Unresolved,10.0,1,14,82.0
+FIR-0404-17,2018,4,April,19,2018-04-19,Q2,Spring,Thursday,Karachi,Assault,Blunt Object,25,Female,23.0,Male,Public Space,Night,0,Arrest Made,6.7,0,15,14.0
+FIR-0405-22,2018,5,May,13,2018-05-13,Q2,Spring,Sunday,Karachi,Drug Trafficking,Firearm,52,Female,19.0,Unknown,Highway,Morning,5,Reported,9.7,1,16,24.0
+FIR-0406-12,2018,5,May,15,2018-05-15,Q2,Spring,Tuesday,Lahore,Street Crime,Knife,20,Male,23.0,Male,Rural Area,Evening,7,Under Investigation,5.4,0,17,30.0
+FIR-0407-14,2018,5,May,16,2018-05-16,Q2,Spring,Wednesday,Gujranwala,Theft,Blunt Object,59,Male,54.0,Male,Rural Area,Evening,2,Closed/Unresolved,2.4,0,18,278.0
+FIR-0408-16,2018,5,May,16,2018-05-16,Q2,Spring,Wednesday,Islamabad,Kidnapping,Blunt Object,25,Male,47.0,Male,Commercial,Evening,0,Under Investigation,7.6,1,19,66.0
+FIR-0409-15,2018,6,June,1,2018-06-01,Q2,Summer,Friday,Multan,Theft,Firearm,28,Female,42.0,Female,Public Space,Afternoon,0,Arrest Made,5.1,0,20,183.0
+FIR-0410-14,2018,6,June,20,2018-06-20,Q2,Summer,Wednesday,Islamabad,Vehicle Theft,Blunt Object,16,Male,18.0,Male,Rural Area,Night,2,Under Investigation,4.4,0,21,35.0
+FIR-0411-21,2018,6,June,21,2018-06-21,Q2,Summer,Thursday,Lahore,Assault,None,54,Male,,Male,Highway,Morning,0,Under Investigation,5.7,0,22,37.0
+FIR-0412-24,2018,6,June,26,2018-06-26,Q2,Summer,Tuesday,Lahore,Kidnapping,None,17,Male,,Female,Commercial,Night,5,Closed/Unresolved,9.0,1,23,5.0
+FIR-0413-16,2018,7,July,4,2018-07-04,Q3,Summer,Wednesday,Rawalpindi,Vehicle Theft,None,69,Female,,Male,Rural Area,Afternoon,0,Charges Filed,3.4,0,24,121.0
+FIR-0414-22,2018,7,July,13,2018-07-13,Q3,Summer,Friday,Karachi,Theft,Knife,67,Female,18.0,Male,Public Space,Evening,15,Arrest Made,5.2,0,25,61.0
+FIR-0415-19,2018,7,July,14,2018-07-14,Q3,Summer,Saturday,Quetta,Drug Trafficking,Knife,49,Male,,Female,Commercial,Night,1,Under Investigation,8.6,1,26,221.0
+FIR-0416-22,2018,7,July,19,2018-07-19,Q3,Summer,Thursday,Peshawar,Robbery,None,47,Male,,Male,Public Space,Afternoon,2,Charges Filed,7.4,1,27,97.0
+FIR-0417-15,2018,7,July,21,2018-07-21,Q3,Summer,Saturday,Lahore,Assault,Knife,38,Male,34.0,Male,Public Space,Afternoon,0,Reported,7.6,1,28,25.0
+FIR-0418-12,2018,7,July,25,2018-07-25,Q3,Summer,Wednesday,Gujranwala,Robbery,Firearm,33,Female,,Male,Public Space,Evening,4,Reported,8.3,1,29,70.0
+FIR-0419-22,2018,8,August,24,2018-08-24,Q3,Summer,Friday,Peshawar,Drug Trafficking,Firearm,32,Female,54.0,Male,Commercial,Evening,0,Closed/Unresolved,9.4,1,30,36.0
+FIR-0420-18,2018,8,August,30,2018-08-30,Q3,Summer,Thursday,Rawalpindi,Assault,Knife,63,Male,34.0,Male,Rural Area,Evening,2,Reported,7.1,1,31,57.0
+FIR-0421-19,2018,9,September,1,2018-09-01,Q3,Autumn,Saturday,Karachi,Theft,Firearm,66,Male,42.0,Male,Residential,Afternoon,3,Reported,5.1,0,32,50.0
+FIR-0422-14,2018,9,September,10,2018-09-10,Q3,Autumn,Monday,Lahore,Robbery,Knife,38,Male,39.0,Male,Rural Area,Morning,0,Reported,8.0,1,33,51.0
+FIR-0423-17,2018,9,September,15,2018-09-15,Q3,Autumn,Saturday,Lahore,Drug Trafficking,Firearm,59,Male,53.0,Male,Commercial,Evening,1,Arrest Made,9.3,1,34,5.0
+FIR-0424-13,2018,9,September,20,2018-09-20,Q3,Autumn,Thursday,Karachi,Street Crime,Knife,49,Female,38.0,Female,Residential,Morning,1,Reported,6.3,0,35,19.0
+FIR-0425-18,2018,9,September,21,2018-09-21,Q3,Autumn,Friday,Karachi,Robbery,Blunt Object,15,Male,54.0,Unknown,Residential,Night,0,Reported,8.9,1,36,1.0
+FIR-0426-26,2018,10,October,8,2018-10-08,Q4,Autumn,Monday,Faisalabad,Theft,Blunt Object,50,Male,43.0,Male,Residential,Morning,1,Charges Filed,3.2,0,37,412.0
+FIR-0427-19,2018,10,October,15,2018-10-15,Q4,Autumn,Monday,Karachi,Theft,Blunt Object,39,Male,37.0,Male,Highway,Evening,0,Under Investigation,3.2,0,38,24.0
+FIR-0428-17,2018,10,October,18,2018-10-18,Q4,Autumn,Thursday,Islamabad,Assault,Firearm,59,Male,53.0,Unknown,Commercial,Morning,0,Under Investigation,8.6,1,39,120.0
+FIR-0429-17,2018,10,October,21,2018-10-21,Q4,Autumn,Sunday,Karachi,Street Crime,None,63,Male,,Male,Highway,Morning,2,Reported,5.1,0,40,6.0
+FIR-0430-16,2018,10,October,25,2018-10-25,Q4,Autumn,Thursday,Quetta,Theft,Blunt Object,57,Male,37.0,Male,Residential,Evening,2,Under Investigation,3.9,0,41,103.0
+FIR-0431-19,2018,10,October,27,2018-10-27,Q4,Autumn,Saturday,Karachi,Robbery,Blunt Object,48,Male,25.0,Unknown,Highway,Evening,0,Under Investigation,7.1,1,42,6.0
+FIR-0432-12,2018,11,November,7,2018-11-07,Q4,Autumn,Wednesday,Peshawar,Robbery,Knife,39,Female,42.0,Male,Highway,Morning,4,Under Investigation,8.3,1,43,75.0
+FIR-0433-21,2018,11,November,9,2018-11-09,Q4,Autumn,Friday,Karachi,Theft,Knife,30,Male,19.0,Male,Commercial,Morning,3,Reported,4.4,0,44,13.0
+FIR-0434-15,2018,11,November,13,2018-11-13,Q4,Autumn,Tuesday,Karachi,Robbery,None,48,Male,,Male,Public Space,Morning,1,Arrest Made,7.7,1,45,4.0
+FIR-0435-26,2018,11,November,16,2018-11-16,Q4,Autumn,Friday,Rawalpindi,Robbery,Knife,43,Female,44.0,Male,Highway,Night,1,Under Investigation,7.8,1,46,78.0
+FIR-0436-15,2018,11,November,29,2018-11-29,Q4,Autumn,Thursday,Lahore,Robbery,Knife,33,Male,22.0,Male,Highway,Evening,0,Under Investigation,8.2,1,47,75.0
+FIR-0437-14,2018,12,December,12,2018-12-12,Q4,Winter,Wednesday,Lahore,Drug Trafficking,Blunt Object,37,Female,44.0,Male,Residential,Morning,2,Under Investigation,6.9,0,48,13.0
+FIR-0438-14,2018,12,December,14,2018-12-14,Q4,Winter,Friday,Islamabad,Theft,Knife,33,Male,31.0,Male,Residential,Evening,2,Arrest Made,4.1,0,49,57.0
+FIR-0439-15,2018,12,December,21,2018-12-21,Q4,Winter,Friday,Karachi,Murder,Knife,39,Male,47.0,Male,Residential,Evening,0,Arrest Made,10.0,1,50,38.0
+FIR-0440-22,2018,12,December,26,2018-12-26,Q4,Winter,Wednesday,Karachi,Street Crime,None,30,Male,,Male,Rural Area,Night,2,Under Investigation,6.7,0,51,5.0
+FIR-0441-12,2018,12,December,31,2018-12-31,Q4,Winter,Monday,Karachi,Street Crime,None,68,Male,,Male,Highway,Night,0,Reported,5.5,0,52,5.0
+FIR-0442-25,2019,1,January,1,2019-01-01,Q1,Winter,Tuesday,Faisalabad,Murder,Firearm,65,Male,34.0,Male,Residential,Afternoon,0,Under Investigation,10.0,1,1,85.0
+FIR-0443-22,2019,1,January,2,2019-01-02,Q1,Winter,Wednesday,Karachi,Street Crime,None,23,Female,,Male,Commercial,Morning,2,Charges Filed,5.7,0,2,2.0
+FIR-0444-24,2019,1,January,4,2019-01-04,Q1,Winter,Friday,Karachi,Assault,Knife,15,Male,37.0,Female,Rural Area,Afternoon,2,Under Investigation,7.6,1,3,2.0
+FIR-0445-22,2019,1,January,7,2019-01-07,Q1,Winter,Monday,Lahore,Murder,None,56,Male,,Male,Public Space,Night,1,Reported,10.0,1,4,26.0
+FIR-0446-13,2019,1,January,9,2019-01-09,Q1,Winter,Wednesday,Karachi,Street Crime,None,33,Male,,Male,Highway,Night,1,Reported,6.9,0,5,5.0
+FIR-0447-20,2019,1,January,12,2019-01-12,Q1,Winter,Saturday,Karachi,Assault,Unknown,47,Male,,Male,Highway,Evening,5,Under Investigation,6.4,0,6,3.0
+FIR-0448-21,2019,2,February,3,2019-02-03,Q1,Winter,Sunday,Lahore,Street Crime,Knife,48,Male,41.0,Male,Commercial,Afternoon,1,Closed/Unresolved,6.4,0,7,27.0
+FIR-0449-13,2019,2,February,6,2019-02-06,Q1,Winter,Wednesday,Karachi,Robbery,Unknown,30,Male,40.0,Male,Public Space,Evening,2,Arrest Made,8.1,1,8,25.0
+FIR-0450-16,2019,2,February,6,2019-02-06,Q1,Winter,Wednesday,Karachi,Theft,None,58,Female,,Male,Public Space,Afternoon,0,Arrest Made,3.6,0,9,0.0
+FIR-0451-20,2019,2,February,8,2019-02-08,Q1,Winter,Friday,Rawalpindi,Theft,Knife,54,Female,54.0,Male,Rural Area,Afternoon,0,Reported,4.3,0,10,84.0
+FIR-0452-20,2019,2,February,25,2019-02-25,Q1,Winter,Monday,Rawalpindi,Assault,Firearm,69,Male,,Male,Highway,Evening,0,Under Investigation,7.7,1,11,17.0
+FIR-0453-19,2019,2,February,26,2019-02-26,Q1,Winter,Tuesday,Rawalpindi,Drug Trafficking,Firearm,32,Male,,Unknown,Residential,Morning,1,Under Investigation,9.4,1,12,1.0
+FIR-0454-12,2019,3,March,1,2019-03-01,Q1,Spring,Friday,Karachi,Vehicle Theft,Firearm,48,Female,41.0,Male,Commercial,Afternoon,2,Charges Filed,6.6,0,13,23.0
+FIR-0455-12,2019,3,March,6,2019-03-06,Q1,Spring,Wednesday,Rawalpindi,Street Crime,None,39,Female,,Male,Commercial,Evening,0,Reported,4.9,0,14,8.0
+FIR-0456-20,2019,3,March,10,2019-03-10,Q1,Spring,Sunday,Rawalpindi,Street Crime,None,59,Male,,Male,Commercial,Morning,0,Under Investigation,4.4,0,15,4.0
+FIR-0457-24,2019,3,March,20,2019-03-20,Q1,Spring,Wednesday,Karachi,Theft,Knife,20,Female,,Male,Commercial,Morning,0,Arrest Made,4.3,0,16,19.0
+FIR-0458-22,2019,4,April,14,2019-04-14,Q2,Spring,Sunday,Rawalpindi,Murder,Knife,35,Male,52.0,Unknown,Residential,Afternoon,0,Arrest Made,10.0,1,17,35.0
+FIR-0459-19,2019,4,April,14,2019-04-14,Q2,Spring,Sunday,Karachi,Street Crime,Knife,20,Female,53.0,Male,Residential,Night,5,Under Investigation,7.9,1,18,25.0
+FIR-0460-21,2019,4,April,29,2019-04-29,Q2,Spring,Monday,Faisalabad,Cyber Crime,Firearm,34,Male,28.0,Male,Rural Area,Night,2,Reported,6.6,0,19,118.0
+FIR-0461-20,2019,5,May,5,2019-05-05,Q2,Spring,Sunday,Peshawar,Theft,Firearm,55,Male,24.0,Male,Highway,Morning,0,Reported,6.0,0,20,179.0
+FIR-0462-18,2019,5,May,14,2019-05-14,Q2,Spring,Tuesday,Lahore,Street Crime,Knife,62,Female,48.0,Male,Residential,Evening,2,Under Investigation,7.2,1,21,100.0
+FIR-0463-14,2019,5,May,17,2019-05-17,Q2,Spring,Friday,Rawalpindi,Murder,None,57,Male,,Male,Rural Area,Afternoon,2,Arrest Made,9.8,1,22,33.0
+FIR-0464-14,2019,5,May,19,2019-05-19,Q2,Spring,Sunday,Lahore,Murder,Blunt Object,53,Male,41.0,Male,Public Space,Evening,2,Reported,10.0,1,23,5.0
+FIR-0465-13,2019,5,May,25,2019-05-25,Q2,Spring,Saturday,Rawalpindi,Street Crime,Knife,45,Male,48.0,Female,Highway,Evening,0,Arrest Made,5.4,0,24,8.0
+FIR-0466-16,2019,5,May,27,2019-05-27,Q2,Spring,Monday,Lahore,Drug Trafficking,Firearm,56,Female,27.0,Male,Residential,Night,1,Arrest Made,9.9,1,25,8.0
+FIR-0467-23,2019,6,June,2,2019-06-02,Q2,Summer,Sunday,Karachi,Theft,Firearm,24,Female,32.0,Male,Public Space,Evening,0,Closed/Unresolved,4.8,0,26,49.0
+FIR-0468-23,2019,6,June,5,2019-06-05,Q2,Summer,Wednesday,Lahore,Drug Trafficking,Firearm,44,Female,48.0,Male,Rural Area,Night,3,Reported,10.0,1,27,9.0
+FIR-0469-14,2019,6,June,17,2019-06-17,Q2,Summer,Monday,Karachi,Street Crime,None,66,Male,,Male,Residential,Night,2,Under Investigation,6.3,0,28,15.0
+FIR-0470-25,2019,6,June,22,2019-06-22,Q2,Summer,Saturday,Karachi,Assault,None,32,Female,,Male,Residential,Night,1,Reported,6.5,0,29,5.0
+FIR-0471-17,2019,6,June,24,2019-06-24,Q2,Summer,Monday,Karachi,Assault,Knife,38,Male,24.0,Male,Public Space,Evening,0,Reported,7.2,1,30,2.0
+FIR-0472-13,2019,6,June,26,2019-06-26,Q2,Summer,Wednesday,Lahore,Robbery,None,66,Male,,Male,Residential,Afternoon,0,Reported,7.9,1,31,21.0
+FIR-0473-23,2019,6,June,27,2019-06-27,Q2,Summer,Thursday,Peshawar,Robbery,Firearm,23,Female,41.0,Male,Commercial,Afternoon,0,Closed/Unresolved,9.7,1,32,53.0
+FIR-0474-14,2019,6,June,28,2019-06-28,Q2,Summer,Friday,Islamabad,Cyber Crime,None,32,Male,,Female,Residential,Morning,6,Reported,3.4,0,33,196.0
+FIR-0475-16,2019,7,July,1,2019-07-01,Q3,Summer,Monday,Karachi,Street Crime,Knife,29,Male,43.0,Male,Highway,Afternoon,0,Under Investigation,6.6,0,34,7.0
+FIR-0476-23,2019,7,July,2,2019-07-02,Q3,Summer,Tuesday,Karachi,Assault,Knife,18,Male,,Female,Public Space,Evening,0,Arrest Made,7.4,1,35,1.0
+FIR-0477-22,2019,7,July,7,2019-07-07,Q3,Summer,Sunday,Rawalpindi,Theft,None,54,Male,,Female,Highway,Evening,6,Charges Filed,3.0,0,36,43.0
+FIR-0478-22,2019,7,July,8,2019-07-08,Q3,Summer,Monday,Lahore,Murder,Firearm,23,Female,18.0,Male,Rural Area,Night,1,Under Investigation,10.0,1,37,12.0
+FIR-0479-12,2019,7,July,10,2019-07-10,Q3,Summer,Wednesday,Peshawar,Robbery,Firearm,59,Male,18.0,Male,Highway,Morning,3,Under Investigation,9.0,1,38,13.0
+FIR-0480-24,2019,7,July,19,2019-07-19,Q3,Summer,Friday,Rawalpindi,Vehicle Theft,Firearm,23,Female,38.0,Male,Commercial,Afternoon,0,Closed/Unresolved,6.4,0,39,12.0
+FIR-0481-12,2019,7,July,25,2019-07-25,Q3,Summer,Thursday,Karachi,Robbery,Knife,40,Male,40.0,Female,Commercial,Night,1,Under Investigation,10.0,1,40,23.0
+FIR-0482-21,2019,7,July,29,2019-07-29,Q3,Summer,Monday,Karachi,Drug Trafficking,None,18,Male,,Male,Highway,Afternoon,1,Under Investigation,7.4,1,41,4.0
+FIR-0483-20,2019,8,August,5,2019-08-05,Q3,Summer,Monday,Karachi,Street Crime,None,31,Male,,Male,Rural Area,Morning,2,Reported,5.2,0,42,7.0
+FIR-0485-12,2019,8,August,6,2019-08-06,Q3,Summer,Tuesday,Karachi,Kidnapping,None,29,Male,,Male,Commercial,Night,1,Under Investigation,10.0,1,43,1.0
+FIR-0484-18,2019,8,August,6,2019-08-06,Q3,Summer,Tuesday,Lahore,Theft,Blunt Object,30,Female,18.0,Female,Residential,Night,0,Reported,3.6,0,44,29.0
+FIR-0486-26,2019,8,August,9,2019-08-09,Q3,Summer,Friday,Rawalpindi,Kidnapping,None,49,Female,,Male,Highway,Evening,3,Arrest Made,7.8,1,45,21.0
+FIR-0487-23,2019,8,August,11,2019-08-11,Q3,Summer,Sunday,Lahore,Vehicle Theft,Firearm,66,Female,28.0,Male,Highway,Night,1,Arrest Made,7.3,1,46,5.0
+FIR-0488-25,2019,8,August,11,2019-08-11,Q3,Summer,Sunday,Karachi,Street Crime,None,19,Male,,Male,Highway,Evening,1,Arrest Made,5.4,0,47,5.0
+FIR-0489-19,2019,8,August,14,2019-08-14,Q3,Summer,Wednesday,Karachi,Theft,Firearm,69,Male,,Male,Residential,Night,0,Arrest Made,6.4,0,48,3.0
+FIR-0490-14,2019,8,August,15,2019-08-15,Q3,Summer,Thursday,Karachi,Theft,Blunt Object,19,Female,41.0,Male,Public Space,Night,0,Under Investigation,4.1,0,49,1.0
+FIR-0491-19,2019,8,August,18,2019-08-18,Q3,Summer,Sunday,Peshawar,Robbery,None,34,Female,,Male,Rural Area,Morning,2,Reported,7.0,0,50,39.0
+FIR-0492-26,2019,8,August,22,2019-08-22,Q3,Summer,Thursday,Karachi,Robbery,Firearm,29,Male,,Female,Public Space,Evening,2,Charges Filed,9.9,1,51,7.0
+FIR-0493-16,2019,8,August,29,2019-08-29,Q3,Summer,Thursday,Rawalpindi,Drug Trafficking,None,32,Male,,Male,Rural Area,Morning,7,Closed/Unresolved,6.5,0,52,20.0
+FIR-0494-12,2019,9,September,7,2019-09-07,Q3,Autumn,Saturday,Peshawar,Robbery,Blunt Object,61,Female,52.0,Unknown,Rural Area,Morning,2,Closed/Unresolved,7.7,1,53,20.0
+FIR-0495-18,2019,9,September,9,2019-09-09,Q3,Autumn,Monday,Rawalpindi,Vehicle Theft,Blunt Object,16,Female,54.0,Unknown,Highway,Night,1,Arrest Made,5.0,0,54,11.0
+FIR-0496-16,2019,9,September,12,2019-09-12,Q3,Autumn,Thursday,Peshawar,Vehicle Theft,Knife,43,Male,45.0,Male,Commercial,Evening,3,Arrest Made,5.9,0,55,5.0
+FIR-0497-17,2019,9,September,12,2019-09-12,Q3,Autumn,Thursday,Lahore,Street Crime,None,27,Female,,Male,Highway,Evening,0,Charges Filed,4.7,0,56,32.0
+FIR-0498-17,2019,9,September,15,2019-09-15,Q3,Autumn,Sunday,Gujranwala,Vehicle Theft,Firearm,18,Female,,Male,Residential,Night,1,Closed/Unresolved,7.5,1,57,417.0
+FIR-0499-19,2019,9,September,17,2019-09-17,Q3,Autumn,Tuesday,Karachi,Drug Trafficking,Firearm,56,Male,31.0,Male,Rural Area,Night,0,Under Investigation,10.0,1,58,26.0
+FIR-0501-13,2019,9,September,25,2019-09-25,Q3,Autumn,Wednesday,Rawalpindi,Theft,Blunt Object,24,Male,49.0,Male,Rural Area,Evening,2,Arrest Made,2.2,0,59,16.0
+FIR-0500-20,2019,9,September,25,2019-09-25,Q3,Autumn,Wednesday,Karachi,Street Crime,None,59,Female,,Male,Commercial,Night,0,Arrest Made,7.8,1,60,8.0
+FIR-0502-20,2019,10,October,2,2019-10-02,Q4,Autumn,Wednesday,Karachi,Street Crime,Knife,45,Male,18.0,Male,Rural Area,Afternoon,1,Under Investigation,7.7,1,61,7.0
+FIR-0503-23,2019,10,October,3,2019-10-03,Q4,Autumn,Thursday,Karachi,Street Crime,None,55,Male,,Female,Highway,Afternoon,1,Reported,5.4,0,62,1.0
+FIR-0504-26,2019,10,October,3,2019-10-03,Q4,Autumn,Thursday,Karachi,Assault,Knife,22,Male,24.0,Male,Commercial,Evening,1,Under Investigation,7.6,1,63,0.0
+FIR-0505-22,2019,10,October,9,2019-10-09,Q4,Autumn,Wednesday,Karachi,Street Crime,None,17,Female,,Male,Commercial,Afternoon,1,Under Investigation,5.2,0,64,6.0
+FIR-0506-21,2019,10,October,10,2019-10-10,Q4,Autumn,Thursday,Multan,Assault,Knife,62,Male,18.0,Male,Rural Area,Evening,0,Under Investigation,6.2,0,65,496.0
+FIR-0507-20,2019,10,October,20,2019-10-20,Q4,Autumn,Sunday,Karachi,Murder,Blunt Object,60,Male,36.0,Unknown,Commercial,Evening,2,Arrest Made,10.0,1,66,11.0
+FIR-0508-24,2019,10,October,20,2019-10-20,Q4,Autumn,Sunday,Peshawar,Theft,None,23,Male,,Male,Commercial,Night,1,Arrest Made,4.3,0,67,38.0
+FIR-0509-21,2019,11,November,9,2019-11-09,Q4,Autumn,Saturday,Peshawar,Cyber Crime,Firearm,36,Male,39.0,Female,Highway,Evening,3,Charges Filed,5.6,0,68,20.0
+FIR-0510-26,2019,11,November,10,2019-11-10,Q4,Autumn,Sunday,Karachi,Street Crime,Knife,67,Male,26.0,Male,Public Space,Evening,0,Under Investigation,7.1,1,69,21.0
+FIR-0511-21,2019,11,November,11,2019-11-11,Q4,Autumn,Monday,Lahore,Robbery,None,25,Female,,Male,Residential,Afternoon,0,Under Investigation,7.1,1,70,60.0
+FIR-0512-18,2019,11,November,18,2019-11-18,Q4,Autumn,Monday,Lahore,Murder,Firearm,49,Male,33.0,Male,Public Space,Morning,2,Under Investigation,10.0,1,71,7.0
+FIR-0513-12,2019,11,November,28,2019-11-28,Q4,Autumn,Thursday,Karachi,Theft,Firearm,51,Female,54.0,Male,Commercial,Afternoon,3,Under Investigation,5.7,0,72,18.0
+FIR-0514-18,2019,12,December,6,2019-12-06,Q4,Winter,Friday,Quetta,Murder,Knife,56,Female,54.0,Male,Rural Area,Night,1,Under Investigation,10.0,1,73,407.0
+FIR-0515-21,2019,12,December,8,2019-12-08,Q4,Winter,Sunday,Karachi,Street Crime,None,27,Male,,Male,Residential,Afternoon,2,Arrest Made,4.7,0,74,10.0
+FIR-0516-16,2019,12,December,11,2019-12-11,Q4,Winter,Wednesday,Quetta,Robbery,Blunt Object,50,Female,39.0,Male,Residential,Evening,14,Arrest Made,6.8,0,75,5.0
+FIR-0517-17,2019,12,December,14,2019-12-14,Q4,Winter,Saturday,Karachi,Vehicle Theft,Firearm,27,Male,50.0,Unknown,Rural Area,Evening,9,Arrest Made,6.3,0,76,6.0
+FIR-0518-21,2019,12,December,21,2019-12-21,Q4,Winter,Saturday,Karachi,Street Crime,None,26,Male,,Male,Residential,Afternoon,2,Reported,4.6,0,77,7.0
+FIR-0519-18,2019,12,December,24,2019-12-24,Q4,Winter,Tuesday,Lahore,Theft,None,51,Male,,Unknown,Rural Area,Afternoon,2,Reported,2.7,0,78,36.0
+FIR-0520-25,2019,12,December,29,2019-12-29,Q4,Winter,Sunday,Lahore,Street Crime,Knife,24,Male,,Male,Residential,Evening,0,Reported,5.3,0,79,5.0
+FIR-0521-26,2019,12,December,29,2019-12-29,Q4,Winter,Sunday,Karachi,Vehicle Theft,Blunt Object,23,Male,21.0,Male,Public Space,Evening,3,Closed/Unresolved,4.7,0,80,8.0
+FIR-0522-16,2020,1,January,2,2020-01-02,Q1,Winter,Thursday,Faisalabad,Theft,None,66,Female,,Male,Residential,Night,1,Reported,4.7,0,1,248.0
+FIR-0523-18,2020,1,January,7,2020-01-07,Q1,Winter,Tuesday,Rawalpindi,Theft,Firearm,21,Male,35.0,Male,Highway,Evening,6,Reported,5.3,0,2,104.0
+FIR-0524-20,2020,1,January,10,2020-01-10,Q1,Winter,Friday,Peshawar,Theft,None,16,Female,,Male,Rural Area,Evening,0,Reported,3.1,0,3,62.0
+FIR-0525-14,2020,1,January,12,2020-01-12,Q1,Winter,Sunday,Karachi,Theft,None,68,Male,,Male,Residential,Night,1,Under Investigation,4.9,0,4,14.0
+FIR-0526-19,2020,1,January,17,2020-01-17,Q1,Winter,Friday,Karachi,Assault,None,37,Female,,Male,Rural Area,Evening,1,Reported,7.2,1,5,5.0
+FIR-0527-13,2020,1,January,26,2020-01-26,Q1,Winter,Sunday,Lahore,Drug Trafficking,Blunt Object,53,Male,27.0,Male,Highway,Night,1,Arrest Made,8.9,1,6,28.0
+FIR-0528-22,2020,1,January,29,2020-01-29,Q1,Winter,Wednesday,Lahore,Robbery,Firearm,54,Male,38.0,Male,Residential,Afternoon,0,Reported,10.0,1,7,3.0
+FIR-0529-18,2020,2,February,4,2020-02-04,Q1,Winter,Tuesday,Lahore,Kidnapping,Knife,53,Male,32.0,Female,Residential,Evening,1,Under Investigation,10.0,1,8,6.0
+FIR-0530-24,2020,2,February,6,2020-02-06,Q1,Winter,Thursday,Lahore,Robbery,None,35,Male,,Male,Highway,Afternoon,2,Charges Filed,7.6,1,9,2.0
+FIR-0531-13,2020,2,February,7,2020-02-07,Q1,Winter,Friday,Gujranwala,Vehicle Theft,Firearm,37,Male,39.0,Male,Highway,Afternoon,2,Charges Filed,6.4,0,10,145.0
+FIR-0532-26,2020,2,February,9,2020-02-09,Q1,Winter,Sunday,Multan,Vehicle Theft,None,43,Female,,Male,Highway,Afternoon,0,Arrest Made,4.1,0,11,122.0
+FIR-0533-25,2020,2,February,13,2020-02-13,Q1,Winter,Thursday,Peshawar,Robbery,Firearm,28,Male,,Male,Rural Area,Evening,2,Under Investigation,10.0,1,12,34.0
+FIR-0534-15,2020,2,February,15,2020-02-15,Q1,Winter,Saturday,Lahore,Assault,Firearm,40,Female,,Male,Highway,Afternoon,0,Arrest Made,8.6,1,13,9.0
+FIR-0535-18,2020,2,February,23,2020-02-23,Q1,Winter,Sunday,Lahore,Drug Trafficking,Firearm,65,Female,23.0,Male,Rural Area,Afternoon,0,Arrest Made,9.8,1,14,8.0
+FIR-0536-14,2020,2,February,24,2020-02-24,Q1,Winter,Monday,Islamabad,Robbery,Firearm,19,Female,26.0,Male,Public Space,Night,2,Arrest Made,10.0,1,15,241.0
+FIR-0537-13,2020,3,March,1,2020-03-01,Q1,Spring,Sunday,Peshawar,Theft,Knife,69,Male,50.0,Male,Residential,Night,3,Reported,5.4,0,16,17.0
+FIR-0538-22,2020,3,March,12,2020-03-12,Q1,Spring,Thursday,Lahore,Street Crime,Knife,45,Male,23.0,Male,Residential,Evening,1,Under Investigation,6.3,0,17,18.0
+FIR-0539-21,2020,3,March,18,2020-03-18,Q1,Spring,Wednesday,Lahore,Drug Trafficking,Unknown,39,Female,,Male,Commercial,Night,1,Reported,8.3,1,18,6.0
+FIR-0540-18,2020,3,March,24,2020-03-24,Q1,Spring,Tuesday,Karachi,Vehicle Theft,Blunt Object,45,Female,46.0,Male,Public Space,Night,0,Arrest Made,6.1,0,19,67.0
+FIR-0541-12,2020,3,March,28,2020-03-28,Q1,Spring,Saturday,Lahore,Drug Trafficking,Firearm,64,Male,53.0,Unknown,Highway,Evening,1,Arrest Made,9.1,1,20,10.0
+FIR-0542-25,2020,4,April,7,2020-04-07,Q2,Spring,Tuesday,Quetta,Assault,Blunt Object,34,Male,32.0,Male,Highway,Afternoon,0,Arrest Made,7.0,0,21,118.0
+FIR-0543-26,2020,4,April,19,2020-04-19,Q2,Spring,Sunday,Lahore,Street Crime,Knife,58,Male,53.0,Male,Public Space,Night,6,Under Investigation,8.1,1,22,22.0
+FIR-0544-19,2020,4,April,25,2020-04-25,Q2,Spring,Saturday,Karachi,Assault,None,69,Male,,Female,Highway,Evening,3,Under Investigation,6.2,0,23,32.0
+FIR-0545-14,2020,5,May,9,2020-05-09,Q2,Spring,Saturday,Gujranwala,Drug Trafficking,Firearm,31,Female,33.0,Female,Commercial,Evening,2,Under Investigation,8.4,1,24,92.0
+FIR-0546-23,2020,5,May,12,2020-05-12,Q2,Spring,Tuesday,Rawalpindi,Robbery,None,59,Male,,Male,Rural Area,Evening,1,Arrest Made,8.1,1,25,126.0
+FIR-0547-23,2020,5,May,17,2020-05-17,Q2,Spring,Sunday,Lahore,Street Crime,Firearm,16,Male,54.0,Male,Residential,Evening,3,Reported,6.8,0,26,28.0
+FIR-0548-24,2020,5,May,18,2020-05-18,Q2,Spring,Monday,Quetta,Terrorism,Firearm,39,Male,35.0,Unknown,Public Space,Night,1,Arrest Made,10.0,1,27,41.0
+FIR-0549-13,2020,5,May,25,2020-05-25,Q2,Spring,Monday,Karachi,Theft,Firearm,27,Male,35.0,Male,Residential,Afternoon,0,Charges Filed,6.3,0,28,30.0
+FIR-0550-14,2020,5,May,27,2020-05-27,Q2,Spring,Wednesday,Karachi,Robbery,Blunt Object,53,Female,38.0,Unknown,Rural Area,Night,0,Charges Filed,9.0,1,29,2.0
+FIR-0551-16,2020,5,May,30,2020-05-30,Q2,Spring,Saturday,Lahore,Theft,Firearm,42,Female,21.0,Male,Public Space,Night,2,Under Investigation,6.5,0,30,13.0
+FIR-0552-22,2020,5,May,31,2020-05-31,Q2,Spring,Sunday,Lahore,Street Crime,Knife,56,Male,37.0,Male,Rural Area,Evening,5,Reported,6.5,0,31,1.0
+FIR-0553-19,2020,6,June,13,2020-06-13,Q2,Summer,Saturday,Quetta,Robbery,Knife,69,Female,51.0,Male,Highway,Evening,0,Reported,10.0,1,32,26.0
+FIR-0554-21,2020,6,June,14,2020-06-14,Q2,Summer,Sunday,Lahore,Robbery,None,20,Male,,Male,Highway,Afternoon,0,Arrest Made,8.4,1,33,14.0
+FIR-0555-18,2020,6,June,19,2020-06-19,Q2,Summer,Friday,Karachi,Theft,Blunt Object,17,Male,27.0,Female,Highway,Morning,1,Closed/Unresolved,3.7,0,34,23.0
+FIR-0556-18,2020,6,June,26,2020-06-26,Q2,Summer,Friday,Lahore,Robbery,Firearm,49,Male,18.0,Unknown,Rural Area,Morning,3,Under Investigation,10.0,1,35,12.0
+FIR-0557-23,2020,7,July,1,2020-07-01,Q3,Summer,Wednesday,Karachi,Assault,Firearm,32,Male,,Male,Rural Area,Night,0,Closed/Unresolved,10.0,1,36,12.0
+FIR-0558-18,2020,7,July,1,2020-07-01,Q3,Summer,Wednesday,Lahore,Theft,Blunt Object,25,Male,32.0,Male,Rural Area,Evening,0,Under Investigation,3.5,0,37,5.0
+FIR-0559-26,2020,7,July,5,2020-07-05,Q3,Summer,Sunday,Karachi,Assault,None,68,Male,,Female,Residential,Morning,1,Reported,6.5,0,38,4.0
+FIR-0560-19,2020,7,July,14,2020-07-14,Q3,Summer,Tuesday,Islamabad,Theft,None,34,Female,,Male,Rural Area,Afternoon,1,Reported,3.7,0,39,141.0
+FIR-0561-12,2020,7,July,15,2020-07-15,Q3,Summer,Wednesday,Rawalpindi,Cyber Crime,Firearm,26,Male,30.0,Male,Highway,Night,0,Reported,6.3,0,40,64.0
+FIR-0562-15,2020,7,July,17,2020-07-17,Q3,Summer,Friday,Karachi,Vehicle Theft,Firearm,33,Female,45.0,Male,Commercial,Afternoon,0,Arrest Made,6.8,0,41,12.0
+FIR-0563-24,2020,7,July,19,2020-07-19,Q3,Summer,Sunday,Lahore,Street Crime,Firearm,36,Male,52.0,Male,Rural Area,Night,2,Reported,8.1,1,42,18.0
+FIR-0564-17,2020,7,July,21,2020-07-21,Q3,Summer,Tuesday,Lahore,Street Crime,Firearm,33,Female,48.0,Male,Commercial,Afternoon,1,Under Investigation,8.0,1,43,2.0
+FIR-0565-20,2020,8,August,2,2020-08-02,Q3,Summer,Sunday,Lahore,Street Crime,Knife,61,Female,26.0,Male,Highway,Evening,7,Under Investigation,6.1,0,44,12.0
+FIR-0566-24,2020,8,August,6,2020-08-06,Q3,Summer,Thursday,Karachi,Murder,Knife,30,Male,38.0,Male,Rural Area,Morning,2,Reported,10.0,1,45,20.0
+FIR-0567-13,2020,8,August,7,2020-08-07,Q3,Summer,Friday,Lahore,Theft,Blunt Object,38,Female,22.0,Unknown,Residential,Evening,0,Reported,3.9,0,46,5.0
+FIR-0568-12,2020,8,August,12,2020-08-12,Q3,Summer,Wednesday,Islamabad,Theft,None,55,Male,,Male,Residential,Evening,1,Reported,3.4,0,47,29.0
+FIR-0569-24,2020,8,August,13,2020-08-13,Q3,Summer,Thursday,Lahore,Theft,Knife,18,Female,,Male,Commercial,Afternoon,1,Under Investigation,4.4,0,48,6.0
+FIR-0570-21,2020,8,August,18,2020-08-18,Q3,Summer,Tuesday,Karachi,Robbery,Firearm,29,Male,26.0,Male,Residential,Evening,0,Arrest Made,10.0,1,49,12.0
+FIR-0571-23,2020,8,August,18,2020-08-18,Q3,Summer,Tuesday,Karachi,Robbery,Blunt Object,39,Male,18.0,Male,Residential,Evening,5,Reported,8.7,1,50,0.0
+FIR-0572-25,2020,8,August,23,2020-08-23,Q3,Summer,Sunday,Karachi,Street Crime,Knife,58,Female,42.0,Male,Residential,Evening,3,Closed/Unresolved,5.9,0,51,5.0
+FIR-0573-13,2020,9,September,5,2020-09-05,Q3,Autumn,Saturday,Rawalpindi,Cyber Crime,Knife,21,Male,39.0,Male,Highway,Night,0,Arrest Made,5.4,0,52,52.0
+FIR-0574-18,2020,9,September,5,2020-09-05,Q3,Autumn,Saturday,Lahore,Robbery,None,49,Male,,Male,Residential,Afternoon,0,Arrest Made,6.8,0,53,23.0
+FIR-0575-14,2020,9,September,6,2020-09-06,Q3,Autumn,Sunday,Karachi,Street Crime,Knife,69,Female,27.0,Male,Public Space,Evening,0,Under Investigation,6.8,0,54,14.0
+FIR-0576-21,2020,9,September,10,2020-09-10,Q3,Autumn,Thursday,Hyderabad,Robbery,Firearm,28,Male,23.0,Male,Rural Area,Night,0,Under Investigation,10.0,1,55,1134.0
+FIR-0577-13,2020,9,September,12,2020-09-12,Q3,Autumn,Saturday,Rawalpindi,Assault,Firearm,63,Male,47.0,Male,Residential,Night,1,Under Investigation,9.3,1,56,7.0
+FIR-0578-25,2020,9,September,18,2020-09-18,Q3,Autumn,Friday,Lahore,Assault,Knife,33,Male,33.0,Male,Residential,Night,1,Arrest Made,8.0,1,57,13.0
+FIR-0579-22,2020,9,September,26,2020-09-26,Q3,Autumn,Saturday,Quetta,Assault,None,52,Male,,Male,Residential,Afternoon,6,Arrest Made,6.5,0,58,105.0
+FIR-0580-18,2020,10,October,7,2020-10-07,Q4,Autumn,Wednesday,Karachi,Vehicle Theft,Firearm,50,Female,30.0,Male,Public Space,Night,0,Under Investigation,8.4,1,59,31.0
+FIR-0581-24,2020,10,October,24,2020-10-24,Q4,Autumn,Saturday,Islamabad,Theft,Blunt Object,21,Male,25.0,Male,Residential,Evening,1,Arrest Made,4.3,0,60,73.0
+FIR-0582-24,2020,10,October,27,2020-10-27,Q4,Autumn,Tuesday,Rawalpindi,Assault,Blunt Object,44,Male,22.0,Unknown,Residential,Morning,3,Under Investigation,5.5,0,61,45.0
+FIR-0583-13,2020,11,November,8,2020-11-08,Q4,Autumn,Sunday,Karachi,Drug Trafficking,Firearm,33,Female,28.0,Female,Rural Area,Night,1,Closed/Unresolved,10.0,1,62,32.0
+FIR-0584-14,2020,11,November,10,2020-11-10,Q4,Autumn,Tuesday,Gujranwala,Theft,Blunt Object,63,Female,37.0,Male,Public Space,Evening,0,Closed/Unresolved,3.9,0,63,185.0
+FIR-0585-22,2020,11,November,16,2020-11-16,Q4,Autumn,Monday,Faisalabad,Vehicle Theft,None,39,Male,,Male,Public Space,Afternoon,0,Reported,4.5,0,64,319.0
+FIR-0586-18,2020,11,November,25,2020-11-25,Q4,Autumn,Wednesday,Islamabad,Theft,Firearm,30,Male,27.0,Male,Residential,Morning,0,Reported,4.9,0,65,32.0
+FIR-0587-25,2020,11,November,29,2020-11-29,Q4,Autumn,Sunday,Karachi,Murder,Knife,61,Female,47.0,Unknown,Public Space,Night,6,Reported,10.0,1,66,21.0
+FIR-0588-15,2020,12,December,5,2020-12-05,Q4,Winter,Saturday,Karachi,Theft,Knife,68,Female,48.0,Male,Commercial,Morning,4,Under Investigation,5.2,0,67,6.0
+FIR-0589-24,2020,12,December,10,2020-12-10,Q4,Winter,Thursday,Lahore,Robbery,None,54,Male,,Male,Public Space,Morning,5,Arrest Made,7.3,1,68,83.0
+FIR-0590-25,2020,12,December,10,2020-12-10,Q4,Winter,Thursday,Faisalabad,Drug Trafficking,Unknown,65,Male,23.0,Male,Public Space,Evening,3,Reported,7.5,1,69,24.0
+FIR-0591-12,2020,12,December,11,2020-12-11,Q4,Winter,Friday,Lahore,Street Crime,Firearm,22,Male,,Male,Public Space,Morning,0,Reported,7.5,1,70,1.0
+FIR-0592-24,2020,12,December,16,2020-12-16,Q4,Winter,Wednesday,Islamabad,Robbery,None,32,Male,,Unknown,Highway,Night,4,Reported,8.2,1,71,21.0
+FIR-0593-25,2020,12,December,22,2020-12-22,Q4,Winter,Tuesday,Faisalabad,Robbery,Knife,42,Male,23.0,Male,Highway,Evening,8,Reported,8.9,1,72,12.0
+FIR-0594-16,2020,12,December,27,2020-12-27,Q4,Winter,Sunday,Karachi,Assault,Knife,30,Female,28.0,Male,Highway,Evening,0,Reported,7.8,1,73,22.0
+FIR-0595-23,2020,12,December,28,2020-12-28,Q4,Winter,Monday,Rawalpindi,Theft,Firearm,66,Male,42.0,Male,Public Space,Night,0,Under Investigation,6.0,0,74,62.0
+FIR-0596-20,2020,12,December,31,2020-12-31,Q4,Winter,Thursday,Karachi,Robbery,Firearm,33,Female,24.0,Male,Commercial,Evening,1,Reported,10.0,1,75,4.0
+FIR-0597-19,2021,1,January,7,2021-01-07,Q1,Winter,Thursday,Lahore,Assault,Firearm,56,Male,,Male,Public Space,Afternoon,0,Reported,8.5,1,1,27.0
+FIR-0598-23,2021,1,January,14,2021-01-14,Q1,Winter,Thursday,Lahore,Assault,Blunt Object,31,Female,36.0,Male,Residential,Night,0,Under Investigation,6.2,0,2,7.0
+FIR-0599-26,2021,1,January,15,2021-01-15,Q1,Winter,Friday,Karachi,Robbery,Firearm,59,Female,53.0,Unknown,Commercial,Evening,5,Under Investigation,10.0,1,3,15.0
+FIR-0600-20,2021,1,January,17,2021-01-17,Q1,Winter,Sunday,Lahore,Drug Trafficking,None,27,Male,,Male,Highway,Afternoon,5,Reported,8.1,1,4,3.0
+FIR-0601-21,2021,1,January,27,2021-01-27,Q1,Winter,Wednesday,Lahore,Assault,Firearm,21,Male,19.0,Male,Rural Area,Evening,0,Reported,8.7,1,5,10.0
+FIR-0602-25,2021,2,February,6,2021-02-06,Q1,Winter,Saturday,Faisalabad,Assault,Firearm,41,Male,45.0,Unknown,Commercial,Night,1,Under Investigation,9.8,1,6,46.0
+FIR-0603-20,2021,2,February,6,2021-02-06,Q1,Winter,Saturday,Karachi,Street Crime,Firearm,24,Female,30.0,Male,Highway,Night,3,Arrest Made,10.0,1,7,22.0
+FIR-0604-26,2021,2,February,9,2021-02-09,Q1,Winter,Tuesday,Rawalpindi,Theft,None,48,Female,,Male,Commercial,Night,2,Reported,4.0,0,8,43.0
+FIR-0605-18,2021,2,February,12,2021-02-12,Q1,Winter,Friday,Karachi,Robbery,Firearm,50,Male,25.0,Male,Commercial,Night,1,Reported,10.0,1,9,6.0
+FIR-0606-15,2021,2,February,24,2021-02-24,Q1,Winter,Wednesday,Karachi,Robbery,Knife,39,Male,19.0,Female,Public Space,Night,2,Reported,10.0,1,10,12.0
+FIR-0607-16,2021,2,February,25,2021-02-25,Q1,Winter,Thursday,Karachi,Street Crime,Firearm,20,Male,45.0,Male,Residential,Night,4,Arrest Made,10.0,1,11,1.0
+FIR-0608-12,2021,2,February,27,2021-02-27,Q1,Winter,Saturday,Islamabad,Theft,Firearm,38,Female,,Unknown,Rural Area,Morning,5,Closed/Unresolved,5.3,0,12,73.0
+FIR-0609-25,2021,3,March,2,2021-03-02,Q1,Spring,Tuesday,Quetta,Murder,Knife,32,Male,,Male,Highway,Afternoon,0,Under Investigation,10.0,1,13,157.0
+FIR-0610-12,2021,3,March,8,2021-03-08,Q1,Spring,Monday,Lahore,Robbery,None,37,Male,,Male,Commercial,Evening,0,Arrest Made,7.9,1,14,40.0
+FIR-0611-14,2021,3,March,10,2021-03-10,Q1,Spring,Wednesday,Karachi,Robbery,Firearm,20,Male,27.0,Male,Rural Area,Evening,4,Arrest Made,10.0,1,15,13.0
+FIR-0612-24,2021,3,March,23,2021-03-23,Q1,Spring,Tuesday,Islamabad,Assault,Knife,43,Male,,Male,Commercial,Afternoon,0,Under Investigation,7.9,1,16,24.0
+FIR-0613-25,2021,3,March,27,2021-03-27,Q1,Spring,Saturday,Karachi,Street Crime,Firearm,39,Female,29.0,Male,Residential,Afternoon,2,Arrest Made,8.2,1,17,17.0
+FIR-0614-19,2021,3,March,28,2021-03-28,Q1,Spring,Sunday,Faisalabad,Theft,Knife,69,Male,33.0,Male,Rural Area,Afternoon,0,Reported,5.6,0,18,50.0
+FIR-0615-25,2021,3,March,30,2021-03-30,Q1,Spring,Tuesday,Quetta,Assault,Firearm,31,Male,28.0,Unknown,Highway,Evening,0,Under Investigation,8.7,1,19,28.0
+FIR-0616-13,2021,4,April,8,2021-04-08,Q2,Spring,Thursday,Karachi,Theft,Firearm,60,Male,20.0,Male,Commercial,Night,1,Closed/Unresolved,8.0,1,20,12.0
+FIR-0617-15,2021,4,April,14,2021-04-14,Q2,Spring,Wednesday,Karachi,Drug Trafficking,Knife,38,Male,37.0,Male,Residential,Night,0,Arrest Made,10.0,1,21,6.0
+FIR-0618-13,2021,4,April,17,2021-04-17,Q2,Spring,Saturday,Quetta,Drug Trafficking,Firearm,25,Male,51.0,Male,Rural Area,Night,5,Under Investigation,10.0,1,22,18.0
+FIR-0619-25,2021,4,April,20,2021-04-20,Q2,Spring,Tuesday,Rawalpindi,Robbery,None,40,Female,,Male,Commercial,Night,0,Arrest Made,8.5,1,23,70.0
+FIR-0620-16,2021,5,May,12,2021-05-12,Q2,Spring,Wednesday,Lahore,Assault,Knife,65,Female,35.0,Male,Commercial,Evening,4,Arrest Made,7.6,1,24,65.0
+FIR-0621-20,2021,5,May,13,2021-05-13,Q2,Spring,Thursday,Karachi,Street Crime,Firearm,48,Male,36.0,Male,Highway,Afternoon,4,Reported,7.4,1,25,29.0
+FIR-0622-12,2021,5,May,14,2021-05-14,Q2,Spring,Friday,Rawalpindi,Street Crime,Firearm,42,Male,25.0,Male,Residential,Afternoon,0,Under Investigation,7.3,1,26,24.0
+FIR-0623-16,2021,5,May,29,2021-05-29,Q2,Spring,Saturday,Rawalpindi,Theft,Blunt Object,17,Female,20.0,Male,Public Space,Evening,2,Under Investigation,3.8,0,27,15.0
+FIR-0624-25,2021,6,June,2,2021-06-02,Q2,Summer,Wednesday,Rawalpindi,Robbery,Firearm,25,Male,39.0,Male,Commercial,Morning,0,Under Investigation,8.8,1,28,4.0
+FIR-0625-26,2021,6,June,2,2021-06-02,Q2,Summer,Wednesday,Lahore,Vehicle Theft,None,52,Male,,Female,Rural Area,Evening,2,Reported,4.4,0,29,21.0
+FIR-0627-26,2021,6,June,6,2021-06-06,Q2,Summer,Sunday,Karachi,Street Crime,Firearm,65,Female,38.0,Male,Highway,Evening,0,Arrest Made,7.9,1,30,24.0
+FIR-0626-20,2021,6,June,6,2021-06-06,Q2,Summer,Sunday,Islamabad,Robbery,Firearm,28,Female,26.0,Female,Highway,Evening,1,Reported,10.0,1,31,75.0
+FIR-0628-12,2021,6,June,7,2021-06-07,Q2,Summer,Monday,Karachi,Street Crime,Firearm,40,Female,,Male,Commercial,Night,1,Arrest Made,9.5,1,32,1.0
+FIR-0629-20,2021,6,June,7,2021-06-07,Q2,Summer,Monday,Karachi,Street Crime,Firearm,62,Female,,Male,Commercial,Evening,2,Arrest Made,8.3,1,33,0.0
+FIR-0630-19,2021,6,June,8,2021-06-08,Q2,Summer,Tuesday,Peshawar,Theft,Knife,35,Female,28.0,Male,Commercial,Afternoon,4,Charges Filed,4.8,0,34,464.0
+FIR-0631-15,2021,6,June,10,2021-06-10,Q2,Summer,Thursday,Karachi,Robbery,Firearm,68,Male,21.0,Male,Public Space,Evening,0,Under Investigation,9.9,1,35,3.0
+FIR-0632-23,2021,6,June,19,2021-06-19,Q2,Summer,Saturday,Faisalabad,Drug Trafficking,Knife,53,Male,47.0,Male,Commercial,Evening,1,Arrest Made,8.6,1,36,83.0
+FIR-0633-22,2021,6,June,23,2021-06-23,Q2,Summer,Wednesday,Faisalabad,Theft,Firearm,44,Male,44.0,Male,Residential,Afternoon,0,Reported,4.5,0,37,4.0
+FIR-0634-21,2021,6,June,27,2021-06-27,Q2,Summer,Sunday,Rawalpindi,Theft,None,22,Male,,Male,Rural Area,Morning,3,Reported,4.0,0,38,25.0
+FIR-0635-16,2021,7,July,4,2021-07-04,Q3,Summer,Sunday,Faisalabad,Theft,Firearm,65,Male,28.0,Male,Commercial,Evening,0,Under Investigation,5.4,0,39,11.0
+FIR-0636-24,2021,7,July,6,2021-07-06,Q3,Summer,Tuesday,Peshawar,Robbery,None,34,Male,,Male,Public Space,Night,2,Under Investigation,9.5,1,40,28.0
+FIR-0637-16,2021,7,July,18,2021-07-18,Q3,Summer,Sunday,Lahore,Assault,Blunt Object,62,Male,29.0,Male,Rural Area,Evening,0,Under Investigation,6.7,0,41,46.0
+FIR-0638-22,2021,7,July,18,2021-07-18,Q3,Summer,Sunday,Lahore,Theft,None,46,Male,,Unknown,Highway,Night,1,Arrest Made,4.4,0,42,0.0
+FIR-0639-23,2021,7,July,22,2021-07-22,Q3,Summer,Thursday,Karachi,Theft,None,36,Male,,Male,Commercial,Night,3,Reported,5.1,0,43,42.0
+FIR-0640-17,2021,7,July,30,2021-07-30,Q3,Summer,Friday,Lahore,Robbery,Blunt Object,21,Male,36.0,Male,Rural Area,Morning,2,Charges Filed,7.6,1,44,12.0
+FIR-0641-18,2021,8,August,7,2021-08-07,Q3,Summer,Saturday,Rawalpindi,Drug Trafficking,Knife,23,Male,,Male,Highway,Evening,2,Charges Filed,9.2,1,45,41.0
+FIR-0642-19,2021,8,August,11,2021-08-11,Q3,Summer,Wednesday,Peshawar,Murder,Firearm,59,Female,30.0,Unknown,Public Space,Evening,1,Arrest Made,10.0,1,46,36.0
+FIR-0643-26,2021,8,August,13,2021-08-13,Q3,Summer,Friday,Karachi,Robbery,Firearm,15,Male,19.0,Male,Residential,Afternoon,4,Reported,10.0,1,47,22.0
+FIR-0644-25,2021,8,August,15,2021-08-15,Q3,Summer,Sunday,Karachi,Drug Trafficking,None,43,Male,,Male,Commercial,Evening,1,Arrest Made,7.4,1,48,2.0
+FIR-0645-19,2021,8,August,18,2021-08-18,Q3,Summer,Wednesday,Lahore,Street Crime,Knife,22,Female,26.0,Female,Residential,Evening,4,Closed/Unresolved,6.5,0,49,19.0
+FIR-0646-22,2021,8,August,23,2021-08-23,Q3,Summer,Monday,Karachi,Assault,Knife,68,Male,37.0,Male,Public Space,Afternoon,1,Under Investigation,8.7,1,50,8.0
+FIR-0647-25,2021,8,August,31,2021-08-31,Q3,Summer,Tuesday,Karachi,Assault,Firearm,18,Male,,Male,Rural Area,Night,1,Under Investigation,10.0,1,51,8.0
+FIR-0648-24,2021,9,September,16,2021-09-16,Q3,Autumn,Thursday,Karachi,Robbery,Knife,49,Male,41.0,Male,Rural Area,Night,0,Reported,9.5,1,52,16.0
+FIR-0649-13,2021,9,September,26,2021-09-26,Q3,Autumn,Sunday,Karachi,Robbery,Blunt Object,17,Male,,Male,Public Space,Night,1,Reported,8.5,1,53,10.0
+FIR-0650-20,2021,10,October,1,2021-10-01,Q4,Autumn,Friday,Karachi,Theft,Knife,68,Female,33.0,Male,Public Space,Afternoon,0,Reported,4.6,0,54,5.0
+FIR-0651-18,2021,10,October,17,2021-10-17,Q4,Autumn,Sunday,Lahore,Robbery,None,59,Male,,Male,Commercial,Night,4,Closed/Unresolved,9.0,1,55,60.0
+FIR-0652-15,2021,10,October,19,2021-10-19,Q4,Autumn,Tuesday,Lahore,Cyber Crime,Unknown,32,Female,20.0,Male,Highway,Afternoon,2,Arrest Made,3.9,0,56,2.0
+FIR-0653-15,2021,10,October,21,2021-10-21,Q4,Autumn,Thursday,Quetta,Robbery,Firearm,21,Male,37.0,Male,Residential,Morning,10,Under Investigation,8.3,1,57,187.0
+FIR-0654-22,2021,10,October,22,2021-10-22,Q4,Autumn,Friday,Lahore,Theft,Knife,41,Male,33.0,Male,Residential,Night,0,Reported,5.5,0,58,3.0
+FIR-0655-19,2021,10,October,24,2021-10-24,Q4,Autumn,Sunday,Faisalabad,Drug Trafficking,Knife,15,Male,50.0,Male,Rural Area,Evening,0,Closed/Unresolved,8.6,1,59,112.0
+FIR-0656-15,2021,11,November,5,2021-11-05,Q4,Autumn,Friday,Karachi,Street Crime,Knife,41,Male,29.0,Male,Rural Area,Evening,4,Under Investigation,6.5,0,60,35.0
+FIR-0657-24,2021,11,November,6,2021-11-06,Q4,Autumn,Saturday,Karachi,Theft,Firearm,30,Male,45.0,Unknown,Commercial,Evening,1,Reported,5.8,0,61,1.0
+FIR-0658-26,2021,11,November,11,2021-11-11,Q4,Autumn,Thursday,Faisalabad,Robbery,Firearm,52,Male,,Male,Public Space,Morning,1,Closed/Unresolved,10.0,1,62,18.0
+FIR-0659-17,2021,12,December,6,2021-12-06,Q4,Winter,Monday,Karachi,Robbery,None,21,Male,,Male,Residential,Evening,3,Reported,8.2,1,63,30.0
+FIR-0660-16,2021,12,December,6,2021-12-06,Q4,Winter,Monday,Lahore,Drug Trafficking,Knife,58,Male,32.0,Male,Commercial,Evening,1,Reported,8.3,1,64,45.0
+FIR-0661-14,2021,12,December,15,2021-12-15,Q4,Winter,Wednesday,Islamabad,Theft,Knife,37,Male,28.0,Male,Rural Area,Evening,0,Reported,4.4,0,65,192.0
+FIR-0662-24,2021,12,December,15,2021-12-15,Q4,Winter,Wednesday,Rawalpindi,Robbery,None,55,Female,,Male,Rural Area,Evening,4,Closed/Unresolved,7.4,1,66,130.0
+FIR-0663-25,2021,12,December,16,2021-12-16,Q4,Winter,Thursday,Lahore,Street Crime,Firearm,25,Male,41.0,Male,Residential,Night,0,Closed/Unresolved,8.6,1,67,10.0
+FIR-0664-21,2021,12,December,22,2021-12-22,Q4,Winter,Wednesday,Lahore,Robbery,Firearm,56,Male,,Male,Rural Area,Evening,4,Reported,8.8,1,68,6.0
+FIR-0665-22,2021,12,December,22,2021-12-22,Q4,Winter,Wednesday,Lahore,Street Crime,Knife,67,Male,37.0,Male,Rural Area,Evening,0,Under Investigation,6.2,0,69,0.0
+FIR-0666-13,2021,12,December,23,2021-12-23,Q4,Winter,Thursday,Karachi,Street Crime,Knife,47,Male,42.0,Male,Highway,Night,2,Under Investigation,8.5,1,70,17.0
+FIR-0667-20,2021,12,December,24,2021-12-24,Q4,Winter,Friday,Rawalpindi,Robbery,None,64,Female,,Male,Public Space,Evening,0,Under Investigation,7.5,1,71,9.0
+FIR-0668-21,2022,1,January,20,2022-01-20,Q1,Winter,Thursday,Faisalabad,Vehicle Theft,None,50,Male,,Male,Rural Area,Morning,2,Reported,4.1,0,1,70.0
+FIR-0669-20,2022,1,January,23,2022-01-23,Q1,Winter,Sunday,Hyderabad,Murder,Blunt Object,51,Female,42.0,Male,Highway,Morning,0,Arrest Made,10.0,1,2,500.0
+FIR-0670-12,2022,1,January,25,2022-01-25,Q1,Winter,Tuesday,Karachi,Theft,Knife,55,Male,32.0,Male,Commercial,Evening,3,Under Investigation,5.4,0,3,33.0
+FIR-0671-21,2022,2,February,13,2022-02-13,Q1,Winter,Sunday,Karachi,Street Crime,Knife,31,Female,20.0,Male,Rural Area,Afternoon,1,Reported,6.7,0,4,19.0
+FIR-0672-14,2022,2,February,26,2022-02-26,Q1,Winter,Saturday,Islamabad,Drug Trafficking,Firearm,49,Male,,Male,Commercial,Evening,0,Arrest Made,9.8,1,5,73.0
+FIR-0673-19,2022,3,March,2,2022-03-02,Q1,Spring,Wednesday,Lahore,Kidnapping,Firearm,62,Female,35.0,Male,Rural Area,Afternoon,2,Under Investigation,10.0,1,6,70.0
+FIR-0674-17,2022,3,March,8,2022-03-08,Q1,Spring,Tuesday,Karachi,Theft,Knife,19,Male,35.0,Male,Residential,Afternoon,1,Reported,4.4,0,7,23.0
+FIR-0675-16,2022,3,March,8,2022-03-08,Q1,Spring,Tuesday,Faisalabad,Vehicle Theft,Firearm,62,Male,18.0,Female,Highway,Evening,0,Charges Filed,6.6,0,8,47.0
+FIR-0676-16,2022,3,March,12,2022-03-12,Q1,Spring,Saturday,Karachi,Robbery,Firearm,46,Male,,Male,Highway,Night,0,Reported,10.0,1,9,4.0
+FIR-0677-17,2022,3,March,19,2022-03-19,Q1,Spring,Saturday,Lahore,Theft,None,17,Male,,Male,Residential,Evening,1,Charges Filed,3.8,0,10,17.0
+FIR-0678-26,2022,3,March,24,2022-03-24,Q1,Spring,Thursday,Karachi,Theft,None,66,Female,,Female,Public Space,Night,0,Reported,5.4,0,11,12.0
+FIR-0679-18,2022,3,March,25,2022-03-25,Q1,Spring,Friday,Peshawar,Theft,Knife,61,Male,54.0,Male,Highway,Night,0,Reported,5.8,0,12,226.0
+FIR-0680-12,2022,4,April,1,2022-04-01,Q2,Spring,Friday,Faisalabad,Assault,Firearm,49,Male,,Male,Commercial,Afternoon,0,Reported,8.7,1,13,24.0
+FIR-0681-20,2022,4,April,2,2022-04-02,Q2,Spring,Saturday,Faisalabad,Theft,Firearm,66,Male,54.0,Male,Highway,Afternoon,1,Under Investigation,5.3,0,14,1.0
+FIR-0682-14,2022,4,April,4,2022-04-04,Q2,Spring,Monday,Karachi,Theft,Firearm,28,Male,43.0,Male,Public Space,Night,1,Under Investigation,7.3,1,15,11.0
+FIR-0683-15,2022,4,April,6,2022-04-06,Q2,Spring,Wednesday,Karachi,Assault,Firearm,62,Male,40.0,Male,Commercial,Night,0,Reported,10.0,1,16,2.0
+FIR-0684-21,2022,4,April,20,2022-04-20,Q2,Spring,Wednesday,Rawalpindi,Robbery,None,45,Female,,Male,Commercial,Evening,6,Reported,7.2,1,17,117.0
+FIR-0685-12,2022,4,April,21,2022-04-21,Q2,Spring,Thursday,Lahore,Theft,Firearm,45,Male,,Male,Residential,Night,4,Under Investigation,6.1,0,18,33.0
+FIR-0686-24,2022,4,April,24,2022-04-24,Q2,Spring,Sunday,Karachi,Theft,Knife,31,Female,44.0,Male,Rural Area,Morning,0,Arrest Made,5.1,0,19,18.0
+FIR-0687-22,2022,4,April,27,2022-04-27,Q2,Spring,Wednesday,Rawalpindi,Theft,Firearm,38,Male,34.0,Male,Residential,Afternoon,0,Under Investigation,6.1,0,20,7.0
+FIR-0688-21,2022,4,April,30,2022-04-30,Q2,Spring,Saturday,Lahore,Theft,None,66,Male,,Male,Rural Area,Evening,5,Reported,4.0,0,21,9.0
+FIR-0689-14,2022,5,May,3,2022-05-03,Q2,Spring,Tuesday,Faisalabad,Murder,None,37,Female,,Male,Residential,Evening,1,Under Investigation,10.0,1,22,31.0
+FIR-0690-13,2022,5,May,5,2022-05-05,Q2,Spring,Thursday,Faisalabad,Theft,None,32,Male,,Male,Rural Area,Morning,0,Under Investigation,3.1,0,23,2.0
+FIR-0691-13,2022,5,May,19,2022-05-19,Q2,Spring,Thursday,Lahore,Theft,None,64,Male,,Male,Highway,Afternoon,1,Charges Filed,3.2,0,24,19.0
+FIR-0692-25,2022,5,May,26,2022-05-26,Q2,Spring,Thursday,Karachi,Drug Trafficking,Knife,68,Male,50.0,Male,Commercial,Morning,2,Under Investigation,8.7,1,25,32.0
+FIR-0693-12,2022,6,June,9,2022-06-09,Q2,Summer,Thursday,Islamabad,Murder,Firearm,28,Male,,Male,Rural Area,Evening,0,Reported,10.0,1,26,103.0
+FIR-0694-19,2022,6,June,15,2022-06-15,Q2,Summer,Wednesday,Gujranwala,Robbery,Blunt Object,64,Male,,Male,Highway,Night,2,Reported,8.9,1,27,582.0
+FIR-0695-14,2022,6,June,20,2022-06-20,Q2,Summer,Monday,Karachi,Street Crime,Firearm,29,Female,53.0,Male,Public Space,Night,2,Under Investigation,8.8,1,28,25.0
+FIR-0696-14,2022,7,July,7,2022-07-07,Q3,Summer,Thursday,Faisalabad,Robbery,Blunt Object,29,Male,28.0,Male,Residential,Evening,1,Arrest Made,7.7,1,29,63.0
+FIR-0697-17,2022,7,July,10,2022-07-10,Q3,Summer,Sunday,Lahore,Street Crime,Firearm,20,Male,35.0,Male,Public Space,Evening,4,Closed/Unresolved,7.3,1,30,52.0
+FIR-0698-24,2022,7,July,14,2022-07-14,Q3,Summer,Thursday,Lahore,Street Crime,Knife,41,Female,54.0,Male,Highway,Evening,0,Under Investigation,6.5,0,31,4.0
+FIR-0699-19,2022,7,July,17,2022-07-17,Q3,Summer,Sunday,Rawalpindi,Robbery,Knife,29,Female,42.0,Male,Public Space,Morning,1,Arrest Made,8.2,1,32,81.0
+FIR-0700-24,2022,7,July,18,2022-07-18,Q3,Summer,Monday,Multan,Assault,Blunt Object,64,Male,42.0,Male,Public Space,Afternoon,1,Arrest Made,6.5,0,33,890.0
+FIR-0701-26,2022,7,July,21,2022-07-21,Q3,Summer,Thursday,Peshawar,Theft,None,50,Male,,Male,Highway,Afternoon,1,Arrest Made,3.6,0,34,118.0
+FIR-0702-20,2022,7,July,30,2022-07-30,Q3,Summer,Saturday,Karachi,Drug Trafficking,Firearm,69,Male,42.0,Male,Commercial,Night,0,Reported,10.0,1,35,40.0
+FIR-0703-20,2022,8,August,20,2022-08-20,Q3,Summer,Saturday,Peshawar,Theft,Knife,22,Female,49.0,Unknown,Rural Area,Night,0,Reported,6.7,0,36,30.0
+FIR-0704-15,2022,8,August,26,2022-08-26,Q3,Summer,Friday,Quetta,Terrorism,Firearm,29,Female,,Male,Residential,Evening,0,Arrest Made,10.0,1,37,309.0
+FIR-0705-25,2022,9,September,5,2022-09-05,Q3,Autumn,Monday,Karachi,Street Crime,Firearm,17,Male,42.0,Unknown,Rural Area,Evening,0,Reported,8.1,1,38,37.0
+FIR-0706-16,2022,9,September,18,2022-09-18,Q3,Autumn,Sunday,Lahore,Assault,Knife,61,Male,22.0,Unknown,Residential,Morning,0,Reported,6.8,0,39,66.0
+FIR-0707-13,2022,9,September,28,2022-09-28,Q3,Autumn,Wednesday,Lahore,Theft,Firearm,27,Male,52.0,Male,Rural Area,Evening,2,Reported,5.8,0,40,10.0
+FIR-0708-22,2022,9,September,30,2022-09-30,Q3,Autumn,Friday,Karachi,Street Crime,Knife,55,Female,26.0,Male,Public Space,Evening,0,Reported,7.3,1,41,25.0
+FIR-0709-20,2022,10,October,18,2022-10-18,Q4,Autumn,Tuesday,Karachi,Street Crime,Knife,48,Male,33.0,Male,Commercial,Evening,2,Reported,7.1,1,42,18.0
+FIR-0710-19,2022,10,October,27,2022-10-27,Q4,Autumn,Thursday,Faisalabad,Kidnapping,Firearm,38,Female,31.0,Female,Public Space,Afternoon,0,Under Investigation,10.0,1,43,112.0
+FIR-0711-14,2022,11,November,6,2022-11-06,Q4,Autumn,Sunday,Lahore,Street Crime,Knife,54,Female,43.0,Male,Commercial,Night,0,Arrest Made,7.4,1,44,39.0
+FIR-0712-22,2022,11,November,13,2022-11-13,Q4,Autumn,Sunday,Karachi,Street Crime,Firearm,46,Male,33.0,Unknown,Highway,Evening,0,Arrest Made,8.3,1,45,26.0
+FIR-0713-23,2022,11,November,18,2022-11-18,Q4,Autumn,Friday,Quetta,Robbery,Firearm,46,Male,,Male,Residential,Night,0,Under Investigation,10.0,1,46,84.0
+FIR-0714-24,2022,11,November,25,2022-11-25,Q4,Autumn,Friday,Quetta,Robbery,Firearm,44,Male,33.0,Male,Residential,Night,1,Charges Filed,10.0,1,47,7.0
+FIR-0715-20,2022,12,December,1,2022-12-01,Q4,Winter,Thursday,Karachi,Street Crime,Firearm,66,Male,41.0,Male,Highway,Night,0,Reported,8.5,1,48,18.0
+FIR-0716-14,2022,12,December,5,2022-12-05,Q4,Winter,Monday,Karachi,Theft,Firearm,63,Male,32.0,Male,Rural Area,Afternoon,6,Arrest Made,5.6,0,49,4.0
+FIR-0717-20,2022,12,December,7,2022-12-07,Q4,Winter,Wednesday,Karachi,Vehicle Theft,Firearm,27,Male,,Male,Highway,Morning,6,Reported,7.4,1,50,2.0
+FIR-0718-13,2022,12,December,14,2022-12-14,Q4,Winter,Wednesday,Karachi,Drug Trafficking,Knife,15,Female,44.0,Male,Highway,Afternoon,1,Arrest Made,8.5,1,51,7.0
+FIR-0719-23,2022,12,December,14,2022-12-14,Q4,Winter,Wednesday,Karachi,Vehicle Theft,Blunt Object,48,Female,40.0,Female,Commercial,Morning,3,Closed/Unresolved,5.1,0,52,0.0
+FIR-0720-21,2022,12,December,21,2022-12-21,Q4,Winter,Wednesday,Lahore,Theft,None,29,Male,,Male,Highway,Evening,0,Under Investigation,3.3,0,53,45.0
+FIR-0721-20,2022,12,December,28,2022-12-28,Q4,Winter,Wednesday,Multan,Assault,None,58,Male,,Male,Residential,Evening,1,Under Investigation,6.0,0,54,163.0
+FIR-0722-26,2022,12,December,28,2022-12-28,Q4,Winter,Wednesday,Lahore,Robbery,None,28,Male,,Male,Public Space,Evening,2,Arrest Made,7.9,1,55,7.0
+FIR-0723-19,2023,1,January,10,2023-01-10,Q1,Winter,Tuesday,Karachi,Murder,Knife,43,Female,49.0,Male,Commercial,Afternoon,0,Under Investigation,10.0,1,1,27.0
+FIR-0724-20,2023,1,January,12,2023-01-12,Q1,Winter,Thursday,Karachi,Street Crime,Firearm,48,Female,43.0,Male,Commercial,Night,0,Reported,8.3,1,2,2.0
+FIR-0725-16,2023,1,January,16,2023-01-16,Q1,Winter,Monday,Karachi,Robbery,Blunt Object,32,Male,40.0,Male,Rural Area,Morning,0,Arrest Made,8.2,1,3,4.0
+FIR-0726-22,2023,1,January,25,2023-01-25,Q1,Winter,Wednesday,Karachi,Assault,Firearm,68,Male,32.0,Male,Public Space,Afternoon,1,Arrest Made,9.2,1,4,9.0
+FIR-0727-22,2023,1,January,28,2023-01-28,Q1,Winter,Saturday,Lahore,Street Crime,Knife,21,Male,19.0,Male,Commercial,Evening,1,Reported,6.9,0,5,31.0
+FIR-0728-13,2023,2,February,9,2023-02-09,Q1,Winter,Thursday,Karachi,Theft,Firearm,43,Male,41.0,Male,Highway,Night,0,Reported,7.1,1,6,15.0
+FIR-0729-19,2023,2,February,13,2023-02-13,Q1,Winter,Monday,Peshawar,Robbery,None,69,Male,,Male,Commercial,Evening,1,Under Investigation,8.7,1,7,177.0
+FIR-0730-23,2023,2,February,19,2023-02-19,Q1,Winter,Sunday,Gujranwala,Vehicle Theft,Knife,45,Female,32.0,Male,Commercial,Morning,1,Reported,5.4,0,8,249.0
+FIR-0731-26,2023,2,February,22,2023-02-22,Q1,Winter,Wednesday,Lahore,Assault,None,39,Female,,Male,Commercial,Evening,2,Reported,6.4,0,9,25.0
+FIR-0732-17,2023,3,March,3,2023-03-03,Q1,Spring,Friday,Lahore,Cyber Crime,Knife,36,Male,26.0,Male,Rural Area,Morning,0,Arrest Made,4.0,0,10,9.0
+FIR-0733-19,2023,3,March,14,2023-03-14,Q1,Spring,Tuesday,Lahore,Street Crime,Firearm,28,Female,45.0,Male,Commercial,Morning,2,Reported,7.0,0,11,11.0
+FIR-0734-22,2023,3,March,21,2023-03-21,Q1,Spring,Tuesday,Karachi,Theft,Firearm,22,Female,48.0,Male,Commercial,Evening,2,Under Investigation,5.5,0,12,40.0
+FIR-0735-16,2023,3,March,31,2023-03-31,Q1,Spring,Friday,Karachi,Theft,Firearm,41,Male,54.0,Male,Rural Area,Afternoon,2,Under Investigation,6.1,0,13,10.0
+FIR-0736-21,2023,4,April,8,2023-04-08,Q2,Spring,Saturday,Peshawar,Theft,None,68,Male,,Unknown,Public Space,Afternoon,2,Under Investigation,3.9,0,14,54.0
+FIR-0737-13,2023,4,April,10,2023-04-10,Q2,Spring,Monday,Karachi,Theft,Blunt Object,16,Female,23.0,Female,Residential,Evening,1,Reported,4.2,0,15,10.0
+FIR-0738-17,2023,4,April,16,2023-04-16,Q2,Spring,Sunday,Rawalpindi,Robbery,Knife,31,Male,,Male,Rural Area,Night,0,Under Investigation,8.9,1,16,273.0
+FIR-0739-16,2023,4,April,24,2023-04-24,Q2,Spring,Monday,Islamabad,Theft,None,51,Female,,Male,Rural Area,Night,1,Closed/Unresolved,4.1,0,17,319.0
+FIR-0740-23,2023,4,April,25,2023-04-25,Q2,Spring,Tuesday,Lahore,Robbery,Firearm,28,Female,32.0,Female,Commercial,Evening,6,Reported,9.1,1,18,42.0
+FIR-0741-24,2023,4,April,27,2023-04-27,Q2,Spring,Thursday,Lahore,Vehicle Theft,Unknown,39,Female,,Male,Commercial,Afternoon,1,Reported,5.6,0,19,2.0
+FIR-0742-23,2023,4,April,29,2023-04-29,Q2,Spring,Saturday,Faisalabad,Robbery,Knife,44,Female,,Male,Residential,Afternoon,0,Closed/Unresolved,8.4,1,20,184.0
+FIR-0743-16,2023,5,May,1,2023-05-01,Q2,Spring,Monday,Karachi,Assault,Knife,43,Female,45.0,Male,Commercial,Afternoon,0,Reported,8.0,1,21,21.0
+FIR-0744-24,2023,5,May,5,2023-05-05,Q2,Spring,Friday,Karachi,Street Crime,Firearm,34,Female,20.0,Male,Highway,Evening,9,Arrest Made,8.0,1,22,4.0
+FIR-0745-12,2023,5,May,6,2023-05-06,Q2,Spring,Saturday,Faisalabad,Theft,Firearm,35,Male,32.0,Unknown,Commercial,Evening,0,Reported,6.3,0,23,7.0
+FIR-0746-13,2023,5,May,9,2023-05-09,Q2,Spring,Tuesday,Islamabad,Robbery,Firearm,67,Male,54.0,Male,Commercial,Evening,0,Reported,8.7,1,24,15.0
+FIR-0747-19,2023,5,May,9,2023-05-09,Q2,Spring,Tuesday,Karachi,Theft,Blunt Object,36,Male,21.0,Male,Highway,Evening,0,Reported,4.0,0,25,4.0
+FIR-0748-24,2023,5,May,19,2023-05-19,Q2,Spring,Friday,Quetta,Robbery,None,49,Female,,Male,Residential,Afternoon,6,Arrest Made,7.2,1,26,175.0
+FIR-0749-25,2023,5,May,21,2023-05-21,Q2,Spring,Sunday,Lahore,Murder,None,51,Male,,Male,Highway,Evening,0,Under Investigation,9.3,1,27,24.0
+FIR-0750-24,2023,5,May,27,2023-05-27,Q2,Spring,Saturday,Peshawar,Theft,Firearm,30,Male,39.0,Female,Rural Area,Afternoon,1,Reported,5.6,0,28,49.0
+FIR-0751-14,2023,6,June,2,2023-06-02,Q2,Summer,Friday,Peshawar,Theft,Knife,64,Male,43.0,Male,Highway,Evening,2,Under Investigation,5.2,0,29,6.0
+FIR-0752-21,2023,6,June,3,2023-06-03,Q2,Summer,Saturday,Rawalpindi,Robbery,Firearm,63,Female,33.0,Male,Public Space,Evening,0,Arrest Made,9.1,1,30,48.0
+FIR-0753-14,2023,6,June,7,2023-06-07,Q2,Summer,Wednesday,Lahore,Cyber Crime,Firearm,33,Female,,Male,Rural Area,Evening,4,Charges Filed,5.7,0,31,17.0
+FIR-0754-19,2023,6,June,10,2023-06-10,Q2,Summer,Saturday,Lahore,Drug Trafficking,Blunt Object,31,Female,35.0,Female,Commercial,Evening,1,Charges Filed,7.6,1,32,3.0
+FIR-0755-19,2023,6,June,17,2023-06-17,Q2,Summer,Saturday,Karachi,Drug Trafficking,Knife,30,Male,43.0,Male,Rural Area,Evening,1,Under Investigation,8.9,1,33,39.0
+FIR-0756-13,2023,6,June,17,2023-06-17,Q2,Summer,Saturday,Faisalabad,Theft,Firearm,69,Female,47.0,Male,Residential,Afternoon,3,Closed/Unresolved,6.1,0,34,42.0
+FIR-0757-19,2023,6,June,18,2023-06-18,Q2,Summer,Sunday,Karachi,Drug Trafficking,Firearm,16,Female,49.0,Male,Residential,Morning,6,Under Investigation,9.7,1,35,1.0
+FIR-0758-22,2023,6,June,20,2023-06-20,Q2,Summer,Tuesday,Lahore,Drug Trafficking,Unknown,18,Male,,Male,Highway,Evening,1,Closed/Unresolved,7.7,1,36,10.0
+FIR-0759-24,2023,6,June,23,2023-06-23,Q2,Summer,Friday,Lahore,Street Crime,Firearm,35,Male,26.0,Male,Rural Area,Afternoon,0,Reported,6.6,0,37,3.0
+FIR-0760-24,2023,7,July,1,2023-07-01,Q3,Summer,Saturday,Multan,Cyber Crime,Knife,25,Male,26.0,Male,Commercial,Evening,3,Reported,4.5,0,38,185.0
+FIR-0761-12,2023,7,July,4,2023-07-04,Q3,Summer,Tuesday,Gujranwala,Robbery,Knife,48,Female,,Male,Residential,Evening,1,Under Investigation,8.4,1,39,135.0
+FIR-0762-17,2023,7,July,8,2023-07-08,Q3,Summer,Saturday,Karachi,Vehicle Theft,Firearm,44,Male,50.0,Male,Commercial,Night,5,Arrest Made,7.4,1,40,20.0
+FIR-0763-19,2023,7,July,10,2023-07-10,Q3,Summer,Monday,Karachi,Vehicle Theft,Firearm,20,Male,48.0,Male,Public Space,Night,5,Under Investigation,8.2,1,41,2.0
+FIR-0764-14,2023,7,July,20,2023-07-20,Q3,Summer,Thursday,Faisalabad,Theft,Knife,31,Female,49.0,Male,Residential,Morning,0,Closed/Unresolved,4.1,0,42,33.0
+FIR-0765-19,2023,7,July,29,2023-07-29,Q3,Summer,Saturday,Karachi,Street Crime,Firearm,53,Male,32.0,Male,Highway,Night,6,Reported,9.9,1,43,19.0
+FIR-0766-23,2023,8,August,5,2023-08-05,Q3,Summer,Saturday,Karachi,Vehicle Theft,Knife,39,Male,23.0,Male,Public Space,Evening,0,Under Investigation,4.8,0,44,7.0
+FIR-0767-12,2023,8,August,20,2023-08-20,Q3,Summer,Sunday,Rawalpindi,Theft,Blunt Object,19,Male,38.0,Male,Rural Area,Evening,2,Reported,3.6,0,45,78.0
+FIR-0768-22,2023,9,September,1,2023-09-01,Q3,Autumn,Friday,Rawalpindi,Street Crime,Firearm,19,Male,36.0,Male,Commercial,Morning,0,Reported,7.5,1,46,12.0
+FIR-0769-22,2023,9,September,8,2023-09-08,Q3,Autumn,Friday,Lahore,Vehicle Theft,None,34,Female,,Male,Residential,Night,4,Arrest Made,5.4,0,47,77.0
+FIR-0770-20,2023,9,September,16,2023-09-16,Q3,Autumn,Saturday,Karachi,Street Crime,Firearm,30,Male,51.0,Male,Public Space,Morning,2,Reported,7.7,1,48,42.0
+FIR-0771-24,2023,9,September,22,2023-09-22,Q3,Autumn,Friday,Lahore,Theft,Knife,65,Male,31.0,Female,Public Space,Night,2,Arrest Made,5.5,0,49,14.0
+FIR-0772-22,2023,9,September,25,2023-09-25,Q3,Autumn,Monday,Lahore,Street Crime,Knife,55,Male,32.0,Male,Residential,Morning,4,Arrest Made,7.0,0,50,3.0
+FIR-0773-24,2023,9,September,29,2023-09-29,Q3,Autumn,Friday,Peshawar,Theft,Blunt Object,51,Male,26.0,Female,Rural Area,Evening,1,Reported,3.2,0,51,119.0
+FIR-0774-20,2023,10,October,7,2023-10-07,Q4,Autumn,Saturday,Karachi,Street Crime,Firearm,54,Male,51.0,Male,Rural Area,Evening,1,Under Investigation,7.6,1,52,21.0
+FIR-0775-16,2023,10,October,8,2023-10-08,Q4,Autumn,Sunday,Rawalpindi,Theft,Blunt Object,23,Female,,Male,Highway,Afternoon,4,Under Investigation,3.0,0,53,37.0
+FIR-0776-21,2023,10,October,10,2023-10-10,Q4,Autumn,Tuesday,Karachi,Street Crime,Knife,19,Female,26.0,Male,Rural Area,Morning,2,Reported,6.5,0,54,3.0
+FIR-0777-15,2023,10,October,22,2023-10-22,Q4,Autumn,Sunday,Lahore,Street Crime,Knife,56,Female,23.0,Male,Highway,Evening,5,Reported,6.7,0,55,27.0
+FIR-0778-26,2023,11,November,3,2023-11-03,Q4,Autumn,Friday,Lahore,Drug Trafficking,Firearm,16,Female,41.0,Male,Public Space,Morning,5,Closed/Unresolved,9.8,1,56,12.0
+FIR-0779-22,2023,11,November,9,2023-11-09,Q4,Autumn,Thursday,Karachi,Murder,Firearm,23,Male,29.0,Male,Residential,Evening,0,Under Investigation,10.0,1,57,30.0
+FIR-0780-17,2023,11,November,20,2023-11-20,Q4,Autumn,Monday,Karachi,Street Crime,Knife,57,Male,38.0,Female,Rural Area,Evening,1,Reported,7.3,1,58,11.0
+FIR-0781-23,2023,11,November,23,2023-11-23,Q4,Autumn,Thursday,Karachi,Kidnapping,Blunt Object,50,Female,36.0,Male,Highway,Night,0,Reported,10.0,1,59,3.0
+FIR-0782-18,2023,12,December,9,2023-12-09,Q4,Winter,Saturday,Karachi,Theft,Knife,36,Male,,Unknown,Public Space,Evening,2,Under Investigation,4.3,0,60,16.0
+FIR-0783-16,2023,12,December,12,2023-12-12,Q4,Winter,Tuesday,Karachi,Street Crime,Knife,36,Male,35.0,Female,Rural Area,Morning,0,Under Investigation,7.7,1,61,3.0
+FIR-0784-22,2023,12,December,13,2023-12-13,Q4,Winter,Wednesday,Lahore,Theft,Knife,36,Male,46.0,Male,Commercial,Afternoon,3,Reported,4.4,0,62,40.0
+FIR-0785-24,2023,12,December,29,2023-12-29,Q4,Winter,Friday,Faisalabad,Vehicle Theft,Knife,48,Male,46.0,Male,Public Space,Afternoon,0,Arrest Made,6.0,0,63,162.0
+FIR-0786-21,2024,1,January,7,2024-01-07,Q1,Winter,Sunday,Karachi,Theft,Firearm,69,Male,42.0,Male,Rural Area,Night,0,Arrest Made,6.3,0,1,26.0
+FIR-0787-20,2024,1,January,31,2024-01-31,Q1,Winter,Wednesday,Peshawar,Robbery,Blunt Object,43,Female,19.0,Female,Public Space,Night,0,Under Investigation,8.9,1,2,124.0
+FIR-0788-14,2024,2,February,2,2024-02-02,Q1,Winter,Friday,Karachi,Kidnapping,None,52,Male,,Male,Residential,Afternoon,0,Reported,9.5,1,3,26.0
+FIR-0789-26,2024,2,February,13,2024-02-13,Q1,Winter,Tuesday,Karachi,Street Crime,Firearm,60,Male,52.0,Male,Residential,Morning,1,Arrest Made,8.0,1,4,11.0
+FIR-0790-18,2024,2,February,16,2024-02-16,Q1,Winter,Friday,Karachi,Theft,Blunt Object,47,Female,,Male,Residential,Night,0,Reported,4.6,0,5,3.0
+FIR-0791-21,2024,2,February,19,2024-02-19,Q1,Winter,Monday,Karachi,Street Crime,Firearm,32,Female,18.0,Unknown,Commercial,Night,0,Charges Filed,9.7,1,6,3.0
+FIR-0792-21,2024,2,February,20,2024-02-20,Q1,Winter,Tuesday,Lahore,Murder,Firearm,21,Male,20.0,Male,Residential,Night,0,Under Investigation,10.0,1,7,69.0
+FIR-0793-22,2024,3,March,10,2024-03-10,Q1,Spring,Sunday,Lahore,Kidnapping,Firearm,15,Male,54.0,Male,Commercial,Night,3,Under Investigation,10.0,1,8,19.0
+FIR-0794-16,2024,3,March,13,2024-03-13,Q1,Spring,Wednesday,Quetta,Robbery,Firearm,47,Female,25.0,Male,Residential,Evening,3,Under Investigation,10.0,1,9,299.0
+FIR-0795-25,2024,3,March,23,2024-03-23,Q1,Spring,Saturday,Karachi,Street Crime,Knife,15,Female,36.0,Female,Public Space,Afternoon,0,Arrest Made,8.0,1,10,33.0
+FIR-0796-18,2024,3,March,26,2024-03-26,Q1,Spring,Tuesday,Karachi,Street Crime,Firearm,38,Female,43.0,Male,Rural Area,Evening,2,Closed/Unresolved,7.8,1,11,3.0
+FIR-0797-26,2024,3,March,27,2024-03-27,Q1,Spring,Wednesday,Faisalabad,Murder,Firearm,18,Female,31.0,Male,Rural Area,Evening,1,Reported,10.0,1,12,89.0
+FIR-0798-13,2024,4,April,1,2024-04-01,Q2,Spring,Monday,Lahore,Street Crime,Firearm,18,Female,36.0,Male,Residential,Evening,0,Under Investigation,7.3,1,13,22.0
+FIR-0799-15,2024,4,April,12,2024-04-12,Q2,Spring,Friday,Lahore,Street Crime,Firearm,32,Male,48.0,Unknown,Rural Area,Evening,1,Reported,7.6,1,14,11.0
+FIR-0800-13,2024,4,April,15,2024-04-15,Q2,Spring,Monday,Rawalpindi,Theft,None,41,Female,,Male,Residential,Afternoon,0,Reported,3.8,0,15,190.0
+FIR-0801-25,2024,4,April,18,2024-04-18,Q2,Spring,Thursday,Karachi,Theft,Firearm,57,Male,41.0,Female,Residential,Afternoon,2,Arrest Made,6.5,0,16,23.0
+FIR-0802-24,2024,4,April,19,2024-04-19,Q2,Spring,Friday,Karachi,Theft,Firearm,46,Female,40.0,Male,Highway,Evening,0,Under Investigation,6.4,0,17,1.0
+FIR-0803-24,2024,4,April,20,2024-04-20,Q2,Spring,Saturday,Multan,Theft,Knife,47,Male,23.0,Male,Highway,Morning,6,Under Investigation,4.3,0,18,294.0
+FIR-0804-23,2024,4,April,20,2024-04-20,Q2,Spring,Saturday,Islamabad,Robbery,Firearm,42,Male,,Male,Highway,Evening,0,Arrest Made,9.9,1,19,347.0
+FIR-0805-18,2024,4,April,22,2024-04-22,Q2,Spring,Monday,Karachi,Street Crime,Knife,56,Male,28.0,Female,Commercial,Night,1,Arrest Made,8.0,1,20,3.0
+FIR-0806-13,2024,4,April,23,2024-04-23,Q2,Spring,Tuesday,Islamabad,Theft,Knife,55,Male,,Male,Highway,Night,4,Closed/Unresolved,5.9,0,21,3.0
+FIR-0807-24,2024,4,April,23,2024-04-23,Q2,Spring,Tuesday,Islamabad,Vehicle Theft,None,69,Male,,Female,Residential,Evening,0,Reported,4.9,0,22,0.0
+FIR-0808-25,2024,4,April,26,2024-04-26,Q2,Spring,Friday,Karachi,Theft,Knife,50,Male,,Male,Public Space,Evening,1,Under Investigation,5.8,0,23,4.0
+FIR-0809-22,2024,5,May,11,2024-05-11,Q2,Spring,Saturday,Lahore,Drug Trafficking,Blunt Object,20,Male,32.0,Male,Highway,Morning,0,Under Investigation,7.3,1,24,29.0
+FIR-0810-12,2024,5,May,27,2024-05-27,Q2,Spring,Monday,Karachi,Street Crime,Firearm,30,Female,28.0,Male,Highway,Evening,1,Arrest Made,7.7,1,25,31.0
+FIR-0811-20,2024,5,May,30,2024-05-30,Q2,Spring,Thursday,Lahore,Robbery,Firearm,48,Male,43.0,Male,Public Space,Evening,0,Reported,9.7,1,26,19.0
+FIR-0812-12,2024,6,June,8,2024-06-08,Q2,Summer,Saturday,Peshawar,Theft,Blunt Object,37,Female,41.0,Male,Residential,Evening,0,Arrest Made,4.6,0,27,129.0
+FIR-0813-19,2024,6,June,10,2024-06-10,Q2,Summer,Monday,Lahore,Street Crime,Firearm,64,Female,21.0,Male,Commercial,Night,1,Reported,8.5,1,28,11.0
+FIR-0814-26,2024,6,June,14,2024-06-14,Q2,Summer,Friday,Lahore,Robbery,Firearm,56,Female,35.0,Male,Highway,Evening,1,Reported,10.0,1,29,4.0
+FIR-0815-13,2024,6,June,14,2024-06-14,Q2,Summer,Friday,Lahore,Vehicle Theft,None,38,Male,,Female,Public Space,Morning,1,Reported,4.8,0,30,0.0
+FIR-0816-23,2024,6,June,14,2024-06-14,Q2,Summer,Friday,Karachi,Street Crime,Firearm,63,Female,27.0,Male,Residential,Afternoon,0,Reported,7.9,1,31,18.0
+FIR-0817-19,2024,6,June,17,2024-06-17,Q2,Summer,Monday,Lahore,Vehicle Theft,Unknown,27,Male,48.0,Male,Rural Area,Evening,0,Under Investigation,4.8,0,32,3.0
+FIR-0818-24,2024,6,June,21,2024-06-21,Q2,Summer,Friday,Karachi,Theft,Firearm,32,Male,20.0,Male,Commercial,Evening,1,Under Investigation,5.8,0,33,7.0
+FIR-0819-14,2024,6,June,21,2024-06-21,Q2,Summer,Friday,Karachi,Drug Trafficking,Blunt Object,68,Male,31.0,Male,Public Space,Night,1,Reported,9.1,1,34,0.0
+FIR-0820-17,2024,7,July,1,2024-07-01,Q3,Summer,Monday,Karachi,Street Crime,Knife,27,Male,32.0,Male,Public Space,Evening,0,Arrest Made,6.5,0,35,10.0
+FIR-0821-14,2024,7,July,5,2024-07-05,Q3,Summer,Friday,Lahore,Drug Trafficking,Firearm,63,Female,31.0,Male,Public Space,Evening,0,Arrest Made,9.5,1,36,18.0
+FIR-0822-25,2024,7,July,7,2024-07-07,Q3,Summer,Sunday,Faisalabad,Theft,Firearm,51,Male,24.0,Male,Highway,Evening,0,Arrest Made,6.0,0,37,102.0
+FIR-0823-18,2024,7,July,16,2024-07-16,Q3,Summer,Tuesday,Karachi,Murder,Blunt Object,57,Female,41.0,Male,Rural Area,Evening,0,Under Investigation,10.0,1,38,15.0
+FIR-0824-21,2024,7,July,19,2024-07-19,Q3,Summer,Friday,Lahore,Street Crime,Firearm,53,Female,47.0,Male,Commercial,Evening,0,Arrest Made,7.8,1,39,14.0
+FIR-0825-20,2024,7,July,19,2024-07-19,Q3,Summer,Friday,Rawalpindi,Drug Trafficking,None,56,Male,,Male,Residential,Evening,0,Under Investigation,7.6,1,40,95.0
+FIR-0826-13,2024,7,July,28,2024-07-28,Q3,Summer,Sunday,Karachi,Robbery,Knife,31,Male,21.0,Male,Residential,Evening,2,Arrest Made,9.1,1,41,12.0
+FIR-0828-23,2024,8,August,3,2024-08-03,Q3,Summer,Saturday,Islamabad,Theft,Blunt Object,32,Male,39.0,Male,Public Space,Night,0,Arrest Made,4.4,0,42,102.0
+FIR-0827-26,2024,8,August,3,2024-08-03,Q3,Summer,Saturday,Quetta,Assault,None,29,Male,,Male,Rural Area,Afternoon,1,Under Investigation,6.4,0,43,143.0
+FIR-0829-23,2024,8,August,16,2024-08-16,Q3,Summer,Friday,Lahore,Assault,None,37,Male,,Male,Public Space,Afternoon,0,Under Investigation,6.6,0,44,28.0
+FIR-0830-26,2024,8,August,18,2024-08-18,Q3,Summer,Sunday,Islamabad,Assault,Knife,68,Female,,Male,Public Space,Morning,0,Closed/Unresolved,6.9,0,45,15.0
+FIR-0831-25,2024,8,August,26,2024-08-26,Q3,Summer,Monday,Karachi,Assault,Blunt Object,65,Female,,Male,Public Space,Morning,1,Under Investigation,6.1,0,46,29.0
+FIR-0832-16,2024,9,September,1,2024-09-01,Q3,Autumn,Sunday,Lahore,Street Crime,Knife,44,Male,30.0,Male,Public Space,Morning,5,Under Investigation,7.1,1,47,16.0
+FIR-0833-24,2024,9,September,6,2024-09-06,Q3,Autumn,Friday,Lahore,Robbery,Knife,48,Male,28.0,Male,Rural Area,Evening,2,Reported,8.5,1,48,5.0
+FIR-0834-17,2024,9,September,10,2024-09-10,Q3,Autumn,Tuesday,Quetta,Cyber Crime,None,34,Female,,Male,Highway,Afternoon,2,Closed/Unresolved,4.1,0,49,38.0
+FIR-0835-15,2024,9,September,11,2024-09-11,Q3,Autumn,Wednesday,Karachi,Theft,Blunt Object,17,Male,,Male,Commercial,Morning,3,Reported,4.3,0,50,16.0
+FIR-0836-15,2024,9,September,16,2024-09-16,Q3,Autumn,Monday,Karachi,Street Crime,Firearm,21,Female,39.0,Male,Public Space,Evening,0,Reported,7.5,1,51,5.0
+FIR-0837-15,2024,9,September,20,2024-09-20,Q3,Autumn,Friday,Islamabad,Murder,Firearm,32,Male,,Male,Highway,Evening,0,Reported,10.0,1,52,33.0
+FIR-0838-13,2024,9,September,28,2024-09-28,Q3,Autumn,Saturday,Karachi,Kidnapping,Knife,56,Male,,Female,Residential,Morning,1,Charges Filed,10.0,1,53,12.0
+FIR-0839-15,2024,10,October,2,2024-10-02,Q4,Autumn,Wednesday,Lahore,Theft,Knife,21,Female,22.0,Male,Rural Area,Evening,0,Closed/Unresolved,4.3,0,54,26.0
+FIR-0840-22,2024,10,October,3,2024-10-03,Q4,Autumn,Thursday,Faisalabad,Murder,None,54,Male,,Male,Highway,Evening,1,Closed/Unresolved,10.0,1,55,88.0
+FIR-0841-12,2024,10,October,14,2024-10-14,Q4,Autumn,Monday,Peshawar,Assault,Firearm,20,Female,,Unknown,Public Space,Night,2,Under Investigation,9.7,1,56,128.0
+FIR-0842-23,2024,10,October,17,2024-10-17,Q4,Autumn,Thursday,Lahore,Theft,None,36,Female,,Male,Public Space,Evening,3,Arrest Made,3.1,0,57,15.0
+FIR-0843-17,2024,10,October,26,2024-10-26,Q4,Autumn,Saturday,Peshawar,Vehicle Theft,None,15,Male,,Male,Public Space,Afternoon,0,Closed/Unresolved,5.6,0,58,12.0
+FIR-0844-12,2024,11,November,12,2024-11-12,Q4,Autumn,Tuesday,Gujranwala,Theft,Firearm,18,Male,,Male,Highway,Evening,1,Charges Filed,4.3,0,59,497.0
+FIR-0845-21,2024,11,November,24,2024-11-24,Q4,Autumn,Sunday,Peshawar,Robbery,None,60,Female,,Male,Public Space,Evening,1,Arrest Made,7.8,1,60,29.0
+FIR-0846-17,2024,12,December,1,2024-12-01,Q4,Winter,Sunday,Karachi,Theft,Unknown,63,Female,,Male,Highway,Afternoon,3,Reported,4.1,0,61,64.0
+FIR-0847-12,2024,12,December,2,2024-12-02,Q4,Winter,Monday,Faisalabad,Theft,None,66,Male,,Unknown,Public Space,Night,2,Under Investigation,5.3,0,62,60.0
+FIR-0848-17,2024,12,December,3,2024-12-03,Q4,Winter,Tuesday,Lahore,Vehicle Theft,None,64,Female,,Male,Residential,Evening,8,Charges Filed,3.9,0,63,47.0
+FIR-0849-21,2024,12,December,4,2024-12-04,Q4,Winter,Wednesday,Lahore,Robbery,Unknown,57,Male,,Male,Residential,Night,0,Closed/Unresolved,7.8,1,64,1.0
+FIR-0850-19,2024,12,December,6,2024-12-06,Q4,Winter,Friday,Lahore,Robbery,Blunt Object,43,Male,54.0,Male,Commercial,Evening,1,Closed/Unresolved,7.1,1,65,2.0
+FIR-0851-22,2024,12,December,12,2024-12-12,Q4,Winter,Thursday,Karachi,Theft,Knife,35,Female,47.0,Male,Public Space,Evening,0,Closed/Unresolved,5.4,0,66,11.0
+FIR-0852-13,2024,12,December,12,2024-12-12,Q4,Winter,Thursday,Karachi,Street Crime,Knife,40,Male,25.0,Male,Public Space,Evening,0,Closed/Unresolved,7.1,1,67,0.0
+FIR-0853-13,2024,12,December,18,2024-12-18,Q4,Winter,Wednesday,Karachi,Street Crime,Firearm,28,Female,18.0,Female,Highway,Evening,4,Under Investigation,7.3,1,68,6.0
+FIR-0854-25,2024,12,December,19,2024-12-19,Q4,Winter,Thursday,Karachi,Robbery,Blunt Object,23,Male,41.0,Unknown,Highway,Evening,12,Under Investigation,8.0,1,69,1.0
+FIR-0855-26,2024,12,December,20,2024-12-20,Q4,Winter,Friday,Gujranwala,Robbery,Firearm,61,Male,,Male,Public Space,Night,0,Reported,10.0,1,70,38.0
+FIR-0856-24,2024,12,December,27,2024-12-27,Q4,Winter,Friday,Rawalpindi,Assault,None,26,Male,,Unknown,Commercial,Evening,0,Under Investigation,6.6,0,71,161.0
+FIR-0857-23,2024,12,December,31,2024-12-31,Q4,Winter,Tuesday,Karachi,Robbery,Firearm,56,Male,49.0,Male,Public Space,Night,0,Arrest Made,10.0,1,72,12.0
+FIR-0858-15,2025,1,January,1,2025-01-01,Q1,Winter,Wednesday,Rawalpindi,Street Crime,Knife,65,Female,20.0,Male,Highway,Night,3,Closed/Unresolved,7.6,1,1,5.0
+FIR-0859-22,2025,1,January,4,2025-01-04,Q1,Winter,Saturday,Karachi,Robbery,Knife,65,Male,46.0,Male,Public Space,Night,0,Arrest Made,10.0,1,2,4.0
+FIR-0860-14,2025,1,January,6,2025-01-06,Q1,Winter,Monday,Karachi,Drug Trafficking,Firearm,20,Male,26.0,Male,Highway,Evening,0,Reported,9.4,1,3,2.0
+FIR-0861-15,2025,1,January,29,2025-01-29,Q1,Winter,Wednesday,Peshawar,Robbery,Knife,34,Male,,Male,Public Space,Evening,0,Reported,8.9,1,4,66.0
+FIR-0862-24,2025,1,January,29,2025-01-29,Q1,Winter,Wednesday,Karachi,Street Crime,Firearm,38,Male,53.0,Male,Rural Area,Afternoon,1,Under Investigation,7.9,1,5,23.0
+FIR-0863-23,2025,1,January,31,2025-01-31,Q1,Winter,Friday,Lahore,Robbery,Blunt Object,41,Female,29.0,Male,Highway,Evening,5,Arrest Made,7.3,1,6,56.0
+FIR-0864-18,2025,2,February,1,2025-02-01,Q1,Winter,Saturday,Karachi,Cyber Crime,None,38,Male,,Male,Commercial,Afternoon,0,Reported,4.3,0,7,3.0
+FIR-0865-24,2025,2,February,1,2025-02-01,Q1,Winter,Saturday,Lahore,Robbery,None,22,Male,,Male,Rural Area,Afternoon,1,Reported,7.2,1,8,1.0
+FIR-0866-22,2025,2,February,1,2025-02-01,Q1,Winter,Saturday,Karachi,Drug Trafficking,Firearm,15,Male,54.0,Unknown,Public Space,Afternoon,0,Arrest Made,9.8,1,9,0.0
+FIR-0867-12,2025,2,February,5,2025-02-05,Q1,Winter,Wednesday,Multan,Robbery,Firearm,68,Male,32.0,Male,Highway,Night,1,Reported,9.9,1,10,291.0
+FIR-0868-17,2025,2,February,6,2025-02-06,Q1,Winter,Thursday,Karachi,Theft,None,63,Male,,Male,Rural Area,Night,2,Reported,5.2,0,11,5.0
+FIR-0869-26,2025,2,February,19,2025-02-19,Q1,Winter,Wednesday,Faisalabad,Assault,None,63,Male,,Male,Commercial,Evening,0,Arrest Made,7.0,0,12,79.0
+FIR-0870-26,2025,2,February,20,2025-02-20,Q1,Winter,Thursday,Lahore,Robbery,Knife,38,Male,33.0,Male,Highway,Evening,0,Arrest Made,8.3,1,13,19.0
+FIR-0871-14,2025,2,February,25,2025-02-25,Q1,Winter,Tuesday,Quetta,Assault,Knife,61,Female,18.0,Male,Rural Area,Evening,3,Arrest Made,8.4,1,14,168.0
+FIR-0872-22,2025,3,March,2,2025-03-02,Q1,Spring,Sunday,Rawalpindi,Vehicle Theft,Knife,21,Female,26.0,Male,Rural Area,Evening,0,Reported,5.4,0,15,60.0
+FIR-0873-21,2025,3,March,13,2025-03-13,Q1,Spring,Thursday,Lahore,Assault,None,33,Male,,Male,Rural Area,Evening,2,Closed/Unresolved,5.2,0,16,21.0
+FIR-0874-18,2025,3,March,14,2025-03-14,Q1,Spring,Friday,Karachi,Theft,Blunt Object,36,Male,45.0,Male,Residential,Afternoon,1,Arrest Made,4.0,0,17,36.0
+FIR-0875-21,2025,3,March,28,2025-03-28,Q1,Spring,Friday,Peshawar,Drug Trafficking,Firearm,69,Male,47.0,Male,Public Space,Afternoon,0,Reported,9.9,1,18,58.0
+FIR-0876-13,2025,4,April,5,2025-04-05,Q2,Spring,Saturday,Quetta,Robbery,Firearm,49,Male,39.0,Male,Highway,Evening,2,Reported,10.0,1,19,39.0
+FIR-0877-25,2025,4,April,8,2025-04-08,Q2,Spring,Tuesday,Islamabad,Assault,None,44,Male,,Male,Highway,Evening,3,Reported,6.6,0,20,200.0
+FIR-0878-13,2025,4,April,11,2025-04-11,Q2,Spring,Friday,Karachi,Murder,Firearm,43,Male,48.0,Male,Highway,Evening,1,Reported,10.0,1,21,28.0
+FIR-0879-24,2025,4,April,16,2025-04-16,Q2,Spring,Wednesday,Karachi,Assault,Knife,36,Male,52.0,Male,Rural Area,Night,0,Reported,9.7,1,22,5.0
+FIR-0880-15,2025,4,April,16,2025-04-16,Q2,Spring,Wednesday,Rawalpindi,Street Crime,Firearm,25,Male,38.0,Male,Public Space,Morning,1,Under Investigation,7.5,1,23,45.0
+FIR-0881-12,2025,4,April,20,2025-04-20,Q2,Spring,Sunday,Karachi,Street Crime,Knife,34,Male,24.0,Male,Commercial,Afternoon,1,Under Investigation,6.9,0,24,4.0
+FIR-0882-14,2025,4,April,21,2025-04-21,Q2,Spring,Monday,Lahore,Theft,Firearm,43,Male,42.0,Unknown,Highway,Evening,1,Arrest Made,5.9,0,25,39.0
+FIR-0883-24,2025,4,April,21,2025-04-21,Q2,Spring,Monday,Quetta,Drug Trafficking,None,65,Male,,Male,Public Space,Morning,2,Under Investigation,8.0,1,26,16.0
+FIR-0884-20,2025,5,May,1,2025-05-01,Q2,Spring,Thursday,Faisalabad,Robbery,None,55,Male,,Male,Public Space,Afternoon,0,Reported,8.8,1,27,71.0
+FIR-0885-18,2025,5,May,7,2025-05-07,Q2,Spring,Wednesday,Karachi,Street Crime,Knife,56,Male,47.0,Male,Residential,Afternoon,1,Closed/Unresolved,6.9,0,28,17.0
+FIR-0886-26,2025,5,May,19,2025-05-19,Q2,Spring,Monday,Rawalpindi,Drug Trafficking,None,48,Male,,Male,Highway,Evening,1,Reported,7.7,1,29,33.0
+FIR-0887-18,2025,5,May,23,2025-05-23,Q2,Spring,Friday,Karachi,Street Crime,Knife,15,Male,44.0,Male,Rural Area,Afternoon,0,Under Investigation,6.6,0,30,16.0
+FIR-0888-24,2025,5,May,24,2025-05-24,Q2,Spring,Saturday,Islamabad,Theft,None,45,Male,,Female,Public Space,Evening,2,Reported,3.9,0,31,46.0
+FIR-0889-24,2025,5,May,25,2025-05-25,Q2,Spring,Sunday,Lahore,Street Crime,Knife,44,Male,33.0,Unknown,Public Space,Evening,0,Closed/Unresolved,6.7,0,32,34.0
+FIR-0890-22,2025,6,June,11,2025-06-11,Q2,Summer,Wednesday,Peshawar,Robbery,Blunt Object,62,Male,53.0,Male,Commercial,Morning,0,Arrest Made,7.8,1,33,75.0
+FIR-0892-13,2025,6,June,12,2025-06-12,Q2,Summer,Thursday,Karachi,Theft,Firearm,69,Male,39.0,Male,Public Space,Morning,0,Under Investigation,5.3,0,34,20.0
+FIR-0891-15,2025,6,June,12,2025-06-12,Q2,Summer,Thursday,Karachi,Street Crime,Firearm,32,Male,34.0,Male,Residential,Night,6,Reported,8.6,1,35,0.0
+FIR-0893-26,2025,6,June,17,2025-06-17,Q2,Summer,Tuesday,Karachi,Theft,Knife,31,Female,45.0,Male,Public Space,Night,0,Reported,6.2,0,36,5.0
+FIR-0894-25,2025,6,June,25,2025-06-25,Q2,Summer,Wednesday,Faisalabad,Robbery,Knife,52,Male,53.0,Male,Rural Area,Night,1,Under Investigation,8.8,1,37,55.0
+FIR-0895-15,2025,6,June,30,2025-06-30,Q2,Summer,Monday,Karachi,Drug Trafficking,Firearm,28,Male,19.0,Male,Rural Area,Afternoon,7,Under Investigation,10.0,1,38,13.0
+FIR-0896-17,2025,7,July,2,2025-07-02,Q3,Summer,Wednesday,Lahore,Theft,Firearm,37,Female,38.0,Male,Commercial,Night,8,Reported,5.9,0,39,38.0
+FIR-0897-22,2025,7,July,4,2025-07-04,Q3,Summer,Friday,Karachi,Robbery,None,39,Male,,Male,Commercial,Night,1,Arrest Made,8.9,1,40,4.0
+FIR-0898-22,2025,7,July,17,2025-07-17,Q3,Summer,Thursday,Rawalpindi,Vehicle Theft,Unknown,29,Male,33.0,Male,Commercial,Night,0,Reported,5.1,0,41,59.0
+FIR-0899-14,2025,7,July,19,2025-07-19,Q3,Summer,Saturday,Karachi,Theft,Knife,60,Female,19.0,Male,Rural Area,Evening,4,Under Investigation,5.0,0,42,15.0
+FIR-0900-12,2025,8,August,4,2025-08-04,Q3,Summer,Monday,Karachi,Street Crime,Knife,36,Female,25.0,Male,Rural Area,Afternoon,1,Reported,7.0,0,43,16.0
+FIR-0901-25,2025,8,August,8,2025-08-08,Q3,Summer,Friday,Karachi,Drug Trafficking,Firearm,17,Male,,Male,Residential,Night,0,Arrest Made,10.0,1,44,4.0
+FIR-0902-23,2025,8,August,12,2025-08-12,Q3,Summer,Tuesday,Karachi,Vehicle Theft,None,69,Male,,Female,Highway,Afternoon,3,Charges Filed,4.2,0,45,4.0
+FIR-0903-19,2025,8,August,13,2025-08-13,Q3,Summer,Wednesday,Karachi,Drug Trafficking,Knife,33,Male,,Male,Highway,Afternoon,1,Reported,8.6,1,46,1.0
+FIR-0904-23,2025,8,August,16,2025-08-16,Q3,Summer,Saturday,Lahore,Drug Trafficking,Knife,58,Male,30.0,Male,Residential,Afternoon,0,Charges Filed,9.0,1,47,45.0
+FIR-0905-24,2025,8,August,16,2025-08-16,Q3,Summer,Saturday,Peshawar,Assault,Knife,48,Male,26.0,Male,Highway,Afternoon,3,Under Investigation,8.3,1,48,66.0
+FIR-0906-16,2025,8,August,18,2025-08-18,Q3,Summer,Monday,Karachi,Robbery,Knife,49,Male,39.0,Male,Rural Area,Evening,1,Reported,7.8,1,49,5.0
+FIR-0907-26,2025,8,August,20,2025-08-20,Q3,Summer,Wednesday,Lahore,Assault,Knife,64,Male,40.0,Male,Highway,Evening,0,Arrest Made,7.7,1,50,4.0
+FIR-0908-16,2025,9,September,1,2025-09-01,Q3,Autumn,Monday,Karachi,Theft,None,15,Female,,Male,Rural Area,Night,0,Under Investigation,4.5,0,51,14.0
+FIR-0909-22,2025,9,September,25,2025-09-25,Q3,Autumn,Thursday,Faisalabad,Vehicle Theft,Blunt Object,66,Female,31.0,Unknown,Residential,Morning,1,Arrest Made,4.2,0,52,92.0
+FIR-0910-15,2025,10,October,3,2025-10-03,Q4,Autumn,Friday,Lahore,Robbery,Blunt Object,35,Male,50.0,Male,Commercial,Night,0,Reported,8.4,1,53,44.0
+FIR-0911-17,2025,10,October,8,2025-10-08,Q4,Autumn,Wednesday,Lahore,Street Crime,Firearm,43,Male,24.0,Male,Residential,Night,0,Reported,9.3,1,54,5.0
+FIR-0912-14,2025,10,October,21,2025-10-21,Q4,Autumn,Tuesday,Quetta,Robbery,None,20,Male,,Male,Highway,Morning,2,Under Investigation,7.5,1,55,183.0
+FIR-0913-20,2025,10,October,30,2025-10-30,Q4,Autumn,Thursday,Karachi,Drug Trafficking,Blunt Object,51,Female,33.0,Unknown,Rural Area,Afternoon,4,Under Investigation,7.3,1,56,59.0
+FIR-0914-16,2025,10,October,31,2025-10-31,Q4,Autumn,Friday,Peshawar,Theft,Firearm,15,Male,43.0,Male,Highway,Night,1,Arrest Made,7.2,1,57,76.0
+FIR-0915-14,2025,11,November,1,2025-11-01,Q4,Autumn,Saturday,Karachi,Assault,Blunt Object,65,Male,26.0,Unknown,Highway,Evening,2,Reported,7.0,0,58,2.0
+FIR-0916-22,2025,11,November,4,2025-11-04,Q4,Autumn,Tuesday,Quetta,Assault,Firearm,15,Male,,Unknown,Commercial,Night,2,Under Investigation,10.0,1,59,14.0
+FIR-0917-12,2025,11,November,11,2025-11-11,Q4,Autumn,Tuesday,Rawalpindi,Theft,None,41,Male,,Male,Highway,Evening,2,Charges Filed,3.3,0,60,117.0
+FIR-0918-21,2025,11,November,16,2025-11-16,Q4,Autumn,Sunday,Quetta,Assault,Knife,35,Male,22.0,Female,Commercial,Evening,0,Reported,8.6,1,61,12.0
+FIR-0919-23,2025,11,November,21,2025-11-21,Q4,Autumn,Friday,Karachi,Drug Trafficking,Unknown,67,Female,53.0,Unknown,Rural Area,Morning,4,Reported,8.0,1,62,20.0
+FIR-0920-17,2025,12,December,6,2025-12-06,Q4,Winter,Saturday,Karachi,Murder,Firearm,30,Female,41.0,Male,Rural Area,Evening,1,Closed/Unresolved,10.0,1,63,15.0
+FIR-0921-26,2025,12,December,10,2025-12-10,Q4,Winter,Wednesday,Lahore,Robbery,None,58,Male,,Male,Commercial,Morning,0,Under Investigation,8.3,1,64,63.0
+FIR-0923-24,2025,12,December,22,2025-12-22,Q4,Winter,Monday,Karachi,Theft,None,54,Male,,Male,Rural Area,Night,2,Closed/Unresolved,5.5,0,65,16.0
+FIR-0922-13,2025,12,December,22,2025-12-22,Q4,Winter,Monday,Lahore,Robbery,Blunt Object,68,Male,,Male,Residential,Evening,0,Under Investigation,7.4,1,66,12.0
+FIR-0924-14,2026,1,January,2,2026-01-02,Q1,Winter,Friday,Lahore,Robbery,Knife,40,Female,36.0,Male,Residential,Evening,0,Under Investigation,8.2,1,1,11.0
+FIR-0925-12,2026,1,January,3,2026-01-03,Q1,Winter,Saturday,Karachi,Assault,Knife,30,Female,35.0,Male,Rural Area,Night,0,Reported,9.1,1,2,12.0
+FIR-0926-20,2026,1,January,9,2026-01-09,Q1,Winter,Friday,Lahore,Theft,None,42,Female,,Male,Rural Area,Evening,2,Under Investigation,2.8,0,3,7.0
+FIR-0927-19,2026,1,January,11,2026-01-11,Q1,Winter,Sunday,Peshawar,Assault,Firearm,15,Female,49.0,Male,Public Space,Evening,4,Under Investigation,8.7,1,4,72.0
+FIR-0928-23,2026,1,January,11,2026-01-11,Q1,Winter,Sunday,Lahore,Robbery,Firearm,50,Male,32.0,Male,Highway,Evening,2,Charges Filed,9.0,1,5,2.0
+FIR-0929-13,2026,1,January,13,2026-01-13,Q1,Winter,Tuesday,Rawalpindi,Street Crime,Knife,24,Male,45.0,Female,Highway,Night,0,Reported,8.1,1,6,63.0
+FIR-0930-26,2026,1,January,14,2026-01-14,Q1,Winter,Wednesday,Lahore,Assault,Knife,57,Male,21.0,Male,Residential,Evening,0,Arrest Made,8.4,1,7,3.0
+FIR-0931-23,2026,1,January,18,2026-01-18,Q1,Winter,Sunday,Karachi,Assault,Firearm,31,Female,20.0,Male,Highway,Afternoon,1,Under Investigation,8.8,1,8,15.0
+FIR-0932-22,2026,1,January,21,2026-01-21,Q1,Winter,Wednesday,Karachi,Robbery,Firearm,37,Male,,Male,Residential,Night,0,Reported,10.0,1,9,3.0
+FIR-0933-19,2026,1,January,29,2026-01-29,Q1,Winter,Thursday,Karachi,Street Crime,Firearm,21,Male,40.0,Male,Rural Area,Evening,1,Arrest Made,7.3,1,10,8.0
+FIR-0934-23,2026,2,February,1,2026-02-01,Q1,Winter,Sunday,Faisalabad,Robbery,None,58,Female,,Unknown,Public Space,Morning,0,Closed/Unresolved,7.6,1,11,129.0
+FIR-0935-25,2026,2,February,3,2026-02-03,Q1,Winter,Tuesday,Gujranwala,Theft,Blunt Object,67,Male,48.0,Male,Public Space,Evening,4,Arrest Made,3.2,0,12,410.0
+FIR-0936-20,2026,2,February,17,2026-02-17,Q1,Winter,Tuesday,Peshawar,Robbery,None,21,Male,,Male,Rural Area,Night,1,Under Investigation,8.7,1,13,37.0
+FIR-0937-12,2026,2,February,28,2026-02-28,Q1,Winter,Saturday,Karachi,Street Crime,Firearm,58,Female,54.0,Unknown,Commercial,Evening,0,Closed/Unresolved,8.8,1,14,30.0
+FIR-0938-24,2026,3,March,1,2026-03-01,Q1,Spring,Sunday,Peshawar,Robbery,Knife,29,Male,42.0,Unknown,Commercial,Afternoon,3,Reported,8.9,1,15,12.0
+FIR-0939-16,2026,3,March,3,2026-03-03,Q1,Spring,Tuesday,Hyderabad,Drug Trafficking,Firearm,48,Male,46.0,Male,Highway,Night,0,Charges Filed,10.0,1,16,1500.0
+FIR-0940-19,2026,3,March,5,2026-03-05,Q1,Spring,Thursday,Rawalpindi,Robbery,Firearm,60,Female,21.0,Male,Residential,Night,0,Under Investigation,10.0,1,17,51.0
+FIR-0941-26,2026,3,March,16,2026-03-16,Q1,Spring,Monday,Lahore,Street Crime,Firearm,59,Male,44.0,Male,Public Space,Evening,3,Arrest Made,6.8,0,18,61.0
+FIR-0942-22,2026,3,March,19,2026-03-19,Q1,Spring,Thursday,Rawalpindi,Robbery,None,18,Female,,Male,Highway,Afternoon,0,Arrest Made,6.6,0,19,14.0
+FIR-0943-25,2026,3,March,25,2026-03-25,Q1,Spring,Wednesday,Islamabad,Drug Trafficking,Knife,28,Male,40.0,Male,Rural Area,Afternoon,1,Charges Filed,8.7,1,20,305.0
+FIR-0944-13,2026,4,April,8,2026-04-08,Q2,Spring,Wednesday,Rawalpindi,Assault,Firearm,28,Male,54.0,Male,Public Space,Evening,0,Reported,9.4,1,21,20.0
+FIR-0945-15,2026,4,April,12,2026-04-12,Q2,Spring,Sunday,Lahore,Street Crime,Firearm,30,Female,,Female,Residential,Night,0,Reported,8.7,1,22,27.0
+FIR-0946-18,2026,4,April,19,2026-04-19,Q2,Spring,Sunday,Karachi,Drug Trafficking,Blunt Object,21,Male,52.0,Male,Residential,Afternoon,0,Reported,8.3,1,23,50.0
+FIR-0947-14,2026,4,April,22,2026-04-22,Q2,Spring,Wednesday,Karachi,Robbery,Blunt Object,46,Male,28.0,Male,Commercial,Afternoon,2,Reported,7.5,1,24,3.0
+FIR-0948-24,2026,4,April,22,2026-04-22,Q2,Spring,Wednesday,Karachi,Street Crime,Firearm,33,Female,20.0,Unknown,Highway,Morning,2,Arrest Made,8.5,1,25,0.0
+FIR-0949-23,2026,4,April,23,2026-04-23,Q2,Spring,Thursday,Karachi,Robbery,Unknown,16,Male,36.0,Male,Rural Area,Evening,0,Charges Filed,8.5,1,26,1.0
+FIR-0950-16,2026,4,April,29,2026-04-29,Q2,Spring,Wednesday,Karachi,Robbery,Knife,24,Male,39.0,Unknown,Public Space,Morning,0,Closed/Unresolved,8.7,1,27,6.0
+FIR-0951-19,2026,5,May,3,2026-05-03,Q2,Spring,Sunday,Islamabad,Drug Trafficking,Firearm,64,Male,31.0,Unknown,Residential,Morning,5,Reported,9.8,1,28,39.0
+FIR-0952-23,2026,5,May,4,2026-05-04,Q2,Spring,Monday,Karachi,Assault,None,31,Male,,Male,Public Space,Morning,8,Arrest Made,6.1,0,29,5.0
+FIR-0953-21,2026,5,May,7,2026-05-07,Q2,Spring,Thursday,Peshawar,Theft,Firearm,51,Male,29.0,Male,Rural Area,Evening,1,Under Investigation,6.4,0,30,67.0
+FIR-0954-14,2026,5,May,15,2026-05-15,Q2,Spring,Friday,Karachi,Murder,None,26,Male,,Male,Public Space,Evening,3,Reported,10.0,1,31,11.0
+FIR-0955-15,2026,5,May,16,2026-05-16,Q2,Spring,Saturday,Rawalpindi,Street Crime,Firearm,20,Female,22.0,Male,Highway,Afternoon,2,Under Investigation,6.9,0,32,38.0
+FIR-0956-25,2026,5,May,21,2026-05-21,Q2,Spring,Thursday,Faisalabad,Theft,None,36,Female,,Male,Commercial,Night,0,Closed/Unresolved,4.7,0,33,109.0
+FIR-0957-26,2026,5,May,23,2026-05-23,Q2,Spring,Saturday,Islamabad,Theft,None,46,Male,,Male,Public Space,Afternoon,0,Closed/Unresolved,2.6,0,34,20.0
+FIR-0958-20,2026,5,May,25,2026-05-25,Q2,Spring,Monday,Karachi,Robbery,Knife,55,Male,50.0,Unknown,Commercial,Afternoon,0,Arrest Made,9.2,1,35,10.0
+FIR-0959-25,2026,5,May,29,2026-05-29,Q2,Spring,Friday,Quetta,Theft,None,34,Male,,Male,Rural Area,Night,3,Arrest Made,4.4,0,36,194.0
+FIR-0960-25,2026,5,May,31,2026-05-31,Q2,Spring,Sunday,Quetta,Theft,Knife,15,Male,,Male,Commercial,Evening,2,Reported,4.3,0,37,2.0
+FIR-0961-18,2026,6,June,4,2026-06-04,Q2,Summer,Thursday,Lahore,Robbery,None,68,Female,,Male,Public Space,Evening,2,Arrest Made,7.5,1,38,53.0
+FIR-0962-12,2026,6,June,12,2026-06-12,Q2,Summer,Friday,Lahore,Robbery,None,61,Female,,Male,Public Space,Morning,0,Arrest Made,7.4,1,39,8.0
+FIR-0963-25,2026,6,June,15,2026-06-15,Q2,Summer,Monday,Hyderabad,Drug Trafficking,Unknown,67,Female,36.0,Unknown,Residential,Night,2,Closed/Unresolved,9.2,1,40,104.0
+FIR-0964-23,2026,6,June,15,2026-06-15,Q2,Summer,Monday,Karachi,Street Crime,Firearm,20,Male,49.0,Male,Public Space,Evening,2,Closed/Unresolved,7.4,1,41,21.0
+FIR-0965-15,2026,6,June,23,2026-06-23,Q2,Summer,Tuesday,Islamabad,Cyber Crime,Knife,18,Male,51.0,Male,Commercial,Night,3,Charges Filed,6.2,0,42,31.0
+FIR-0966-15,2026,6,June,23,2026-06-23,Q2,Summer,Tuesday,Peshawar,Robbery,Unknown,32,Male,22.0,Male,Residential,Afternoon,0,Closed/Unresolved,7.4,1,43,47.0
+FIR-0967-20,2026,6,June,29,2026-06-29,Q2,Summer,Monday,Karachi,Drug Trafficking,Blunt Object,20,Male,24.0,Male,Public Space,Evening,2,Reported,8.5,1,44,14.0
+FIR-0968-17,2026,7,July,7,2026-07-07,Q3,Summer,Tuesday,Lahore,Assault,None,59,Male,,Male,Public Space,Night,0,Under Investigation,8.1,1,45,25.0
+FIR-0969-20,2026,7,July,11,2026-07-11,Q3,Summer,Saturday,Karachi,Murder,Blunt Object,47,Female,40.0,Male,Rural Area,Night,2,Reported,10.0,1,46,12.0
+FIR-0970-23,2026,7,July,14,2026-07-14,Q3,Summer,Tuesday,Peshawar,Robbery,Knife,37,Male,35.0,Male,Residential,Morning,2,Reported,8.6,1,47,21.0
+FIR-0971-26,2026,7,July,17,2026-07-17,Q3,Summer,Friday,Islamabad,Drug Trafficking,Knife,37,Female,24.0,Unknown,Rural Area,Night,0,Arrest Made,8.7,1,48,24.0
+FIR-0972-17,2026,7,July,17,2026-07-17,Q3,Summer,Friday,Rawalpindi,Theft,Blunt Object,40,Male,45.0,Unknown,Rural Area,Afternoon,2,Under Investigation,2.5,0,49,62.0
+FIR-0973-17,2026,7,July,17,2026-07-17,Q3,Summer,Friday,Karachi,Robbery,None,27,Male,,Male,Rural Area,Evening,0,Under Investigation,8.9,1,50,6.0
+FIR-0974-16,2026,7,July,21,2026-07-21,Q3,Summer,Tuesday,Lahore,Street Crime,Firearm,21,Male,51.0,Female,Highway,Afternoon,3,Reported,7.4,1,51,14.0
+FIR-0975-16,2026,7,July,26,2026-07-26,Q3,Summer,Sunday,Karachi,Street Crime,Firearm,29,Male,22.0,Male,Rural Area,Evening,0,Reported,7.4,1,52,9.0
+FIR-0976-13,2026,7,July,29,2026-07-29,Q3,Summer,Wednesday,Faisalabad,Theft,Knife,58,Male,43.0,Male,Commercial,Afternoon,2,Reported,3.9,0,53,69.0
+FIR-0977-19,2026,8,August,9,2026-08-09,Q3,Summer,Sunday,Islamabad,Vehicle Theft,None,41,Male,,Male,Public Space,Afternoon,5,Reported,4.6,0,54,23.0
+FIR-0978-19,2026,8,August,9,2026-08-09,Q3,Summer,Sunday,Karachi,Kidnapping,Knife,40,Female,25.0,Male,Highway,Morning,0,Reported,9.8,1,55,14.0
+FIR-0979-22,2026,8,August,11,2026-08-11,Q3,Summer,Tuesday,Karachi,Street Crime,Firearm,47,Male,38.0,Male,Rural Area,Morning,1,Under Investigation,7.0,0,56,2.0
+FIR-0980-24,2026,8,August,17,2026-08-17,Q3,Summer,Monday,Karachi,Vehicle Theft,Firearm,29,Male,43.0,Male,Public Space,Night,1,Under Investigation,8.4,1,57,6.0
+FIR-0981-12,2026,8,August,23,2026-08-23,Q3,Summer,Sunday,Gujranwala,Robbery,Firearm,50,Female,48.0,Male,Residential,Night,0,Arrest Made,10.0,1,58,201.0
+FIR-0982-19,2026,8,August,25,2026-08-25,Q3,Summer,Tuesday,Karachi,Cyber Crime,Knife,24,Female,29.0,Male,Residential,Night,1,Under Investigation,6.9,0,59,8.0
+FIR-0983-16,2026,8,August,28,2026-08-28,Q3,Summer,Friday,Karachi,Street Crime,Firearm,69,Female,26.0,Male,Public Space,Afternoon,2,Reported,8.6,1,60,3.0
+FIR-0984-13,2026,9,September,2,2026-09-02,Q3,Autumn,Wednesday,Karachi,Theft,Firearm,41,Male,,Male,Commercial,Evening,4,Charges Filed,4.5,0,61,5.0
+FIR-0985-25,2026,9,September,20,2026-09-20,Q3,Autumn,Sunday,Multan,Drug Trafficking,None,19,Female,,Unknown,Public Space,Evening,3,Reported,8.2,1,62,592.0
+FIR-0986-13,2026,10,October,1,2026-10-01,Q4,Autumn,Thursday,Lahore,Murder,None,16,Male,,Male,Public Space,Night,1,Under Investigation,10.0,1,63,72.0
+FIR-0987-25,2026,10,October,4,2026-10-04,Q4,Autumn,Sunday,Karachi,Drug Trafficking,Knife,69,Male,31.0,Male,Highway,Evening,2,Closed/Unresolved,8.6,1,64,32.0
+FIR-0988-26,2026,10,October,6,2026-10-06,Q4,Autumn,Tuesday,Lahore,Vehicle Theft,Unknown,47,Male,51.0,Male,Residential,Night,3,Closed/Unresolved,5.3,0,65,5.0
+FIR-0989-26,2026,10,October,7,2026-10-07,Q4,Autumn,Wednesday,Karachi,Drug Trafficking,Firearm,30,Male,41.0,Male,Residential,Night,1,Reported,10.0,1,66,3.0
+FIR-0990-17,2026,10,October,15,2026-10-15,Q4,Autumn,Thursday,Lahore,Street Crime,Firearm,37,Male,19.0,Male,Rural Area,Night,0,Under Investigation,8.0,1,67,9.0
+FIR-0991-22,2026,10,October,22,2026-10-22,Q4,Autumn,Thursday,Multan,Assault,Blunt Object,52,Male,38.0,Male,Public Space,Afternoon,1,Reported,6.4,0,68,32.0
+FIR-0992-24,2026,10,October,29,2026-10-29,Q4,Autumn,Thursday,Lahore,Murder,Knife,69,Male,,Female,Public Space,Morning,3,Reported,10.0,1,69,14.0
+FIR-0993-20,2026,11,November,6,2026-11-06,Q4,Autumn,Friday,Peshawar,Robbery,Knife,30,Male,28.0,Male,Commercial,Evening,1,Reported,9.3,1,70,115.0
+FIR-0994-12,2026,11,November,14,2026-11-14,Q4,Autumn,Saturday,Rawalpindi,Assault,Knife,28,Male,38.0,Female,Residential,Evening,2,Closed/Unresolved,7.2,1,71,120.0
+FIR-0995-23,2026,11,November,25,2026-11-25,Q4,Autumn,Wednesday,Rawalpindi,Theft,Knife,43,Female,37.0,Male,Commercial,Afternoon,0,Closed/Unresolved,5.0,0,72,11.0
+FIR-0996-17,2026,12,December,2,2026-12-02,Q4,Winter,Wednesday,Karachi,Drug Trafficking,None,40,Female,,Male,Highway,Afternoon,6,Reported,8.2,1,73,56.0
+FIR-0997-20,2026,12,December,3,2026-12-03,Q4,Winter,Thursday,Karachi,Assault,Firearm,49,Male,42.0,Female,Rural Area,Night,1,Arrest Made,10.0,1,74,1.0
+FIR-0998-19,2026,12,December,16,2026-12-16,Q4,Winter,Wednesday,Peshawar,Drug Trafficking,Firearm,29,Female,36.0,Male,Commercial,Evening,2,Charges Filed,9.7,1,75,40.0
+FIR-0999-22,2026,12,December,20,2026-12-20,Q4,Winter,Sunday,Gujranwala,Kidnapping,Firearm,17,Female,46.0,Male,Residential,Afternoon,0,Arrest Made,10.0,1,76,119.0
+FIR-1000-17,2026,12,December,21,2026-12-21,Q4,Winter,Monday,Karachi,Drug Trafficking,Firearm,37,Male,,Male,Highway,Evening,0,Arrest Made,9.6,1,77,18.0
