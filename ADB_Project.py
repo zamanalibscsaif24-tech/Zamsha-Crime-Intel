@@ -103,6 +103,20 @@ st.markdown("""
     body { background-color: #0f172a; color: #f8fafc; }
     .stApp { background-color: #0f172a; color: #f8fafc; }
 
+    /* ── Form Labels and Widgets ── */
+    label, [data-testid="stWidgetLabel"] p, [data-testid="stMarkdownContainer"] p {
+        color: #f8fafc !important;
+    }
+
+    /* ── Tabs: ensure visibility in all themes ── */
+    button[data-baseweb="tab"] {
+        color: #94a3b8 !important;
+    }
+    button[data-baseweb="tab"][aria-selected="true"] {
+        color: #38bdf8 !important;
+        border-bottom-color: #38bdf8 !important;
+    }
+
     /* ── Metric cards: stack on mobile ── */
     .metric-card {
         background: rgba(30, 41, 59, 0.7);
@@ -119,22 +133,43 @@ st.markdown("""
     .metric-label { font-size: 0.8rem; color: #94a3b8; font-weight: 700;
                     text-transform: uppercase; letter-spacing: 1px; }
 
-    /* ── Buttons ── */
-    div.stButton > button {
-        background: linear-gradient(90deg, #0ea5e9, #2563eb);
-        color: white; border: none; border-radius: 8px; font-weight: bold;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: 0.3s;
-        width: 100%; min-height: 44px;          /* touch-friendly */
+    /* ── Buttons (both regular and form submit) ── */
+    div.stButton > button, div[data-testid="stFormSubmitButton"] > button {
+        background: linear-gradient(90deg, #0ea5e9, #2563eb) !important;
+        color: white !important; border: none !important; border-radius: 8px !important; font-weight: bold !important;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3) !important; transition: 0.3s !important;
+        width: 100% !important; min-height: 44px !important;          /* touch-friendly */
     }
-    div.stButton > button:hover {
-        background: linear-gradient(90deg, #38bdf8, #3b82f6);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    div.stButton > button:hover, div[data-testid="stFormSubmitButton"] > button:hover {
+        background: linear-gradient(90deg, #38bdf8, #3b82f6) !important;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.5) !important;
+        color: white !important;
     }
 
-    /* ── Inputs: bigger touch targets ── */
-    input, textarea, select {
+    /* ── Inputs: bigger touch targets & cohesive dark mode ── */
+    input, textarea, select, [data-baseweb="select"] > div {
+        background-color: #1e293b !important;
+        color: #f8fafc !important;
+        border: 1px solid #334155 !important;
+        border-radius: 8px !important;
         min-height: 44px !important;
         font-size: 16px !important;             /* prevents iOS zoom */
+    }
+    input::placeholder {
+        color: #64748b !important;
+    }
+
+    /* Dropdown popover listbox styling */
+    div[data-baseweb="popover"] ul {
+        background-color: #1e293b !important;
+        color: #f8fafc !important;
+        border: 1px solid #334155 !important;
+    }
+    div[data-baseweb="popover"] li {
+        color: #f8fafc !important;
+    }
+    div[data-baseweb="popover"] li:hover {
+        background-color: #334155 !important;
     }
 
     /* ── Typography ── */
