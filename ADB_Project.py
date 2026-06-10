@@ -42,7 +42,6 @@ import altair as alt
 # ==========================================================
 APP_TITLE = "Crime Intelligence - Zamsha Enterprise"
 
-# Read from Streamlit secrets OR environment variables OR hardcoded defaults
 def _cfg(key, default):
     try:
         return st.secrets["mysql"][key]
@@ -61,11 +60,9 @@ MONGO_DB                = "crime_project"
 MONGO_COLLECTION_REPORTS  = "crime_reports"
 MONGO_COLLECTION_EVIDENCE = "case_evidence"
 
-# Dataset URL for auto-seeding (e.g. Google Drive sharing link)
 DATASET_URL = os.getenv("DATASET_URL", "https://drive.google.com/file/d/1N5EmanXdFph183pSwkUEmPD6EhmlArsk/view?usp=sharing")
 
 def get_gdrive_direct_url(url):
-    """Converts a standard Google Drive sharing link into a direct download URL."""
     if not url:
         return ""
     if "drive.google.com" in url:
@@ -81,7 +78,6 @@ def get_gdrive_direct_url(url):
                 return f"https://drive.google.com/uc?export=download&id={file_id}"
     return url
 
-# SQLite path – /tmp is always writable on Streamlit Cloud and any device
 import tempfile as _tempfile
 SQLITE_PATH = str(Path(_tempfile.gettempdir()) / "crime_db.sqlite")
 
@@ -96,116 +92,68 @@ CITY_COORDS = {
 
 st.set_page_config(page_title=APP_TITLE, layout="centered", page_icon="🛡️")
 
-# Zamsha Premium Dark Mode CSS
 st.markdown("""
 <style>
-    /* ── Base ── */
     body { background-color: #0f172a; color: #f8fafc; }
     .stApp { background-color: #0f172a; color: #f8fafc; }
-
-    /* ── Form Labels and Widgets ── */
     label, [data-testid="stWidgetLabel"] p, [data-testid="stMarkdownContainer"] p {
         color: #f8fafc !important;
     }
-
-    /* ── Tabs: ensure visibility in all themes ── */
-    button[data-baseweb="tab"] {
-        color: #94a3b8 !important;
-    }
+    button[data-baseweb="tab"] { color: #94a3b8 !important; }
     button[data-baseweb="tab"][aria-selected="true"] {
         color: #38bdf8 !important;
         border-bottom-color: #38bdf8 !important;
     }
-
-    /* ── Metric cards: stack on mobile ── */
     .metric-card {
         background: rgba(30, 41, 59, 0.7);
         backdrop-filter: blur(10px);
-        padding: 1.2rem;
-        border-radius: 12px;
+        padding: 1.2rem; border-radius: 12px;
         border: 1px solid rgba(255,255,255,0.05);
         border-top: 4px solid #38bdf8;
-        margin-bottom: 1rem;
-        width: 100%;
-        box-sizing: border-box;
+        margin-bottom: 1rem; width: 100%; box-sizing: border-box;
     }
     .metric-val   { font-size: 2rem; font-weight: bold; color: #f8fafc; word-break: break-word; }
     .metric-label { font-size: 0.8rem; color: #94a3b8; font-weight: 700;
                     text-transform: uppercase; letter-spacing: 1px; }
-
-    /* ── Buttons (both regular and form submit) ── */
     div.stButton > button, div[data-testid="stFormSubmitButton"] > button {
         background: linear-gradient(90deg, #0ea5e9, #2563eb) !important;
-        color: white !important; border: none !important; border-radius: 8px !important; font-weight: bold !important;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3) !important; transition: 0.3s !important;
-        width: 100% !important; min-height: 44px !important;          /* touch-friendly */
+        color: white !important; border: none !important; border-radius: 8px !important;
+        font-weight: bold !important; box-shadow: 0 4px 6px rgba(0,0,0,0.3) !important;
+        transition: 0.3s !important; width: 100% !important; min-height: 44px !important;
     }
     div.stButton > button:hover, div[data-testid="stFormSubmitButton"] > button:hover {
         background: linear-gradient(90deg, #38bdf8, #3b82f6) !important;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.5) !important;
-        color: white !important;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.5) !important; color: white !important;
     }
-
-    /* ── Inputs: bigger touch targets & cohesive dark mode ── */
     input, textarea, select, [data-baseweb="select"] > div {
-        background-color: #1e293b !important;
-        color: #f8fafc !important;
-        border: 1px solid #334155 !important;
-        border-radius: 8px !important;
-        min-height: 44px !important;
-        font-size: 16px !important;             /* prevents iOS zoom */
+        background-color: #1e293b !important; color: #f8fafc !important;
+        border: 1px solid #334155 !important; border-radius: 8px !important;
+        min-height: 44px !important; font-size: 16px !important;
     }
-    input::placeholder {
-        color: #64748b !important;
-    }
-
-    /* Dropdown popover listbox styling */
-    div[data-baseweb="popover"] ul {
-        background-color: #1e293b !important;
-        color: #f8fafc !important;
-        border: 1px solid #334155 !important;
-    }
-    div[data-baseweb="popover"] li {
-        color: #f8fafc !important;
-    }
-    div[data-baseweb="popover"] li:hover {
-        background-color: #334155 !important;
-    }
-
-    /* ── Typography ── */
+    input::placeholder { color: #64748b !important; }
+    div[data-baseweb="popover"] ul { background-color: #1e293b !important; color: #f8fafc !important; border: 1px solid #334155 !important; }
+    div[data-baseweb="popover"] li { color: #f8fafc !important; }
+    div[data-baseweb="popover"] li:hover { background-color: #334155 !important; }
     h1 { color: #f8fafc; font-family: 'Inter', sans-serif;
          border-bottom: 1px solid #334155; padding-bottom: 0.5rem;
          margin-bottom: 1.5rem; font-size: clamp(1.4rem, 5vw, 2rem); }
     h2, h3 { color: #e2e8f0; font-family: 'Inter', sans-serif; }
-
-    /* ── Footer: smaller on mobile so it doesn't eat screen ── */
     .zamsha-footer {
         position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;
         background: rgba(15, 23, 42, 0.95); padding: 6px 4px;
-        border-top: 1px solid #334155;
-        color: #94a3b8; font-family: monospace;
-        font-size: clamp(0.6rem, 2.5vw, 0.82rem);
-        z-index: 1000; backdrop-filter: blur(5px);
-        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        border-top: 1px solid #334155; color: #94a3b8; font-family: monospace;
+        font-size: clamp(0.6rem, 2.5vw, 0.82rem); z-index: 1000;
+        backdrop-filter: blur(5px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-
-    /* ── Sidebar branding ── */
     .zamsha-sidebar {
         margin-top: 20px; margin-bottom: 20px; padding: 12px; border-radius: 10px;
         background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid #334155;
         text-align: center; color: #38bdf8; font-weight: bold;
         font-family: 'Inter', sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
-
-    /* ── DB badge ── */
-    .db-badge {
-        display: inline-block; padding: 3px 10px; border-radius: 20px;
-        font-size: 0.75rem; font-weight: bold; margin-left: 8px;
-    }
+    .db-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: bold; margin-left: 8px; }
     .db-mysql  { background: #166534; color: #bbf7d0; }
     .db-sqlite { background: #1e3a5f; color: #bfdbfe; }
-
-    /* ── Columns: switch to single-column on very small screens ── */
     @media (max-width: 480px) {
         [data-testid="column"] { width: 100% !important; flex: 1 1 100% !important; }
         .metric-val { font-size: 1.6rem; }
@@ -219,15 +167,12 @@ st.markdown("<div class='zamsha-footer'>🚀 Developed by Zamsha developers (Zam
 # DB BACKEND DETECTION
 # ==========================================================
 def _try_mysql_connect():
-    """Try to connect to MySQL. Returns conn or None."""
     if not MYSQL_AVAILABLE:
         return None
     try:
         conn = mysql.connector.connect(
-            host=MYSQL_CONFIG["host"],
-            user=MYSQL_CONFIG["user"],
-            password=MYSQL_CONFIG["password"],
-            connection_timeout=3,
+            host=MYSQL_CONFIG["host"], user=MYSQL_CONFIG["user"],
+            password=MYSQL_CONFIG["password"], connection_timeout=3,
         )
         cur = conn.cursor()
         cur.execute(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_CONFIG['database']}`")
@@ -246,7 +191,7 @@ def _detect_backend():
     return "sqlite"
 
 # ==========================================================
-# ENTERPRISE ENGINE  (MySQL ↔ SQLite transparent dual-backend)
+# ENTERPRISE ENGINE
 # ==========================================================
 class EnterpriseEngine:
     def __init__(self):
@@ -260,7 +205,6 @@ class EnterpriseEngine:
         if self.backend == "sqlite":
             self._sqlite_init_schema()
 
-    # ── connection helpers ─────────────────────────────────
     def get_fresh_mysql_conn(self):
         conn = mysql.connector.connect(
             host=MYSQL_CONFIG["host"], user=MYSQL_CONFIG["user"],
@@ -277,30 +221,18 @@ class EnterpriseEngine:
         conn.row_factory = sqlite3.Row
         return conn
 
-    # ── unified query layer ────────────────────────────────
     def _adapt_sql(self, query):
-        """Convert MySQL-flavoured SQL to SQLite-compatible SQL."""
         import re
         q = query
-        # placeholders: %s → ?
         q = q.replace("%s", "?")
-        # IFNULL already works in SQLite; GROUP_CONCAT, etc. mostly OK
-        # Remove MySQL-specific index hints
         q = re.sub(r"\bFORCE INDEX\s*\([^)]*\)", "", q, flags=re.IGNORECASE)
-        # WITH ROLLUP not supported; strip it (results lose subtotals)
         q = re.sub(r"\bWITH ROLLUP\b", "", q, flags=re.IGNORECASE)
-        # AUTO_INCREMENT → AUTOINCREMENT for DDL
         q = re.sub(r"\bAUTO_INCREMENT\b", "AUTOINCREMENT", q, flags=re.IGNORECASE)
-        # ENGINE= … DEFAULT CHARSET= … — remove
         q = re.sub(r"ENGINE\s*=\s*\w+", "", q, flags=re.IGNORECASE)
         q = re.sub(r"DEFAULT CHARSET\s*=\s*\w+", "", q, flags=re.IGNORECASE)
-        # UNIQUE KEY → nothing extra needed in SQLite CREATE TABLE
-        # DATETIME DEFAULT CURRENT_TIMESTAMP — OK in SQLite
-        # ON DUPLICATE KEY UPDATE → INSERT OR REPLACE (handled separately)
         return q
 
     def db_query(self, query, params=None):
-        """Execute a SELECT and return list of dicts."""
         if self.backend == "mysql":
             conn = self.get_fresh_mysql_conn()
             cur = conn.cursor(dictionary=True)
@@ -318,7 +250,6 @@ class EnterpriseEngine:
             conn.close()
             return rows
 
-    # Keep old name as alias for backward compat
     def mysql_query(self, query, params=None):
         return self.db_query(query, params)
 
@@ -336,7 +267,7 @@ class EnterpriseEngine:
                 conn.execute(q, p)
                 conn.commit()
             except Exception:
-                pass  # DDL differences – best effort
+                pass
             conn.close()
 
     def mysql_execute(self, query, params=None):
@@ -349,9 +280,8 @@ class EnterpriseEngine:
             cur.executemany(query, values)
             conn.commit(); cur.close(); conn.close()
         else:
-            q = self._adapt_sql(query)
-            # Convert ON DUPLICATE KEY UPDATE → INSERT OR REPLACE
             import re
+            q = self._adapt_sql(query)
             q = re.sub(r"ON DUPLICATE KEY UPDATE.*", "", q, flags=re.IGNORECASE|re.DOTALL).strip()
             q = q.replace("INSERT INTO", "INSERT OR REPLACE INTO")
             conn = self._get_sqlite_conn()
@@ -364,7 +294,6 @@ class EnterpriseEngine:
     def hash_password(self, password):
         return hashlib.sha256(password.encode()).hexdigest()
 
-    # ── SQLite schema bootstrap ────────────────────────────
     def _sqlite_init_schema(self):
         conn = self._get_sqlite_conn()
         ddl = [
@@ -409,7 +338,6 @@ class EnterpriseEngine:
             try: conn.execute(q)
             except Exception: pass
         conn.commit()
-        # Views (SQLite supports CREATE VIEW)
         views = [
             """CREATE VIEW IF NOT EXISTS city_crime_summary AS
                SELECT c.city_name, SUM(f.crime_count) AS total_crimes
@@ -426,53 +354,43 @@ class EnterpriseEngine:
         conn.commit()
         conn.close()
 
-    # ── MongoDB connect ────────────────────────────────────
     def connect_mongo(self):
         if not PYMONGO_AVAILABLE:
             raise RuntimeError("pymongo not installed")
         if self.mongo_client is None:
             self.mongo_client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=2000)
-            self.mongo_client.admin.command("ping")          # raises if offline
+            self.mongo_client.admin.command("ping")
             self.mongo_collection_reports  = self.mongo_client[MONGO_DB][MONGO_COLLECTION_REPORTS]
             self.mongo_collection_evidence = self.mongo_client[MONGO_DB][MONGO_COLLECTION_EVIDENCE]
 
-    # ── 1. SECURITY & AUTH ─────────────────────────────────
+    # ── SECURITY & AUTH ─────────────────────────────────
     def setup_security_schema(self):
         if self.backend == "mysql":
             self.db_execute("CREATE TABLE IF NOT EXISTS users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100) NOT NULL, email VARCHAR(100) NOT NULL UNIQUE, password_hash VARCHAR(255) NOT NULL, role VARCHAR(20) NOT NULL, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)")
             self.db_execute("CREATE TABLE IF NOT EXISTS user_activity_log (log_id INT AUTO_INCREMENT PRIMARY KEY, user_id INT, action VARCHAR(255), details TEXT, timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL)")
-        # SQLite tables already created in _sqlite_init_schema
         if not self.db_query("SELECT * FROM users LIMIT 1"):
             self.register_user("System Admin",  "admin@gmail.com", "admin123", "Admin")
             self.register_user("Analyst User",  "user@gmail.com",  "user123",  "User")
-        # ── Auto-seed demo crime data or load from local CSV or Google Drive URL ──
         if self.db_query("SELECT COUNT(*) as c FROM crime_fact")[0]['c'] == 0:
             dataset_loaded = False
-            
-            # 1. Try importing from local CSV file (if it exists in the repository/deploy folder)
             local_csv = Path(__file__).parent / "pakistan_crime_2012_2026_prediction.csv"
             if local_csv.exists():
                 try:
-                    self.import_dataset(str(local_csv), 1)  # Admin user ID = 1
+                    self.import_dataset(str(local_csv), 1)
                     dataset_loaded = True
                 except Exception:
                     pass
-            
-            # 2. Try importing from Google Drive URL if local CSV is missing
             if not dataset_loaded and DATASET_URL:
                 try:
                     direct_url = get_gdrive_direct_url(DATASET_URL)
-                    self.import_dataset(direct_url, 1)  # Admin user ID = 1
+                    self.import_dataset(direct_url, 1)
                     dataset_loaded = True
                 except Exception:
-                    # Fallback if link fails
                     pass
-                    
             if not dataset_loaded:
                 self._seed_demo_data()
 
     def _seed_demo_data(self):
-        """Insert realistic demo data so dashboard works without a CSV upload."""
         import random as _rnd
         cities      = list(CITY_COORDS.keys())
         crime_types = ["Theft", "Robbery", "Assault", "Fraud", "Kidnapping",
@@ -574,7 +492,6 @@ class EnterpriseEngine:
     def get_all_users(self):
         return self.db_query("SELECT id, name, email, role, created_at FROM users ORDER BY created_at DESC")
 
-    # ── 2. SCHEMA & ETL ────────────────────────────────────
     def create_schema(self, user_id):
         if self.backend == "mysql":
             self.db_execute("DROP TABLE IF EXISTS import_log")
@@ -593,7 +510,6 @@ class EnterpriseEngine:
             self.db_execute("DROP TRIGGER IF EXISTS trg_after_import_insert")
             self.db_execute("CREATE TRIGGER trg_after_import_insert AFTER INSERT ON crime_fact FOR EACH ROW BEGIN INSERT INTO import_log(action_type, rows_affected, imported_at) VALUES ('ROW_INSERT', 1, NOW()); END")
         else:
-            # SQLite – re-init (tables are IF NOT EXISTS safe)
             self._sqlite_init_schema()
         self.log_audit(user_id, "SCHEMA_INIT", "Re-initialized system schema")
 
@@ -601,17 +517,12 @@ class EnterpriseEngine:
         df = df.copy()
         df.columns = [str(c).strip() for c in df.columns]
         rename_map = {
-            "Crime_Typ": "Crime_Type", 
-            "Weapon_U": "Weapon_Used", 
-            "Victim_Ge": "Victim_Gender", 
-            "Suspect_A": "Suspect_Age", 
-            "Suspect_G": "Suspect_Gender", 
-            "Location_T": "Location_Type", 
-            "Time_of_D": "Time_of_Day", 
-            "Reported_t": "Reported_to_Police", 
+            "Crime_Typ": "Crime_Type", "Weapon_U": "Weapon_Used",
+            "Victim_Ge": "Victim_Gender", "Suspect_A": "Suspect_Age",
+            "Suspect_G": "Suspect_Gender", "Location_T": "Location_Type",
+            "Time_of_D": "Time_of_Day", "Reported_t": "Reported_to_Police",
             "Reported_to_Police_Hours": "Reported_to_Police",
-            "Crime_Count_This_Year": "Crime_Count",
-            "Crime_Sev": "Crime_Severity"
+            "Crime_Count_This_Year": "Crime_Count", "Crime_Sev": "Crime_Severity"
         }
         df = df.rename(columns={c: rename_map.get(c, c) for c in df.columns})
         if "Date" in df.columns:
@@ -693,7 +604,6 @@ class EnterpriseEngine:
         self.log_audit(user_id, "DATA_IMPORT", f"Imported {len(df)} rows")
         return len(df)
 
-    # ── 3. DATABASE QUERIES ────────────────────────────────
     def get_dashboard_kpis(self):
         return {
             "Total Incidents": self.db_query("SELECT SUM(crime_count) as v FROM crime_fact")[0]['v'] or 0,
@@ -724,11 +634,9 @@ class EnterpriseEngine:
             cursor.callproc('GetCrimeCountByCity', [city])
             res = []
             for r in cursor.stored_results(): res.extend(r.fetchall())
-            cursor.close()
-            conn.close()
+            cursor.close(); conn.close()
             return res
         else:
-            # SQLite: simulate the stored procedure with an equivalent SELECT
             return self.db_query(
                 "SELECT c.city_name, ct.crime_type_name, SUM(f.crime_count) AS total_cases "
                 "FROM crime_fact f "
@@ -742,7 +650,6 @@ class EnterpriseEngine:
     def get_trigger_logs(self):
         return self.db_query("SELECT * FROM import_log ORDER BY imported_at DESC LIMIT 50")
 
-    # ── 4. MONGO POLYGLOT ──────────────────────────────────
     def add_case_evidence(self, case_id, text, user_name, user_id):
         self.connect_mongo()
         self.mongo_collection_evidence.insert_one({"case_id": case_id, "evidence_text": text, "added_by": user_name, "added_at": datetime.now()})
@@ -764,7 +671,6 @@ class EnterpriseEngine:
         for d in docs: d.pop("_id", None)
         return docs
 
-    # ── 5. ML FORECASTING & PREDICTION ────────────────────
     def yearly_forecast(self, target_year, user_id):
         self.log_audit(user_id, "FORECAST", f"Ran forecast for {target_year}")
         df = pd.DataFrame(self.db_query("SELECT * FROM yearly_crime_summary"))
@@ -804,9 +710,11 @@ class EnterpriseEngine:
         self.log_audit(user_id, "PREDICT", "Ran outcome prediction")
         return self.outcome_model.predict(pd.DataFrame([{f: payload.get(f) for f in self.outcome_model_features}]))[0]
 
+
 # ==========================================================
 # UI COMPONENTS
 # ==========================================================
+
 def login_screen():
     st.markdown("<h1 style='text-align: center; margin-top: 30px;'>🏢 Crime Intelligence Enterprise Suite</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #94a3b8;'>Advanced Access Gateway - Powered by Zamsha Developers</p>", unsafe_allow_html=True)
@@ -816,36 +724,50 @@ def login_screen():
     badge_label = "MySQL"   if engine.backend == "mysql" else "SQLite (Cloud Mode)"
     st.markdown(f"<p style='text-align:center;color:#64748b;font-size:0.85rem;'>Database backend: <span class='db-badge {badge_class}'>{badge_label}</span></p>", unsafe_allow_html=True)
 
-    # No column wrapper — works on all screen sizes
     tabs = st.tabs(["🔒 Secure Login", "📝 User Registration"])
+
+    # ── LOGIN TAB ──────────────────────────────────────────
     with tabs[0]:
-        with st.form("login_form"):
-            email = st.text_input("Email / Gmail", placeholder="admin@gmail.com")
-            pwd   = st.text_input("Password", type="password", placeholder="admin123")
+        # FIX: all form logic (submit check + auth) is INSIDE the with st.form block
+        with st.form("login_form", clear_on_submit=False):
+            email     = st.text_input("Email / Gmail", placeholder="admin@gmail.com")
+            pwd       = st.text_input("Password", type="password", placeholder="admin123")
             submitted = st.form_submit_button("🔐 Authenticate", use_container_width=True)
-        # Handle outside the form to avoid mobile "submit on Enter" triggering mid-field
-        if submitted:
-            user = st.session_state.engine.login(email, pwd)
-            if user:
-                st.session_state.user = user
-                st.session_state.logged_in = True
-                st.rerun()
-            else:
-                st.error("❌ Invalid credentials. Try admin@gmail.com / admin123")
+
+            # ← CRITICAL FIX: moved inside the form context
+            if submitted:
+                if not email or not pwd:
+                    st.error("Please enter both email and password.")
+                else:
+                    user = engine.login(email.strip(), pwd)
+                    if user:
+                        st.session_state.user = user
+                        st.session_state.logged_in = True
+                        st.rerun()
+                    else:
+                        st.error("❌ Invalid credentials. Try admin@gmail.com / admin123")
+
+    # ── REGISTER TAB ──────────────────────────────────────
     with tabs[1]:
-        with st.form("register_form"):
-            n_name  = st.text_input("Full Name",      placeholder="Your full name")
-            n_email = st.text_input("Gmail Address",  placeholder="yourname@gmail.com")
-            n_pwd   = st.text_input("Password",       type="password", placeholder="Choose a password")
-            n_role  = st.selectbox("Role", ["User", "Admin"])
+        # FIX: all form logic is INSIDE the with st.form block
+        with st.form("register_form", clear_on_submit=True):
+            n_name        = st.text_input("Full Name",     placeholder="Your full name")
+            n_email       = st.text_input("Gmail Address", placeholder="yourname@gmail.com")
+            n_pwd         = st.text_input("Password",      type="password", placeholder="Choose a password")
+            n_role        = st.selectbox("Role", ["User", "Admin"])
             reg_submitted = st.form_submit_button("✅ Register", use_container_width=True)
-        if reg_submitted:
-            if not n_name or not n_email or not n_pwd:
-                st.error("Please fill in all fields before registering.")
-            else:
-                s, m = st.session_state.engine.register_user(n_name, n_email, n_pwd, n_role)
-                if s: st.success(m + " You can now log in.")
-                else: st.error(m)
+
+            # ← CRITICAL FIX: moved inside the form context
+            if reg_submitted:
+                if not n_name or not n_email or not n_pwd:
+                    st.error("Please fill in all fields before registering.")
+                else:
+                    s, m = engine.register_user(n_name.strip(), n_email.strip(), n_pwd, n_role)
+                    if s:
+                        st.success(m + " You can now log in.")
+                    else:
+                        st.error(m)
+
 
 # ─── ADMIN UI ──────────────────────────────────────────────
 def admin_health(engine):
@@ -939,7 +861,6 @@ def user_dashboard(engine):
     st.title("1. Zamsha Professional Dashboard")
     try:
         kpis = engine.get_dashboard_kpis()
-        # Stack metrics vertically — works on mobile and desktop
         st.markdown(f"<div class='metric-card'><div class='metric-label'>Total Incidents</div><div class='metric-val'>{kpis['Total Incidents']}</div></div>", unsafe_allow_html=True)
         st.markdown(f"<div class='metric-card'><div class='metric-label'>Registered Cities</div><div class='metric-val'>{kpis['Total Cities']}</div></div>", unsafe_allow_html=True)
         st.markdown(f"<div class='metric-card'><div class='metric-label'>Crime Categories</div><div class='metric-val'>{kpis['Crime Types']}</div></div>", unsafe_allow_html=True)
@@ -1091,6 +1012,7 @@ def user_reports(engine, user):
         st.dataframe(pd.DataFrame(engine.get_saved_reports()), use_container_width=True)
     except:
         st.warning("No reports found or MongoDB offline.")
+
 
 # ==========================================================
 # MAIN ROUTING
