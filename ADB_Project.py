@@ -61,6 +61,26 @@ MONGO_DB                = "crime_project"
 MONGO_COLLECTION_REPORTS  = "crime_reports"
 MONGO_COLLECTION_EVIDENCE = "case_evidence"
 
+# Dataset URL for auto-seeding (e.g. Google Drive sharing link)
+DATASET_URL = os.getenv("DATASET_URL", "https://drive.google.com/file/d/1N5EmanXdFph183pSwkUEmPD6EhmlArsk/view?usp=sharing")
+
+def get_gdrive_direct_url(url):
+    """Converts a standard Google Drive sharing link into a direct download URL."""
+    if not url:
+        return ""
+    if "drive.google.com" in url:
+        if "file/d/" in url:
+            parts = url.split("file/d/")
+            if len(parts) > 1:
+                file_id = parts[1].split("/")[0]
+                return f"https://drive.google.com/uc?export=download&id={file_id}"
+        elif "id=" in url:
+            parts = url.split("id=")
+            if len(parts) > 1:
+                file_id = parts[1].split("&")[0]
+                return f"https://drive.google.com/uc?export=download&id={file_id}"
+    return url
+
 # SQLite path – /tmp is always writable on Streamlit Cloud and any device
 import tempfile as _tempfile
 SQLITE_PATH = str(Path(_tempfile.gettempdir()) / "crime_db.sqlite")
@@ -390,9 +410,31 @@ class EnterpriseEngine:
         if not self.db_query("SELECT * FROM users LIMIT 1"):
             self.register_user("System Admin",  "admin@gmail.com", "admin123", "Admin")
             self.register_user("Analyst User",  "user@gmail.com",  "user123",  "User")
-        # ── Auto-seed demo crime data so dashboard is never empty ──
+        # ── Auto-seed demo crime data or load from local CSV or Google Drive URL ──
         if self.db_query("SELECT COUNT(*) as c FROM crime_fact")[0]['c'] == 0:
-            self._seed_demo_data()
+            dataset_loaded = False
+            
+            # 1. Try importing from local CSV file (if it exists in the repository/deploy folder)
+            local_csv = Path(__file__).parent / "pakistan_crime_2012_2026_prediction.csv"
+            if local_csv.exists():
+                try:
+                    self.import_dataset(str(local_csv), 1)  # Admin user ID = 1
+                    dataset_loaded = True
+                except Exception:
+                    pass
+            
+            # 2. Try importing from Google Drive URL if local CSV is missing
+            if not dataset_loaded and DATASET_URL:
+                try:
+                    direct_url = get_gdrive_direct_url(DATASET_URL)
+                    self.import_dataset(direct_url, 1)  # Admin user ID = 1
+                    dataset_loaded = True
+                except Exception:
+                    # Fallback if link fails
+                    pass
+                    
+            if not dataset_loaded:
+                self._seed_demo_data()
 
     def _seed_demo_data(self):
         """Insert realistic demo data so dashboard works without a CSV upload."""
@@ -523,7 +565,19 @@ class EnterpriseEngine:
     def _clean_dataframe(self, df):
         df = df.copy()
         df.columns = [str(c).strip() for c in df.columns]
-        rename_map = {"Crime_Typ": "Crime_Type", "Weapon_U": "Weapon_Used", "Victim_Ge": "Victim_Gender", "Suspect_A": "Suspect_Age", "Suspect_G": "Suspect_Gender", "Location_T": "Location_Type", "Time_of_D": "Time_of_Day", "Reported_t": "Reported_to_Police", "Crime_Sev": "Crime_Severity"}
+        rename_map = {
+            "Crime_Typ": "Crime_Type", 
+            "Weapon_U": "Weapon_Used", 
+            "Victim_Ge": "Victim_Gender", 
+            "Suspect_A": "Suspect_Age", 
+            "Suspect_G": "Suspect_Gender", 
+            "Location_T": "Location_Type", 
+            "Time_of_D": "Time_of_Day", 
+            "Reported_t": "Reported_to_Police", 
+            "Reported_to_Police_Hours": "Reported_to_Police",
+            "Crime_Count_This_Year": "Crime_Count",
+            "Crime_Sev": "Crime_Severity"
+        }
         df = df.rename(columns={c: rename_map.get(c, c) for c in df.columns})
         if "Date" in df.columns:
             df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
@@ -536,7 +590,8 @@ class EnterpriseEngine:
         return df.dropna(subset=["Date", "Year"]).reset_index(drop=True)
 
     def import_dataset(self, file_path, user_id):
-        df = self._clean_dataframe(pd.read_csv(file_path) if file_path.lower().endswith(".csv") else pd.read_excel(file_path))
+        is_csv = file_path.lower().endswith(".csv") or "drive.google.com" in file_path or file_path.startswith("http")
+        df = self._clean_dataframe(pd.read_csv(file_path) if is_csv else pd.read_excel(file_path))
         self.create_schema(user_id)
 
         cities = sorted(df["City"].dropna().astype(str).unique().tolist()) if "City" in df.columns else []
